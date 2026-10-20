@@ -208,7 +208,7 @@ final class SitePages(helpers: Helpers):
           }
         )
 
-  private val repoRoot = "https://github.com/lichess-org/lila"
+  private val repoRoot = "https://github.com/salakh1996-crypto/lila"
 
   def source(pageTitle: String, rendered: Frag, version: Option[WebConfig.LilaVersion])(using
       Context

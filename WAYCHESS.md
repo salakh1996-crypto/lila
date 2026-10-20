@@ -19,6 +19,7 @@ WayChess не связан с Lichess. Название, логотип и до�
   OAuth знак рисуется классом `.waychess-mark`.
 - **Несвободные наборы фигур удалены:** alpha, chess7, companion, leipzig,
   reillycraig, riohacha, shahi-ivory-brown и 3D-набор Staunton.
+- **Исходный код.** Ссылки «Исходный код» на сайте ведут на https://github.com/salakh1996-crypto/lila (требование AGPL).
 - **Конфигурация.** Имя сайта по умолчанию — `WayChess`, основной домен — `waychess.ru`
   (`conf/base.conf`). Шаблон боевой конфигурации — `conf/waychess.conf.example`,
   конфигурация веб-сервера — `deploy/Caddyfile`.
@@ -34,19 +35,16 @@ WayChess не связан с Lichess. Название, логотип и до�
    `instrument`, `robot`, `woodland` не имеют свободной лицензии. Нужно заменить их
    своими звуками или сделать стандартным один из свободных наборов
    (`sfx`, `nes`, `piano`, `futuristic` — AGPL) в `modules/pref/src/main/SoundSet.scala`.
-2. **Ссылка на исходный код (требование AGPL).** Заменить `repoRoot` в
-   `modules/web/src/main/ui/SitePages.scala` и ссылки на `github.com/lichess-org/lila`
-   в `FaqUi.scala`, `contact.scala` на репозиторий WayChess.
-3. **Тексты о Lichess.** FAQ (`modules/web/src/main/ui/FaqUi.scala`), страницы
+2. **Тексты о Lichess.** FAQ (`modules/web/src/main/ui/FaqUi.scala`), страницы
    «О сайте», «Пожертвования», «Расходы», «Магазин» рассказывают о Lichess.
    Страницы вроде «О сайте» хранятся в базе (раздел CMS, `/cms`) и редактируются
    администратором.
-4. **Ссылки на соцсети и приложение Lichess** — `modules/web/src/main/ui/bits.scala`,
+3. **Ссылки на соцсети и приложение Lichess** — `modules/web/src/main/ui/bits.scala`,
    `modules/web/src/main/StaticContent.scala` (manifest, Play/App Store).
-5. **Пожертвования.** Stripe и PayPal не работают с российскими счетами. Нужно
+4. **Пожертвования.** Stripe и PayPal не работают с российскими счетами. Нужно
    подключить ЮKassa/CloudPayments или скрыть кнопку «Поддержать» в шапке
    (`modules/web/src/main/ui/layout.scala`, `site-title-nav__donate`).
-6. **Юридическое.** ИП или ООО; политика конфиденциальности и пользовательское
+5. **Юридическое.** ИП или ООО; политика конфиденциальности и пользовательское
    соглашение; хранение персональных данных на серверах в РФ (152-ФЗ);
    консультация юриста по реестру организаторов распространения информации (ОРИ)
    из-за чата и личных сообщений.

@@ -48,7 +48,7 @@ final class FaqUi(helpers: Helpers, sitePages: SitePages)(
             ),
             p(
               trf.whyIsLilaCalledLila(
-                a(href := "https://github.com/lichess-org/lila")("lila"),
+                a(href := "https://github.com/salakh1996-crypto/lila")("WayChess"),
                 a(href := "https://scala-lang.org/")("Scala")
               )
             )

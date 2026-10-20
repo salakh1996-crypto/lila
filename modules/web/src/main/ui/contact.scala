@@ -38,7 +38,7 @@ object contact:
           a(href := routes.ForumCateg.show(ForumCategId("lichess-feedback")))(reportBugInForum())
         ),
         li(
-          a(href := "https://github.com/lichess-org/lila/issues")(reportWebsiteIssue())
+          a(href := "https://github.com/salakh1996-crypto/lila/issues")(reportWebsiteIssue())
         ),
         li(
           a(href := "https://github.com/lichess-org/mobile/issues")(reportMobileIssue())
