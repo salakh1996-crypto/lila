@@ -1,13 +1,11 @@
 package lila.web
 package ui
 
-import play.api.libs.json.Json
 import play.api.mvc.RequestHeader
 
 import lila.core.i18n.{ I18nKey as trans, Translate }
 import lila.ui.*
 import lila.ui.ScalatagsTemplate.{ *, given }
-import lila.common.Json.given
 
 def mobileRedirect(using req: RequestHeader)(using Translate) =
   val callbackUrl = "org.lichess.mobile://login-callback" + req.rawQueryString.nonEmptyOption.so("?" + _)
@@ -20,99 +18,27 @@ def mobileRedirect(using req: RequestHeader)(using Translate) =
       a(href := callbackUrl, cls := "button")(trans.app.openTheApp())
     )
 
-def mobile(helpers: Helpers)(renderedCmsPage: Frag)(using Translate) =
+// WayChess has no mobile app yet: the page explains how to use the site from a phone.
+def mobile(helpers: Helpers)(renderedCmsPage: Frag)(using t: Translate) =
   import helpers.*
+  val ru = t.lang.language == "ru"
 
-  val appleStoreButton = raw:
-    s"""
-  <a class="store"
-    href="${StaticContent.mobileIosUrl}">
-    <img alt="${trans.app.downloadOnAppleAppStore.txt()}"
-    width="172"
-    height="50"
-    src="${assetUrl("images/mobile/apple-store.svg")}" />
-  </a>
-  """
-
-  val googlePlayButton = raw:
-    s"""
-  <a class="store"
-    href="${StaticContent.mobileAndroidUrl}">
-    <img alt="${trans.app.downloadOnGooglePlay.txt()}"
-    width="172"
-    height="50"
-    src="${assetUrl("images/mobile/google-play.webp")}" />
-  </a>
-  """
-
-  val fdroidButton = raw:
-    s"""
-  <a class="store"
-    href="${StaticContent.mobileFdroidUrl}">
-    <img alt="${trans.app.downloadOnFdroid.txt()}"
-    width="172"
-    height="50"
-    src="${assetUrl("images/mobile/fdroid.svg")}" />
-  </a>
-  """
-
-  val appStructuredData = lila.ui.bits.structuredData("MobileApplication"):
-    def storeOffer(name: String, url: Url) =
-      Json.obj("@type" -> "Offer", "name" -> name, "url" -> url, "price" -> 0)
-    Json.obj(
-      "name" -> "WayChess",
-      "operatingSystem" -> "Android, iOS",
-      "applicationCategory" -> "GameApplication",
-      "url" -> routeUrl(routes.Main.app),
-      "releaseNotes" -> "https://github.com/lichess-org/mobile/releases",
-      "screenshot" -> assetUrl("images/mobile/lichess-mobile-screen.webp"),
-      "offers" -> List(
-        storeOffer("Google Play", StaticContent.mobileAndroidUrl),
-        storeOffer("F-Droid", StaticContent.mobileFdroidUrl),
-        storeOffer("App Store", StaticContent.mobileIosUrl)
-      ),
-      // weighted average of the App Store and Google Play ratings, as of 2026-10-08
-      "aggregateRating" -> Json.obj(
-        "@type" -> "AggregateRating",
-        "ratingValue" -> 4.2,
-        "ratingCount" -> 2895
-      )
-    )
-
-  Page(trans.app.lichessMobileApp.txt())
-    .i18n(_.app)
-    .js(Esm("bits.qrcode"))
+  Page(if ru then "Мобильное приложение WayChess" else "WayChess mobile app")
     .css("bits.mobile")
-    .headAppend(appStructuredData)
     .hrefLangs(lila.ui.LangPath(routes.Main.app)):
       main(
         div(cls := "mobile page-small box box-pad")(
-          h1(cls := "box__top")(trans.app.lichessMobileApp()),
-          div(cls := "sides")(
-            div(cls := "left-side")(
-              div(cls := "stores")(
-                googlePlayButton,
-                fdroidButton,
-                appleStoreButton
-              ),
-              renderedCmsPage,
-              qrcode(routeUrl(routes.Main.redirectToAppStore), 300),
-              div(
-                trans.app.viewAllReleases(
-                  a(href := "https://github.com/lichess-org/mobile/releases")(trans.app.allReleases())
-                )
-              )
-            ),
-            div(cls := "right-side")(
-              a(href := routes.Main.redirectToAppStore):
-                img(
-                  widthA := "358",
-                  heightA := "766",
-                  cls := "mobile-playing",
-                  src := assetUrl("images/mobile/lichess-mobile-screen.webp"),
-                  alt := trans.app.lichessMobileScreen.txt()
-                )
-            )
-          )
+          h1(cls := "box__top")(if ru then "Мобильное приложение WayChess" else "WayChess mobile app"),
+          p(
+            if ru then "Мобильное приложение WayChess в разработке."
+            else "The WayChess mobile app is in development."
+          ),
+          p(
+            if ru then
+              "Пока откройте сайт в браузере телефона и добавьте его на главный экран: в Chrome — «Добавить на главный экран», в Safari — «Поделиться» → «На экран «Домой»»."
+            else
+              "Meanwhile, open the site in your phone's browser and add it to your home screen: \"Add to Home screen\" in Chrome, or Share → \"Add to Home Screen\" in Safari."
+          ),
+          renderedCmsPage
         )
       )

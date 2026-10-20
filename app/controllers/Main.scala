@@ -41,10 +41,10 @@ final class Main(env: Env, assetsC: ExternalAssets) extends LilaController(env):
 
   def redirectToAppStore = Anon:
     pageHit
-    Redirect(env.web.static.appStoreUrl.value)
+    Redirect(routes.Main.app)
 
   def redirectToSwag = Anon:
-    Redirect(env.web.static.swagUrl(env.security.geoIP(ctx.ip).so(_.countryCode)))
+    Redirect(routes.Lobby.home)
 
   private def serveApp(using Context) =
     pageHit

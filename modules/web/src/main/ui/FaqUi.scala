@@ -15,6 +15,9 @@ final class FaqUi(helpers: Helpers, sitePages: SitePages)(
 
   private def cmsPageUrl(key: String) = routes.Cms.lonePage(lila.core.id.CmsPageKey(key))
 
+  private def ruEn(ru: String, en: String)(using ctx: Context) =
+    if ctx.lang.language == "ru" then ru else en
+
   private def question(id: String, title: String, answer: Frag*) =
     details(
       st.id := id,
@@ -37,50 +40,36 @@ final class FaqUi(helpers: Helpers, sitePages: SitePages)(
           h2("WayChess"),
           question(
             "name",
-            trf.whyIsLichessCalledLichess.txt(),
+            ruEn("Что такое WayChess?", "What is WayChess?"),
             p(
-              trf.lichessCombinationLiveLightLibrePronounced(em(trf.leechess())),
-              " ",
-              a(href := "https://www.youtube.com/watch?v=KRpPqcrdE-o")(trf.hearItPronouncedBySpecialist())
-            ),
-            p(
-              trf.whyLiveLightLibre()
-            ),
-            p(
-              trf.whyIsLilaCalledLila(
-                a(href := "https://github.com/salakh1996-crypto/lila")("WayChess"),
-                a(href := "https://scala-lang.org/")("Scala")
+              ruEn(
+                "WayChess — бесплатный шахматный сайт, который работает в России без VPN. Здесь можно играть онлайн с соперниками со всего мира, решать задачи, участвовать в турнирах и анализировать партии.",
+                "WayChess is a free chess website that works in Russia without a VPN. Play online against opponents from all over the world, solve puzzles, join tournaments and analyse your games."
               )
+            )
+          ),
+          question(
+            "lichess",
+            ruEn("WayChess связан с Lichess?", "Is WayChess affiliated with Lichess?"),
+            p(
+              ruEn(
+                "Нет. WayChess — независимый проект, основанный на открытом коде Lichess, который распространяется по лицензии GNU AGPL. Исходный код WayChess тоже открыт: ",
+                "No. WayChess is an independent project based on the open source code of Lichess, which is distributed under the GNU AGPL license. The WayChess source code is open too: "
+              ),
+              a(href := "/source")(trans.site.sourceCode()),
+              "."
             )
           ),
           question(
             "contributing",
-            trf.howCanIContributeToLichess.txt(),
-            p(trf.lichessPoweredByDonationsAndVolunteers()),
+            ruEn("Как помочь WayChess?", "How can I help WayChess?"),
             p(
-              trf.findMoreAndSeeHowHelp(
-                a(href := routes.Plan.index())(trf.beingAPatron()),
-                a(href := routes.Main.costs)(trf.breakdownOfOurCosts()),
-                a(href := routes.Cms.help)(trf.otherWaysToHelp())
-              )
-            )
-          ),
-          question(
-            "sites_based_on_Lichess",
-            trf.areThereWebsitesBasedOnLichess.txt(),
-            p(
-              trf.yesLichessInspiredOtherOpenSourceWebsites(
-                a(href := "/source")(trans.site.sourceCode()),
-                a(href := "/api")("API"),
-                a(href := "https://database.lichess.org")(trans.site.database())
-              )
-            ),
-            ul(
-              li(a(href := "https://blitztactics.com/about")("Blitz Tactics")),
-              li(a(href := "https://tailuge.github.io/chess-o-tron/html/blunder-bomb.html")("Blunder Bomb")),
-              li(a(href := "https://lidraughts.org")("lidraughts.org")),
-              li(a(href := "https://playstrategy.org")("playstrategy.org")),
-              li(a(href := "https://lishogi.org")("lishogi.org"))
+              ruEn(
+                "Расскажите о сайте друзьям и шахматному клубу, сообщайте об ошибках и предлагайте идеи на ",
+                "Tell your friends and your chess club about the site, report bugs and suggest ideas on "
+              ),
+              a(href := "https://github.com/salakh1996-crypto/lila/issues")("GitHub"),
+              "."
             )
           ),
           question(
@@ -241,7 +230,7 @@ final class FaqUi(helpers: Helpers, sitePages: SitePages)(
             trf.whatUsernameCanIchoose.txt(),
             p(
               trf.usernamesNotOffensive(
-                a(href := "https://lichess.org/page/username-policy")(trf.guidelines())
+                a(href := cmsPageUrl("username-policy"))(trf.guidelines())
               )
             )
           ),
@@ -387,7 +376,7 @@ final class FaqUi(helpers: Helpers, sitePages: SitePages)(
                 a(href := "https://getcoldturkey.com")("ColdTurkey"),
                 a(href := "https://freedom.to")("Freedom"),
                 a(href := "https://www.proginosko.com/leechblock")("LeechBlock"),
-                a(href := "https://lichess.org/page/userstyles")(trf.lichessUserstyles()),
+                a(href := cmsPageUrl("userstyles"))(trf.lichessUserstyles()),
                 a(href := "https://github.com/ornicar/userstyles/blob/master/lichess.fewer-pools.user.css")(
                   trf.fewerLobbyPools()
                 ),
