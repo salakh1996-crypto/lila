@@ -19,6 +19,9 @@ WayChess не связан с Lichess. Название, логотип и до�
   OAuth знак рисуется классом `.waychess-mark`.
 - **Несвободные наборы фигур удалены:** alpha, chess7, companion, leipzig,
   reillycraig, riohacha, shahi-ivory-brown и 3D-набор Staunton.
+- **Звуки.** Несвободные наборы `standard`, `other`, `instrument` (тема «Pentatonic»),
+  `robot`, `woodland` удалены. Стандартный набор — `sfx` (AGPL). Звуки обучения,
+  практики и «yeet» взяты из `sfx`. Прослушать все наборы: страница `/assets/oops/sounds.html`.
 - **Исходный код.** Ссылки «Исходный код» на сайте ведут на https://github.com/salakh1996-crypto/lila (требование AGPL).
 - **Конфигурация.** Имя сайта по умолчанию — `WayChess`, основной домен — `waychess.ru`
   (`conf/base.conf`). Шаблон боевой конфигурации — `conf/waychess.conf.example`,
@@ -31,30 +34,30 @@ WayChess не связан с Lichess. Название, логотип и до�
 
 Обязательно:
 
-1. **Звуки.** Наборы `public/sound/standard` (стандартный по умолчанию), `other`,
-   `instrument`, `robot`, `woodland` не имеют свободной лицензии. Нужно заменить их
-   своими звуками или сделать стандартным один из свободных наборов
-   (`sfx`, `nes`, `piano`, `futuristic` — AGPL) в `modules/pref/src/main/SoundSet.scala`.
-2. **Тексты о Lichess.** FAQ (`modules/web/src/main/ui/FaqUi.scala`), страницы
+1. **Тексты о Lichess.** FAQ (`modules/web/src/main/ui/FaqUi.scala`), страницы
    «О сайте», «Пожертвования», «Расходы», «Магазин» рассказывают о Lichess.
    Страницы вроде «О сайте» хранятся в базе (раздел CMS, `/cms`) и редактируются
    администратором.
-3. **Ссылки на соцсети и приложение Lichess** — `modules/web/src/main/ui/bits.scala`,
+2. **Ссылки на соцсети и приложение Lichess** — `modules/web/src/main/ui/bits.scala`,
    `modules/web/src/main/StaticContent.scala` (manifest, Play/App Store).
-4. **Пожертвования.** Stripe и PayPal не работают с российскими счетами. Нужно
+3. **Пожертвования.** Stripe и PayPal не работают с российскими счетами. Нужно
    подключить ЮKassa/CloudPayments или скрыть кнопку «Поддержать» в шапке
    (`modules/web/src/main/ui/layout.scala`, `site-title-nav__donate`).
-5. **Юридическое.** ИП или ООО; политика конфиденциальности и пользовательское
+4. **Юридическое.** ИП или ООО; политика конфиденциальности и пользовательское
    соглашение; хранение персональных данных на серверах в РФ (152-ФЗ);
    консультация юриста по реестру организаторов распространения информации (ОРИ)
    из-за чата и личных сообщений.
+5. **Картинки.** В `public/images` есть изображения без свободной лицензии
+   («The other artwork in public/images» в `COPYING.md`): иллюстрации, фоны,
+   страница техработ. Нужно проверить каждую и заменить своими.
 
 Желательно:
 
 - Наборы фигур под лицензией CC BY-NC-SA (california, caliente, maestro, fresca,
   cardinal, icpieces, gioco, tatiana, staunty, dubrovny, anarcandy, disguised,
   cooke, monarchy, horsey, xkcd, minimal-warmth) разрешены только для
-  некоммерческого использования. Если на сайте будет реклама или платные функции,
+  некоммерческого использования. То же касается набора звуков `lisp`, который
+  используется в задачах и Puzzle Storm. Если на сайте будет реклама или платные функции,
   их нужно убрать. Для наборов kosal и governor лицензию нужно уточнить.
 - Значок `Icon.Logo` в иконочном шрифте (`public/font/lichess.woff2`) всё ещё
   рисует коня Lichess в нескольких меню.

@@ -18,6 +18,12 @@ details.
 
 See the LICENSE file for a copy of the _GNU Affero General Public License_.
 
+## WayChess
+
+WayChess is a fork of lila. The WayChess logo (public/logo, public/favicon.ico,
+public/apple-touch-icon.png) is part of WayChess and licensed AGPLv3+.
+Non-free Lichess assets (logos, some piece sets and sound sets) have been removed.
+
 ## Exceptions (free)
 
 <!-- prettier-ignore -->
@@ -86,19 +92,9 @@ translation/source/puzzleTheme.xml | the lila authors and contributors | [CC0 1.
 <!-- prettier-ignore -->
 Files | Author(s) | License
 --- | --- | ---
-public/logo, public/favicon.ico, public/apple-touch-icon.png | sadsnake1 | Only use to refer to lichess.org
-public/piece/alpha | Eric Bentzen | "free for personal non commercial use" (see [zip](http://www.enpassant.dk/chess/downl/alpha.zip))
-public/piece/chess7 | [Style-7](http://www.styleseven.com/) | "freeware"
-public/piece/companion | David L. Brown | ["freeware"](http://www.enpassant.dk/chess/fonteng.htm#GC)
-public/piece/leipzig | Armando Hernandez Marroquin | ["freeware"](http://www.enpassant.dk/chess/fonteng.htm#LEIPZIG)
-public/piece/reillycraig | [Reilly Craig](https://instagram.com/fader_) |
-public/piece/riohacha | |
-public/images/staunton/piece/Staunton | [Eden Murs](https://userstyles.org/styles/134558/lichess-pieces-3d-staunton) (?) |
-public/piece/shahi-ivory-brown | Tamer Karatekin | Free for personal and commercial use, but non-derivative non-modify license (Şahî Chess & Shatranj Font License v1.0 – https://github.com/TamerKaratekin/shahi-chess-shatranj-font/blob/main/LICENSE.txt)
 public/piece/totoy | [Kosal Sen](https://github.com/lichess-org/lila) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 public/piece/papercut | [Nikolay Anzarov](https://nikoichu.itch.io/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-- The other sounds in public/sound
 - The other artwork in public/images
 
 ## External services

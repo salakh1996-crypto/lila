@@ -5,8 +5,8 @@ const make = (name: string, volume?: number) => {
 
 export const move = () => site.sound.play('move');
 export const take = make('sfx/Tournament3rd', 0.4);
-export const levelStart = make('other/ping');
-export const levelEnd = make('other/energy3');
-export const stageStart = make('other/guitar');
-export const stageEnd = make('other/gewonnen');
-export const failure = make('other/no-go');
+export const levelStart = make('sfx/GenericNotify');
+export const levelEnd = make('sfx/Confirmation');
+export const stageStart = make('sfx/NewChallenge');
+export const stageEnd = make('sfx/Victory');
+export const failure = make('sfx/Error');

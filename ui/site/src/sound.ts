@@ -8,6 +8,10 @@ import { storage } from 'lib/storage';
 type Name = string;
 type Path = string;
 
+const defaultSet = 'sfx';
+// sounds that only the removed (non-free) 'standard' set had
+const missingFromSets: Record<Name, Name> = { select: 'move', socialNotify: 'genericNotify' };
+
 export default new (class implements SoundI {
   ctx?: AudioContext;
   ctxPromise: Promise<AudioContext>;
@@ -68,8 +72,9 @@ export default new (class implements SoundI {
     let dir = this.theme;
     if (this.theme === 'music' || this.speech()) {
       if (['move', 'capture', 'check', 'checkmate'].includes(name)) return undefined;
-      dir = 'standard';
+      dir = defaultSet;
     }
+    name = missingFromSets[name] ?? name;
     return this.url(`${dir}/${name[0].toUpperCase() + name.slice(1)}.mp3`);
   }
 
@@ -105,7 +110,7 @@ export default new (class implements SoundI {
   }
 
   async playAndDelayMateResultIfNecessary(name: Name): Promise<void> {
-    if (this.theme === 'standard') this.play(name);
+    if (this.theme === defaultSet) this.play(name);
     else setTimeout(() => this.play(name), 600);
   }
 
