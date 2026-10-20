@@ -34,7 +34,7 @@
   <string name="doNotMessageModerators">Älä lähetä yksityisviestejä moderaattoreille.</string>
   <string name="onlyReports">Vain lomakkeen kautta tapahtuvalla ilmoituksella on vaikutusta.</string>
   <string name="wantReportBug">Haluan ilmoittaa viasta</string>
-  <string name="reportBugInForum">Foorumin Lichess Feedback -osiossa</string>
+  <string name="reportBugInForum">Foorumin WayChess Feedback -osiossa</string>
   <string name="reportWebsiteIssue">Lichessin verkkosivusto-ongelmaksi GitHubissa</string>
   <string name="reportMobileIssue">Lichessin mobiilisovellusongelmaksi GitHubissa</string>
   <string name="reportBugInDiscord">Lichessin Discord-palvelimella</string>
@@ -71,7 +71,7 @@
   <string name="buyingLichess">Lichessin ostaminen</string>
   <string name="authorizationToUse">Lichessin käyttöluvat</string>
   <string name="welcomeToUse">Saat vapaasti käyttää Lichessiä omiin tarkoituksiisi, myös kaupallisiin tarkoituksiin.</string>
-  <string name="videosAndBooks">Lichess saa näkyä videoillasi, ja saat painattaa Lichessistä tehtyjä kuvakaappauksia kirjoihisi.</string>
+  <string name="videosAndBooks">WayChess saa näkyä videoillasi, ja saat painattaa Lichessistä tehtyjä kuvakaappauksia kirjoihisi.</string>
   <string name="creditAppreciated">Arvostamme Lichessin mainintaa, mutta emme vaadi sitä.</string>
   <string name="noneOfTheAbove">Ei mitään näistä</string>
   <string name="sendEmailAt">Lähetä sähköpostia osoitteeseen %s.</string>

@@ -179,7 +179,7 @@
   <string name="annotatePositionTitle">Kommenter en stilling med symboler</string>
   <string name="annotatePositionText">Klikk på !? -knappen, eller høyreklikk på trekklisten til høyre.&lt;br&gt;Kommentarsymboler deles og lagres.</string>
   <string name="conclusionTitle">Takk for at du tok deg tid</string>
-  <string name="conclusionText">Du kan finne dine &lt;a href=\'/study/mine/hot\'&gt;tidligere studier&lt;/a&gt; fra profilen din.&lt;br&gt;Det finnes også et &lt;a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt;blogginnlegg om studier&lt;/a&gt;.&lt;br&gt;Erfarne brukere kan trykke på «?» for å se hurtigtaster.&lt;br&gt;Ha det gøy!</string>
+  <string name="conclusionText">Du kan finne dine &lt;a href=\'/study/mine/hot\'&gt;tidligere studier&lt;/a&gt; fra profilen din.&lt;br&gt;Det finnes også et &lt;a href=\'https://waychess.ru/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt;blogginnlegg om studier&lt;/a&gt;.&lt;br&gt;Erfarne brukere kan trykke på «?» for å se hurtigtaster.&lt;br&gt;Ha det gøy!</string>
   <string name="createChapterTitle">La oss lage et studiekapittel</string>
   <string name="createChapterText">En studie kan ha flere kapitler.&lt;br&gt;Hvert kapittel har et eget trekktre,&lt;br&gt;og kan opprettes på forskjellige måter.</string>
   <string name="fromInitialPositionTitle">Fra utgangsstillingen</string>
@@ -187,7 +187,7 @@
   <string name="customPositionTitle">Egendefinert stilling</string>
   <string name="customPositionText">Sett opp brettet slik du ønsker.&lt;br&gt;Egnet for å utforske sluttspill.</string>
   <string name="loadGameFromTheWebTitle">Last inn et parti fra nettet</string>
-  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">Lim inn en URL til et parti&lt;br&gt;(for eksempel lichess.org/7fHIU0XI)&lt;br&gt;for å laste inn trekkene i kapittelet.</string>
+  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">Lim inn en URL til et parti&lt;br&gt;(for eksempel waychess.ru/7fHIU0XI)&lt;br&gt;for å laste inn trekkene i kapittelet.</string>
   <string name="fromFenStringTitle">Fra FEN-streng</string>
   <string name="fromFenStringText">Lim inn en stilling i FEN-format&lt;br&gt;&lt;i&gt;4k3/4rb2/8/7p/8/5Q2/1PP5/1K6 w&lt;/i&gt;&lt;br&gt;for å starte kapittelet fra en stilling.</string>
   <string name="fromPgnGameTitle">Fra PGN-parti</string>

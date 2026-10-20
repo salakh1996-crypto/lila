@@ -45,7 +45,7 @@ object home:
       .css("lobby")
       .graph(
         OpenGraph(
-          image = staticAssetUrl("logo/lichess-tile-wide.png").some,
+          image = staticAssetUrl("logo/waychess-tile-wide.png").some,
           title = "The best free, adless Chess server",
           url = netBaseUrl.into(Url),
           description = trans.site.siteDescription.txt()
@@ -97,11 +97,11 @@ object home:
               div(cls := "about-side")(
                 ctx.blind.option(h2(trans.site.about())),
                 trans.site.xIsAFreeYLibreOpenSourceChessServer(
-                  "Lichess",
+                  "WayChess",
                   a(cls := "blue", href := routes.Plan.features)(trans.site.really.txt())
                 ),
                 " ",
-                a(href := "/about")(trans.site.aboutX("Lichess"), "...")
+                a(href := "/about")(trans.site.aboutX("WayChess"), "...")
               )
           ),
           currentGame
@@ -142,7 +142,7 @@ object home:
           ctx.noBot.option(bits.underboards(tours, simuls)),
           div(cls := "lobby__about")(
             ctx.blind.option(h2(trans.site.about())),
-            a(href := "/about")(trans.site.aboutX("Lichess")),
+            a(href := "/about")(trans.site.aboutX("WayChess")),
             a(href := "/faq")(trans.faq.faqAbbreviation()),
             a(href := "/contact")(trans.contact.contact()),
             a(href := "/app")(trans.site.mobileApp()),

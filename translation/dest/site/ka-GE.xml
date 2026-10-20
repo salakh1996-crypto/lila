@@ -474,7 +474,7 @@
   <string name="oneUrlPerLine">ერთი ბმული ერთი ხაზისთვის.</string>
   <string name="inlineNotation">შიგა ნოტაცია</string>
   <string name="makeAStudy">უსაფრთხო შენახვისა და გაზიარებისთვის, გააკეთეთ კვლევა.</string>
-  <string name="previouslyOnLichessTV">წინა Lichess TV-ზე</string>
+  <string name="previouslyOnLichessTV">წინა WayChess TV-ზე</string>
   <string name="onlinePlayers">ონლაინ მოთამაშეები</string>
   <string name="activePlayers">აქტიური მოთამაშეები</string>
   <string name="bewareTheGameIsRatedButHasNoClock">ყურადღებით! თამაშის შედეგი მოქმედებს რეიტინგზე, თუმცა დრო არ აითვლება.</string>
@@ -629,7 +629,7 @@
   <string name="simulAddExtraTime">თქვენ შეგიძლიათ დროის დამატება ერთდროული თამაშისას.</string>
   <string name="simulAddExtraTimePerPlayer">დაამატეთ საწყისი დრო თქვენს საათს თითოეული მოთამაშისთვის, რომელიც უერთდება სიმულს.</string>
   <string name="simulHostExtraTimePerPlayer">დაამატე დრო სიმულის შემქმნელის საათზე, ყოველ შემოსულ მოთამაშეზე</string>
-  <string name="lichessTournaments">Lichess ტურნირები</string>
+  <string name="lichessTournaments">WayChess ტურნირები</string>
   <string name="tournamentFAQ">Arena ტურნირის ხშირი შეკითხვები</string>
   <string name="timeBeforeTournamentStarts">ტურნირის დაწყებამდე დარჩენილი დრო</string>
   <string name="averageCentipawnLoss">საშუალო დანაკარგი \"პაიკ-პროცენტში\" (პაიკის მეასედი)</string>
@@ -665,8 +665,8 @@
   <string name="weHaveSentYouAnEmailTo">ჩვენ გავაგზავნეთ შეტყობინება %s მეილზე. შეტყობინებაში დააჭირეთ ლინკს, რომ პაროლი შეცვალოთ.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">რეგისტრაციით თქვენ ეთანხმებით ჩვენს %s.</string>
   <string name="readAboutOur">წაიკითხეთ ჩვენი %s- ს შესახებ.</string>
-  <string name="networkLagBetweenYouAndLichess">ქსელი გარკვეული შუალედი შორის თქვენ და Lichess</string>
-  <string name="timeToProcessAMoveOnLichessServer">დროა დავამუშავოთ სვლა Lichess -ის სერვერზე</string>
+  <string name="networkLagBetweenYouAndLichess">ქსელი გარკვეული შუალედი შორის თქვენ და WayChess</string>
+  <string name="timeToProcessAMoveOnLichessServer">დროა დავამუშავოთ სვლა WayChess -ის სერვერზე</string>
   <string name="downloadAnnotated">ანოტირებულის ჩამოტვირთვა</string>
   <string name="downloadRaw">სუფთას ჩამოტვირთვა</string>
   <string name="downloadImported">იმპორტირებულის ჩამოტვირთვა</string>
@@ -793,7 +793,7 @@
   <string name="tryToWin">ეცადეთ, რომ მოიგოთ (ან მინიმუმ ფრედ დაამთავროთ) ყველა თამაში.</string>
   <string name="resignLostGames">წაგებული პარტიებიდან გამოდით, დატოვეთ თამაში (ნუ დაელოდებით დროის გასვლას).</string>
   <string name="temporaryInconvenience">ბოდიშს გიხდით დროებითი დისკომფორტისთვის,</string>
-  <string name="wishYouGreatGames">და გისურვებთ კარგი პარტიების თამაშს lichess.org - ზე.</string>
+  <string name="wishYouGreatGames">და გისურვებთ კარგი პარტიების თამაშს waychess.ru - ზე.</string>
   <string name="thankYouForReading">მადლობთ, რომ კითხულობთ!</string>
   <string name="lifetimeScore">მთლიანი ანგარიში</string>
   <string name="currentMatchScore">მიმდინარე პარტიის ანგარიში</string>
@@ -891,6 +891,6 @@
   <string name="switchSides">მხარეების შეცვლა</string>
   <string name="closingAccountWithdrawAppeal">თქვენი ექაუნთის დახურვა გამოიწვევს თქვენი აპელაციის ამოღებას</string>
   <string name="ourEventTips">ჩვენი რჩევები ღონისძიებების ორგანიზებისთვის</string>
-  <string name="lichessPatronInfo">Lichess -ი არის საქველმოქმედო და სრულიად უფასო/თავისუფალი ღია კოდის მქონე პროგრამა.
+  <string name="lichessPatronInfo">WayChess -ი არის საქველმოქმედო და სრულიად უფასო/თავისუფალი ღია კოდის მქონე პროგრამა.
 ყველა საოპერაციო ხარჯი, დეველოპმენტი და კონტენტი ფინანსდება მხოლოდ მომხმარებლის შემოწირულობებით.</string>
 </resources>

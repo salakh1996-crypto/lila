@@ -2,14 +2,14 @@
 <resources>
   <string name="faqAbbreviation">АрФар</string>
   <string name="frequentlyAskedQuestions">Арæх Фарстатæ</string>
-  <string name="whyIsLichessCalledLichess">Lichess-æн йæ ном цæмæн у \"Lichess\"?</string>
-  <string name="lichessCombinationLiveLightLibrePronounced">\"Lichess\" у \"live/light/libre\" æмæ \"chess\"-ы комбинаци — удæгас, рог æмæ сæрибар шахмæттæ. Дзурын хъæуы афтæ: %1$s.</string>
+  <string name="whyIsLichessCalledLichess">Lichess-æн йæ ном цæмæн у \"WayChess\"?</string>
+  <string name="lichessCombinationLiveLightLibrePronounced">\"WayChess\" у \"live/light/libre\" æмæ \"chess\"-ы комбинаци — удæгас, рог æмæ сæрибар шахмæттæ. Дзурын хъæуы афтæ: %1$s.</string>
   <string name="leechess">личец</string>
   <string name="hearItPronouncedBySpecialist">Байхъус, специалист æй куыд дзуры.</string>
-  <string name="whyLiveLightLibre">Удæгас, уымæн æмæ дæ бон у хъазын æмæ кæсын хъæзтытæ реалон рæстæджы цыфæнды афоны; рог æмæ сæрибар, уымæн æмæ Lichess у æргом æмæ дзы нæй проприетарон быроны, иннæ коммерцион проектты хуызæн.</string>
-  <string name="whyIsLilaCalledLila">Уый дæр хауы Lichess-ы райдайæн кодмæ, %1$s-мæ, кæй нысан кæны li[chess in sca]la, уымæн æмæ Lichess сæйрагдæр фыст у %2$s-йæ, æнцонæмбарæн программон æвзагæй.</string>
+  <string name="whyLiveLightLibre">Удæгас, уымæн æмæ дæ бон у хъазын æмæ кæсын хъæзтытæ реалон рæстæджы цыфæнды афоны; рог æмæ сæрибар, уымæн æмæ WayChess у æргом æмæ дзы нæй проприетарон быроны, иннæ коммерцион проектты хуызæн.</string>
+  <string name="whyIsLilaCalledLila">Уый дæр хауы Lichess-ы райдайæн кодмæ, %1$s-мæ, кæй нысан кæны li[chess in sca]la, уымæн æмæ WayChess сæйрагдæр фыст у %2$s-йæ, æнцонæмбарæн программон æвзагæй.</string>
   <string name="howCanIContributeToLichess">Куыд баххуыс кæнон Lichess-æн?</string>
-  <string name="lichessPoweredByDonationsAndVolunteers">Lichess цæры хъазджыты нывондытæй æмæ волонтёрты куыстæй.</string>
+  <string name="lichessPoweredByDonationsAndVolunteers">WayChess цæры хъазджыты нывондытæй æмæ волонтёрты куыстæй.</string>
   <string name="findMoreAndSeeHowHelp">Дæ бон у базонын, %1$s (æмæ %2$s дæр). Кæд дæ фæнды баххуыс кæнын Lichess-æн дæ рæстæгæй æмæ арæхстытæй, уæд дзы ис %3$s.</string>
   <string name="beingAPatron">аххуысгæнæгæй куыд суын</string>
   <string name="breakdownOfOurCosts">нæ хардзыты хыгъдлæвæрд</string>
@@ -25,10 +25,10 @@
   <string name="howCanIBecomeModerator">Ис дзы мæ бон модераторæй суын?</string>
   <string name="youCannotApply">Мах модераторы бынатмæ курдиаттæ нæ исæм. Кæд фендзыстæм, исчи, махмæ гæсгæ, уыдзæн хорз модератор, уæд нæхæдæг йемæ бастдзинад саразæм.</string>
   <string name="isCorrespondenceDifferent">Ис дзы хицæндзинад фыстæгтæ фысгæйæ хъазтæй хуымæтæг хъазты \'хсæн?</string>
-  <string name="youCanUseOpeningBookNoEngine">Lichess-ы сæйраг хицæндзинад фыстæгтæ фысгæ хъазы уагæвæрдты у райдайæнты чиныг. Компьютеры программæты пайдакæнæн иваргонд у æмæ расайдзæн аккаунты æхгæнæн. ICCF-мæ нæкæсгæйæ, Lichess компьютеры программæты аххуыс нæ уадзы.</string>
+  <string name="youCanUseOpeningBookNoEngine">Lichess-ы сæйраг хицæндзинад фыстæгтæ фысгæ хъазы уагæвæрдты у райдайæнты чиныг. Компьютеры программæты пайдакæнæн иваргонд у æмæ расайдзæн аккаунты æхгæнæн. ICCF-мæ нæкæсгæйæ, WayChess компьютеры программæты аххуыс нæ уадзы.</string>
   <string name="gameplay">Хъазты æрфыст</string>
   <string name="howBulletBlitzEtcDecided">Нæмыг, блиц æмæ æндæр хъазы хуызтæ сахаты цæстдардмæ гæсгæ куыд рабæрæг конд ысты?</string>
-  <string name="basedOnGameDuration">Lichess сахаты цæстдард баст у æввахс хъазы дæргъцы = %1$s
+  <string name="basedOnGameDuration">WayChess сахаты цæстдард баст у æввахс хъазы дæргъцы = %1$s
 Зæъæм, æввахс 5+3 хъазы дæргъц у 5 × 60 + 40 × 3 = 420 сикъунды.</string>
   <string name="durationFormula">(райдайæн рæстæг) + 40 × (уæлæмхасæн)</string>
   <string name="inferiorThanXsEqualYtimeControl">&lt; %1$s с = %2$s</string>
@@ -43,7 +43,7 @@
 
 Ацы нысаниуæг у хъазты бæрцы æвдисæн. Цас каддæр у сантипешкæты сæфт цыды рæстæмбисæй, уыйас хъаруджындæр у хъазт.
 
-Lichess компьютерон анализы пайда кæны Stockfish.</string>
+WayChess компьютерон анализы пайда кæны Stockfish.</string>
   <string name="insufficientMaterial">Æмбылд рæстæгæй, хæрæгсаст æмæ æрмæджы хъуаг</string>
   <string name="lichessFollowFIDErules">Фылдæр хатт, хъазæджы рæстæг куы фæуы, уæд йын фембылд банымайæм. Фæлæ хъазт хæрæгсастæй фæуы, ныхмæлæууæгмæ кæд нæй фадаты мат нывварын дарддæр хъазгæйæ (%1$s).
 
@@ -61,7 +61,7 @@ Lichess компьютерон анализы пайда кæны Stockfish.</st
  Посмотрите %3$s и попрактикуйтесь.</string>
   <string name="goodIntroduction">хорз райхæлд</string>
   <string name="threefoldRepetition">Æртывæр позицийы фæлхатын</string>
-  <string name="canIbecomeLM">Ис дзы гæнæн мын раттын Lichess Мастеры (LM) хуындад?</string>
+  <string name="canIbecomeLM">Ис дзы гæнæн мын раттын WayChess Мастеры (LM) хуындад?</string>
   <string name="noUpperCaseDot">Нæй.</string>
   <string name="lMtitleComesToYouDoNotRequestIt">Уый у каджын хуындад, æнæофициалон, æмæ æрмæст вæййы Lichess-ы.
 

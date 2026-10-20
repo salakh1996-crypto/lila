@@ -14,7 +14,7 @@
   <string name="accepting">Pranon nxënës</string>
   <string name="notAccepting">Hëpërhë nuk pranon nxënës</string>
   <string name="xCoachesStudents">%s trajnon studente shahu</string>
-  <string name="viewXProfile">Shihni profilin Lichess të %s</string>
+  <string name="viewXProfile">Shihni profilin WayChess të %s</string>
   <string name="sendPM">Dërgojini një mesazh privat</string>
   <string name="aboutMe">Rreth meje</string>
   <string name="playingExperience">Përvojë lojërash</string>
@@ -26,5 +26,5 @@
   <string name="youtubeVideos">Video YouTube</string>
   <string name="allCountries">Krejt vendet</string>
   <string name="lastLogin">Hyrja e fundit</string>
-  <string name="lichessRating">Vlerësim Lichess</string>
+  <string name="lichessRating">Vlerësim WayChess</string>
 </resources>

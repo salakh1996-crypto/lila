@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="dgtBoard">DGT-brett</string>
-  <string name="lichessAndDgt">Lichess og DGT</string>
+  <string name="lichessAndDgt">WayChess og DGT</string>
   <string name="dgtBoardRequirements">Krav til DGT-brett</string>
   <string name="dgtBoardLimitations">Begrensninger for DGT-brett</string>
-  <string name="thisPageAllowsConnectingDgtBoard">Denne siden lar deg koble DGT-brettet ditt til Lichess, og bruke det til å spille partier.</string>
+  <string name="thisPageAllowsConnectingDgtBoard">Denne siden lar deg koble DGT-brettet ditt til WayChess, og bruke det til å spille partier.</string>
   <string name="toConnectTheDgtBoard">For å koble til det elektroniske brettet fra DGT må du installere %s.</string>
   <string name="downloadHere">Du kan laste ned programvaren her: %s.</string>
   <string name="ifLiveChessRunningOnThisComputer">Hvis %1$s kjører på denne maskinen, kan du sjekke tilkoblingen ved å %2$s.</string>
@@ -18,7 +18,7 @@
   <string name="whenReadySetupBoard">Sett opp brettet og klikk %s når du er klar.</string>
   <string name="ifMoveNotDetected">Hvis et trekk ikke blir oppdaget</string>
   <string name="checkYouHaveMadeOpponentsMove">Sjekk først at du har utført motstanderens trekk på DGT-brettet. Omgjør trekket ditt. Spill igjen.</string>
-  <string name="asALastResort">Som en siste utvei, sett opp brettet identisk som på Lichess, deretter %s</string>
+  <string name="asALastResort">Som en siste utvei, sett opp brettet identisk som på WayChess, deretter %s</string>
   <string name="reloadThisPage">last inn denne siden på nytt</string>
   <string name="configureYourDgtBoard">Konfigurer DGT-brettet ditt</string>
   <string name="lichessConnectivity">Lichess-tilkobling</string>
@@ -36,7 +36,7 @@
   <string name="announceAllMoves">Les opp alle trekkene</string>
   <string name="selectAnnouncePreference">Velg Ja for å lese opp både dine egne trekk og motstanderens trekk. Velg Nei for å kun lese opp motstanderens trekk.</string>
   <string name="announceMoveFormat">Format for å lese opp trekkene</string>
-  <string name="moveFormatDescription">SAN er standarden på Lichess, som «Nf6». UCI er vanlig på sjakkmotorer, som «g8f6».</string>
+  <string name="moveFormatDescription">SAN er standarden på WayChess, som «Nf6». UCI er vanlig på sjakkmotorer, som «g8f6».</string>
   <string name="keywords">Nøkkelord</string>
   <string name="keywordFormatDescription">Nøkkelord er i JSON-format. De brukes til å oversette trekk og resultater til ditt språk. Standard er engelsk, men du står fritt til å endre det.</string>
   <string name="debug">Feilsøk</string>

@@ -251,7 +251,7 @@
   <string name="error.weakPassword">Dieses Passwort wird extrem oft verwendet und ist zu einfach zu erraten.</string>
   <string name="error.namePassword">Verwende bitte nicht deinen Benutzernamen als Passwort.</string>
   <string name="blankedPassword">Du hast das gleiche Passwort auf einer anderen Seite verwendet und diese Seite wurde kompromittiert. Um die Sicherheit deines Lichess-Kontos zu gewährleisten, musst du ein neues Passwort setzen. Danke für dein Verständnis.</string>
-  <string name="youAreLeavingLichess">Du verlässt Lichess</string>
+  <string name="youAreLeavingLichess">Du verlässt WayChess</string>
   <string name="neverTypeYourPassword">Gib dein Lichess-Passwort niemals auf einer anderen Seite ein!</string>
   <string name="proceedToX">Weiter zu %s</string>
   <string name="passwordSuggestion">Benutze kein Passwort, welches jemand anderes vorgeschlagen hat. Man wird versuchen dein Konto zu stehlen.</string>
@@ -264,7 +264,7 @@
   <string name="emailSent">Wir haben eine E-Mail an %s gesendet.</string>
   <string name="emailCanTakeSomeTime">Es kann etwas dauern, bis sie ankommt.</string>
   <string name="refreshInboxAfterFiveMinutes">Warte 5 Minuten und aktualisiere dein E-Mail-Postfach.</string>
-  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Überprüfe deinen Spam- oder Junk-Ordner, falls du keine Bestätigungs-E-Mail erhälst. Stelle sicher, dass Nachrichten von lichess als sicher angezeigt werden und nicht als \"Spam\", so dass du über wichtige Nachrichten informiert bleibst.</string>
+  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Überprüfe deinen Spam- oder Junk-Ordner, falls du keine Bestätigungs-E-Mail erhälst. Stelle sicher, dass Nachrichten von WayChess als sicher angezeigt werden und nicht als \"Spam\", so dass du über wichtige Nachrichten informiert bleibst.</string>
   <string name="sendEmailForAccountVerification">Wenn du deine Bestätigungs-Mail nicht finden kannst, sende eine E-Mail an %s und wir bestätigen deinen Account.</string>
   <string name="accountConfirmed">Der Benutzer %s ist erfolgreich bestätigt.</string>
   <string name="accountCanLogin">Du kannst dich ab sofort als %s einloggen.</string>
@@ -548,7 +548,7 @@ Freunde am Spielen: %2$s</string>
   <string name="inlineNotation">Inline-Notation</string>
   <string name="makeAStudy">Zur Sicherheit und zum Teilen, überlege, ob du eine Studie anlegen möchtest.</string>
   <string name="clearLocalData">Lokale Daten löschen</string>
-  <string name="previouslyOnLichessTV">Zuletzt auf Lichess TV</string>
+  <string name="previouslyOnLichessTV">Zuletzt auf WayChess TV</string>
   <string name="onlinePlayers">Spieler online</string>
   <string name="activePlayers">Aktive Spieler</string>
   <string name="bewareTheGameIsRatedButHasNoClock">Achtung! Das Spiel wird gewertet, aber ohne Uhr gespielt!</string>
@@ -561,7 +561,7 @@ Freunde am Spielen: %2$s</string>
   <string name="autoSwitch">Automatischer Wechsel</string>
   <string name="puzzles">Aufgaben</string>
   <string name="onlineBots">Online-Bots</string>
-  <string name="aboutBotsOnLichess">Über Bots auf Lichess</string>
+  <string name="aboutBotsOnLichess">Über Bots auf WayChess</string>
   <string name="featuredBots">Vorgestellte Bots</string>
   <string name="tryPlayingTheseInnovativeChessEngines">Versuche gegen diese innovativen Schach-Engines zu spielen! Sie sind unsere Favoriten.</string>
   <string name="communityBots">Gemeinschafts-Bots</string>
@@ -732,7 +732,7 @@ Freunde am Spielen: %2$s</string>
   <string name="extraClockTimeForHost" comment="Appears on: https://lichess.org/simul/new&#10;&#10;Allows a simul host to select extra time for the simul.&#10;&#10;Please note this string used to state &quot;Host extra clock time&quot;, without the word &quot;initial&quot;">Zusätzliche Bedenkzeit für den Ausrichter:</string>
   <string name="simulAddExtraTimePerPlayer">Füge deiner Uhr für jeden Spieler, der deinem Simultan beitritt, zu Beginn zusätzliche Bedenkzeit hinzu.</string>
   <string name="simulHostExtraTimePerPlayer">Teile jedem Spieler zusätzliche Bedenkzeit zu</string>
-  <string name="lichessTournaments">Lichess Turniere</string>
+  <string name="lichessTournaments">WayChess Turniere</string>
   <string name="tournamentFAQ">Arena FAQ</string>
   <string name="timeBeforeTournamentStarts">Zeit bis zum Start des Turniers</string>
   <string name="averageCentipawnLoss">Durchschnittlicher Zentibauer-Verlust</string>
@@ -783,7 +783,7 @@ Freunde am Spielen: %2$s</string>
   <string name="weHaveSentYouAnEmailTo">Wir haben dir eine Email an %s gesendet. Klicke auf den Link in der E-Mail, um dein Passwort zurück zu setzen.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">Durch die Anmeldung wird den %s zugestimmt.</string>
   <string name="readAboutOur">Lies unsere %s.</string>
-  <string name="networkLagBetweenYouAndLichess">Netzwerkverzögerung zwischen dir und Lichess</string>
+  <string name="networkLagBetweenYouAndLichess">Netzwerkverzögerung zwischen dir und WayChess</string>
   <string name="timeToProcessAMoveOnLichessServer">Zeit, um einen Zug auf dem Lichess-Server zu verarbeiten</string>
   <string name="downloadAnnotated">Download kommentiert</string>
   <string name="downloadRaw">Download unkommentiert</string>
@@ -923,7 +923,7 @@ Freunde am Spielen: %2$s</string>
     <item quantity="one">und speichere %s Variante im Voraus</item>
     <item quantity="other">und speichere %s Varianten im Voraus</item>
   </plurals>
-  <string name="showUnreadLichessMessage">Du hast eine private Nachricht von Lichess erhalten.</string>
+  <string name="showUnreadLichessMessage">Du hast eine private Nachricht von WayChess erhalten.</string>
   <string name="readTheMessage" comment="'It' refers to a private message. This text follows after a different string which advises players they have received a private message from Lichess. For users, this is appears as a regular private message from the Lichess account: https://lichess.org/@/Lichess">Nachricht lesen</string>
   <string name="sorry">Entschuldigung :(</string>
   <string name="weHadToTimeYouOutForAWhile">Wir haben dich mit einer vorübergehenden Spielsperre belegt.</string>
@@ -936,7 +936,7 @@ Freunde am Spielen: %2$s</string>
   <string name="tryToWin">Versuche, jedes Spiel zu gewinnen (oder zumindest ein Remis zu erreichen).</string>
   <string name="resignLostGames">Gib verlorene Spiele auf (lasse die Uhr nicht herunterlaufen).</string>
   <string name="temporaryInconvenience">Wir entschuldigen uns für die vorübergehenden Unannehmlichkeiten,</string>
-  <string name="wishYouGreatGames">und wünschen Dir tolle Spiele auf lichess.org.</string>
+  <string name="wishYouGreatGames">und wünschen Dir tolle Spiele auf waychess.ru.</string>
   <string name="thankYouForReading">Vielen Dank für’s Lesen!</string>
   <string name="lifetimeScore">Ewiger Spielstand</string>
   <string name="currentMatchScore">Aktueller Spielstand</string>
@@ -982,7 +982,7 @@ Freunde am Spielen: %2$s</string>
   <string name="congratsYouWon">Glückwunsch, du hast gewonnen!</string>
   <string name="gameVsX">Partie gegen %1$s</string>
   <string name="resVsX">%1$s gegen %2$s</string>
-  <string name="lostAgainstTOSViolator">Du hast Elo an jemanden verloren, der gegen die Lichess -AGB verstoßen hat</string>
+  <string name="lostAgainstTOSViolator">Du hast Elo an jemanden verloren, der gegen die WayChess -AGB verstoßen hat</string>
   <string name="refundXpointsTimeControlY">Rückerstattung: %1$s %2$s Wertungspunkte.</string>
   <string name="timeAlmostUp">Deine Zeit ist fast abgelaufen!</string>
   <string name="clickToRevealEmailAddress">[Klicke, um die E-Mail-Adresse anzuzeigen]</string>
@@ -1043,7 +1043,7 @@ Leer lassen, um Partien von der normalen Ausgangsstellung aus zu starten.</strin
   <string name="ourEventTips">Unsere Tipps für die Organisation von Veranstaltungen</string>
   <string name="instructions">Anleitung</string>
   <string name="showMeEverything">Alles zeigen</string>
-  <string name="lichessPatronInfo">Lichess ist eine Wohltätigkeitsorganisation und eine völlig kostenlose/freie Open-Source-Software.
+  <string name="lichessPatronInfo">WayChess ist eine Wohltätigkeitsorganisation und eine völlig kostenlose/freie Open-Source-Software.
 Alle Betriebskosten, Entwicklung und Inhalte werden ausschließlich durch Benutzerspenden finanziert.</string>
   <string name="nothingToSeeHere">Im Moment gibt es hier nichts zu sehen.</string>
   <string name="stats">Statistiken</string>

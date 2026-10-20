@@ -71,7 +71,7 @@
     <item quantity="other">Huet bei %s Turnéieren nom Schwäizer System matgemaach</item>
   </plurals>
   <string name="rankedInSwissTournament">Huet sech als #%1$s an %2$s placéiert</string>
-  <string name="signedUp">Huet sech bei Lichess ugemellt</string>
+  <string name="signedUp">Huet sech bei WayChess ugemellt</string>
   <plurals name="joinedNbTeams">
     <item quantity="one">Ass %s Ekipp bäigetrueden</item>
     <item quantity="other">Ass %s Ekippe bäigetrueden</item>

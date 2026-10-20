@@ -13,6 +13,6 @@
   <string name="followYourFriendsOnLichess">Seuraa ystäviäsi Lichessissä.</string>
   <string name="playInTournaments">Pelaa turnauksissa.</string>
   <string name="learnFromXAndY">Opi lisää: %1$s ja katso %2$s.</string>
-  <string name="configureLichess">Mukauta Lichess mieleiseksesi.</string>
+  <string name="configureLichess">Mukauta WayChess mieleiseksesi.</string>
   <string name="exploreTheSiteAndHaveFun">Tutustu sivustoon ja pidä hauskaa :)</string>
 </resources>

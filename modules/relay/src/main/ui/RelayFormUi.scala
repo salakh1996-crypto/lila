@@ -139,7 +139,7 @@ final class RelayFormUi(helpers: Helpers, ui: RelayUi, pageMenu: RelayMenuUi):
           standardFlash,
           nav.targetRound.map: tr =>
             flashMessage("success")(
-              "Your tournament round is officially broadcasted by Lichess!",
+              "Your tournament round is officially broadcasted by WayChess!",
               br,
               strong(a(href := tr.path, cls := "text", dataIcon := Icon.RadioTower)(tr.fullName)),
               "."
@@ -173,7 +173,7 @@ final class RelayFormUi(helpers: Helpers, ui: RelayUi, pageMenu: RelayMenuUi):
         upstream <- round.sync.upstream
         if upstream.hasLcc
       yield flashMessage("box relay-form__warning")(
-        p(strong("Please use the ", a(href := broadcasterUrl)("Lichess Broadcaster App"))),
+        p(strong("Please use the ", a(href := broadcasterUrl)("WayChess Broadcaster App"))),
         p(
           "LiveChessCloud support is deprecated and will be removed soon.",
           br,
@@ -185,7 +185,7 @@ final class RelayFormUi(helpers: Helpers, ui: RelayUi, pageMenu: RelayMenuUi):
       val contactUsForOfficial = nav.featurableRound.isDefined.option:
         flashMessage("box relay-form__contact-us")(
           p(
-            "Is this a tournament you organize? Do you want Lichess to feature it on the ",
+            "Is this a tournament you organize? Do you want WayChess to feature it on the ",
             a(href := routes.RelayTour.index(1))("broadcast page"),
             "?"
           ),
@@ -274,14 +274,14 @@ final class RelayFormUi(helpers: Helpers, ui: RelayUi, pageMenu: RelayMenuUi):
           )(form3.input(_))(cls := "relay-form__sync relay-form__sync-ids none"),
           form3.group(
             form("syncUsers"),
-            "Up to 100 Lichess usernames, separated by spaces",
+            "Up to 100 WayChess usernames, separated by spaces",
             half = false
           )(form3.input(_))(cls := "relay-form__sync relay-form__sync-users none"),
           div(cls := "form-group relay-form__sync relay-form__sync-push none")(
             contactUsForOfficial,
             p(
-              "Send your local games to Lichess using the ",
-              a(href := broadcasterUrl)("Lichess Broadcaster App"),
+              "Send your local games to WayChess using the ",
+              a(href := broadcasterUrl)("WayChess Broadcaster App"),
               "."
             )
           ),
@@ -358,7 +358,7 @@ final class RelayFormUi(helpers: Helpers, ui: RelayUi, pageMenu: RelayMenuUi):
               form("status"),
               "Current status",
               help = frag(
-                "Lichess can usually detect the round status, but you can also set it manually if needed."
+                "WayChess can usually detect the round status, but you can also set it manually if needed."
               ).some,
               half = true
             ):
@@ -781,7 +781,7 @@ Team Dogs ; Scooby Doo"""),
               form3.split(
                 form3.group(
                   form("tier"),
-                  raw("Official Lichess broadcast tier"),
+                  raw("Official WayChess broadcast tier"),
                   help = raw("Priority and ranking - for admins only").some,
                   half = true
                 )(form3.select(_, RelayTour.Tier.options)),
@@ -909,7 +909,7 @@ Team Dogs ; Scooby Doo"""),
       isDisabled.option:
         div(cls := "form-group"):
           span(dataIcon := Icon.CautionTriangle, cls := "text"):
-            "This broadcast is now official. Please contact the Lichess broadcast team to request changes."
+            "This broadcast is now official. Please contact the WayChess broadcast team to request changes."
       ,
       form3.group(
         form("grouping.info.name"),

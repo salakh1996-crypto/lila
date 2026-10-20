@@ -1,0 +1,17 @@
+# Caddy config for WayChess in production.
+# Caddy obtains and renews the HTTPS certificate automatically.
+waychess.ru {
+	encode zstd gzip
+
+	@websockets {
+		header Connection *Upgrade*
+		header Upgrade websocket
+	}
+	reverse_proxy @websockets 127.0.0.1:9664
+
+	reverse_proxy 127.0.0.1:9663
+}
+
+www.waychess.ru {
+	redir https://waychess.ru{uri} permanent
+}

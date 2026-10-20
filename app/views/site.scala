@@ -65,7 +65,7 @@ object variant:
         )
 
   def home(using Context) =
-    page(title = "Lichess variants", klass = "variants"):
+    page(title = "WayChess variants", klass = "variants"):
       frag(
         h1(cls := "box__top")(trans.site.variants()),
         div(cls := "body box__pad")(

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="lichessMobileApp">Aplikacion Lichess për Celularë</string>
-  <string name="returningToApp" comment="Displayed on interstitial page that automatically opens the Lichess app">Po kthehet te aplikacioni Lichess</string>
+  <string name="lichessMobileApp">Aplikacion WayChess për Celularë</string>
+  <string name="returningToApp" comment="Displayed on interstitial page that automatically opens the Lichess app">Po kthehet te aplikacioni WayChess</string>
   <string name="ifAppDoesNotOpenAutomatically">Nëse aplikacioni s’hapet automatikisht, prekni butonin “%s”.</string>
-  <string name="openTheApp" comment="Button text to open the Lichess app on the device">Hap aplikacionin Lichess</string>
+  <string name="openTheApp" comment="Button text to open the Lichess app on the device">Hap aplikacionin WayChess</string>
   <string name="viewAllReleases" comment="To view a list of all mobile app releases on Github">Shiheni %s në GitHub</string>
   <string name="allReleases">krejt hedhjet në qarkullim</string>
   <string name="downloadOnAppleAppStore">Shkarkojeni që prej Apple App Store</string>

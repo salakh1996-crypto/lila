@@ -38,7 +38,7 @@ Användarnamn: %2$s
 Lösenord: %3$s</string>
   <string name="inviteALichessAccount">Bjud in ett Lichess-konto</string>
   <string name="inviteDesc1">Om eleven redan har ett Lichess-konto kan du bjuda in den till klassen.</string>
-  <string name="inviteDesc2">De kommer att få ett meddelande om Lichess med en länk för att gå med i klassen.</string>
+  <string name="inviteDesc2">De kommer att få ett meddelande om WayChess med en länk för att gå med i klassen.</string>
   <string name="inviteDesc3">Viktigt: bjud endast in elever du känner och som aktivt vill gå med i klassen.</string>
   <string name="inviteDesc4">Skicka aldrig oombedda inbjudningar till godtyckliga spelare.</string>
   <string name="createANewLichessAccount">Skapa ett nytt Lichess-konto</string>
@@ -121,7 +121,7 @@ Här är länken för att komma till klassen.</string>
   <string name="allowMessagingBetweenStudentsDesc">Det här gäller endast för konton du har skapat för dina elever.</string>
   <string name="quickLoginCode">Snabb inloggningskod</string>
   <string name="quickLoginCodes">Snabba inloggningskoder</string>
-  <string name="quickLoginCodesDesc1" comment="String is a URL">Använd de här koderna på din %s för att logga in dina elever på Lichess.</string>
+  <string name="quickLoginCodesDesc1" comment="String is a URL">Använd de här koderna på din %s för att logga in dina elever på WayChess.</string>
   <string name="quickLoginCodesDesc2">När koderna går ut kommer dina elever förbli inloggade tills de själva loggar ut.</string>
   <string name="expirationInMomentFromNow" comment="String is the translation of, for example, 'in 2 hours'">Går ut om %s</string>
 </resources>

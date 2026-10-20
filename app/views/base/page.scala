@@ -78,7 +78,7 @@ object page:
             content := p.openGraph.fold(trans.site.siteDescription.txt())(o => o.description),
             name := "description"
           ),
-          link(rel := "mask-icon", href := staticAssetUrl("logo/lichess.svg"), attr("color") := "black"),
+          link(rel := "mask-icon", href := staticAssetUrl("logo/waychess.svg"), attr("color") := "black"),
           favicons,
           preventIndexing.option(noRobots),
           noTranslate,

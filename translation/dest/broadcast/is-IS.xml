@@ -26,7 +26,7 @@
   <string name="fullDescription">Lýsing móts í heild sinni</string>
   <string name="fullDescriptionHelp">Valfrjáls ýtarleg lýsing á mótinu. %1$s er í boði. Lengdin verður að vera styttri en %2$s stafir.</string>
   <string name="sourceSingleUrl">PGN-upprunavefslóð</string>
-  <string name="sourceUrlHelp">Vefslóð sem Lichess mun athuga til þess að afla sér PGN-uppfærslur. Hún verður að vera aðgengileg öllum á netinu.</string>
+  <string name="sourceUrlHelp">Vefslóð sem WayChess mun athuga til þess að afla sér PGN-uppfærslur. Hún verður að vera aðgengileg öllum á netinu.</string>
   <string name="sourceGameIds">Allt að 64 Lichess-skákarauðkenni, aðskilin með bilum.</string>
   <string name="startDateTimeZone">Upphafsdagur mótsins, samkvæmt staðartíma: %s</string>
   <string name="startDateHelp">Valfrjálst, ef þú veist hvenær viðburðurinn hefst</string>
@@ -48,7 +48,7 @@
   <string name="age">Aldur</string>
   <string name="unrated">Skák án stigagjafar</string>
   <string name="recentTournaments">Nýleg mót</string>
-  <string name="openLichess">Opna í Lichess</string>
+  <string name="openLichess">Opna í WayChess</string>
   <string name="teams">Lið</string>
   <string name="boards">Stjórnarnefnd</string>
   <string name="overview">Yfirlit</string>

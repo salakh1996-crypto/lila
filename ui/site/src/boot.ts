@@ -64,7 +64,7 @@ export function boot() {
 
     serviceWorker();
 
-    console.info('Lichess is open source! See https://lichess.org/source');
+    console.info('WayChess is open source! See https://lichess.org/source');
 
     // if not already connected by a ui module, setup default connection
     eventuallySetupDefaultConnection();

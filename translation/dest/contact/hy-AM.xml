@@ -27,8 +27,8 @@
   <string name="onlyReports">Խաղացողների խախտումների մասին հայտնեք միայն բողոքների ձևանմուշով. դա ամենաարդյունավետն է։</string>
   <string name="wantReportBug">Ես ցանկանում եմ հայտնել սխալի մասին</string>
   <string name="reportBugInForum">Lichess-ի ֆորումի «Հետադարձ կապ» բաժնում</string>
-  <string name="reportWebsiteIssue">Lichess կայքի խնդիրների էջում GitHub-ում</string>
-  <string name="reportMobileIssue">Lichess բջջային հավելվածի խնդիրների էջում GitHub-ում</string>
+  <string name="reportWebsiteIssue">WayChess կայքի խնդիրների էջում GitHub-ում</string>
+  <string name="reportMobileIssue">WayChess բջջային հավելվածի խնդիրների էջում GitHub-ում</string>
   <string name="reportBugInDiscord">Lichess-ի սերվերում Discord-ում</string>
   <string name="illegalPawnCapture">Զինվորի սխալ վերցնում</string>
   <string name="calledEnPassant">Սա կոչվում է «կողանցիկ հարված» և շախմատի կանոններից մեկն է։</string>

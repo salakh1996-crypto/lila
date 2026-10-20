@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="contact">Samband</string>
-  <string name="contactLichess">Set teg í samband við Lichess</string>
+  <string name="contactLichess">Set teg í samband við WayChess</string>
   <string name="whatCanWeHelpYouWith">Hvørjum kunnu vit hjálpa tær við?</string>
   <string name="visitThisPage">Vitja hesa síðuna at greiða trupulleikan</string>
   <string name="iCantLogIn">Eg fái ikki ritað inn</string>
@@ -12,7 +12,7 @@
   <string name="lost2FA">Eg misti atgongdina til mínar tveystigs-staðfestingarkotur</string>
   <string name="doPasswordReset">Nullstilla loyniorðið til tess at burturbeina seinna stigið</string>
   <string name="accountSupport">Mær tørvar kontustuðul</string>
-  <string name="wantTitle">Eg vil fegin, at heitið hjá mær verður víst á Lichess</string>
+  <string name="wantTitle">Eg vil fegin, at heitið hjá mær verður víst á WayChess</string>
   <string name="visitTitleConfirmation">Fyri at heitið hjá tær skal verða víst á Lichess-vangamynd tíni, og fyri at tú skalt kunna luttaka í Titled Arenas, skalt tú vitja váttanarsíðuna</string>
   <string name="wantCloseAccount">Eg vil steingja kontu mína</string>
   <string name="closeYourAccount">Tú kanst steingja kontu tína á hesari síðuni</string>
@@ -61,12 +61,12 @@
   <string name="doNotDeny">Nokta ikki, at tú svikaði. Vilt tú hava loyvi at stovna eina nýggja kontu, mást tú viðganga tað, tú gjørdi, og vísa, at tú skilir, at tað var eitt mistak.</string>
   <string name="otherRestriction">Aðrar avmarkingar</string>
   <string name="collaboration">Samstarv, løgfrøði, vinnuligt virksemi</string>
-  <string name="monetizing">At tjena pening upp á Lichess</string>
-  <string name="buyingLichess">At keypa Lichess</string>
-  <string name="authorizationToUse">Loyvi at nýta Lichess</string>
-  <string name="welcomeToUse">Tú ert vælkomin at nýta Lichess til títt virksemi, enntá handilsliga.</string>
-  <string name="videosAndBooks">Tú kanst vísa tað í tínum sjónfílum, og tú kanst prenta skíggjamyndir av Lichess í tínum bókum.</string>
-  <string name="creditAppreciated">At nevna Lichess sum heimild verður virðismett, men er ikki kravt.</string>
+  <string name="monetizing">At tjena pening upp á WayChess</string>
+  <string name="buyingLichess">At keypa WayChess</string>
+  <string name="authorizationToUse">Loyvi at nýta WayChess</string>
+  <string name="welcomeToUse">Tú ert vælkomin at nýta WayChess til títt virksemi, enntá handilsliga.</string>
+  <string name="videosAndBooks">Tú kanst vísa tað í tínum sjónfílum, og tú kanst prenta skíggjamyndir av WayChess í tínum bókum.</string>
+  <string name="creditAppreciated">At nevna WayChess sum heimild verður virðismett, men er ikki kravt.</string>
   <string name="noneOfTheAbove">Einki av tí, ið stendur omanfyri</string>
   <string name="sendEmailAt">Send okkum ein teldupost á %s.</string>
   <string name="explainYourRequest">Greið frá fyrispurningi tínum út í æsir. Upplýs títt Lichess-brúkaranavn og onnur viðurskifti, ið kunnu hjálpa okkum at hjálpa tær.</string>

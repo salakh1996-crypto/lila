@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="dgtBoard">DGT-bräde</string>
-  <string name="lichessAndDgt">Lichess &amp; DGT</string>
+  <string name="lichessAndDgt">WayChess &amp; DGT</string>
   <string name="dgtBoardRequirements">Krav på DGT-bräden</string>
   <string name="dgtBoardLimitations">Begränsningar för DGT-bräden</string>
-  <string name="thisPageAllowsConnectingDgtBoard">Den här sidan låter dig ansluta ditt DGT-bräde till Lichess, och använda det för att spela partier.</string>
+  <string name="thisPageAllowsConnectingDgtBoard">Den här sidan låter dig ansluta ditt DGT-bräde till WayChess, och använda det för att spela partier.</string>
   <string name="toConnectTheDgtBoard">För att ansluta till elektroniska DGT-bräden måste du installera %s.</string>
   <string name="downloadHere">Du kan ladda ner programvaran här: %s.</string>
   <string name="ifLiveChessRunningOnThisComputer">Om %1$s körs på denna dator kan du kontrollera din anslutning till den genom att %2$s.</string>
@@ -18,7 +18,7 @@
   <string name="whenReadySetupBoard">När du är redo, ställ upp ditt bräde och klicka sedan på %s.</string>
   <string name="ifMoveNotDetected">Om ett drag inte registreras</string>
   <string name="checkYouHaveMadeOpponentsMove">Kontrollera att du har gjort din motståndares drag på DGT-brädet först. Återställ ditt drag. Spela igen.</string>
-  <string name="asALastResort">Som en sista utväg, ställ upp brädet identiskt med Lichess, och %s</string>
+  <string name="asALastResort">Som en sista utväg, ställ upp brädet identiskt med WayChess, och %s</string>
   <string name="reloadThisPage">Ladda om denna sida</string>
   <string name="lichessConnectivity">Lichess-anslutning</string>
   <string name="validDgtOauthToken">Du har en OAuth-token som är lämplig för DGT-partier.</string>
@@ -35,7 +35,7 @@
   <string name="announceAllMoves">Meddela alla drag</string>
   <string name="selectAnnouncePreference">Välj JA för att meddela både dina drag och din motståndares drag. Välj NEJ för att meddela endast motståndarens drag.</string>
   <string name="announceMoveFormat">Välj format för schacknotation</string>
-  <string name="moveFormatDescription">SAN är standard på Lichess som \"Nf6\". UCI är vanligt förekommande på schackmotorer som \"g8f6\".</string>
+  <string name="moveFormatDescription">SAN är standard på WayChess som \"Nf6\". UCI är vanligt förekommande på schackmotorer som \"g8f6\".</string>
   <string name="keywords">Nyckelord</string>
   <string name="keywordFormatDescription">Nyckelord är i JSON-format. De används för att översätta rörelser och resultat till ditt språk. Standard är engelska, men ändra gärna det.</string>
   <string name="debug">Felsökning</string>

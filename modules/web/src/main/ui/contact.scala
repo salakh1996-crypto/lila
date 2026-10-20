@@ -262,7 +262,7 @@ object contact:
               "GDPR erasure",
               p(
                 "You may request the ",
-                a(href := routes.Account.delete)("complete deletion of your Lichess account.")
+                a(href := routes.Account.delete)("complete deletion of your WayChess account.")
               )
             ),
             Leaf(
@@ -271,7 +271,7 @@ object contact:
               p(
                 a(href := "/dmca")("Complete this form"),
                 " ",
-                "if you are the original copyright holder, or an agent acting on behalf of the copyright holder, and believe Lichess is hosting work(s) you hold the copyright to."
+                "if you are the original copyright holder, or an agent acting on behalf of the copyright holder, and believe WayChess is hosting work(s) you hold the copyright to."
               )
             ),
             Leaf(

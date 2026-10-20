@@ -165,7 +165,7 @@
   <string name="youCompletedThisLesson">Tillykke! Du har fuldført denne lektion.</string>
   <string name="perPage">%s pr. side</string>
   <string name="getTheTour">Brug for hjælp? Tag rundvisningen!</string>
-  <string name="welcomeToLichessStudyTitle">Velkommen til Lichess Study!</string>
+  <string name="welcomeToLichessStudyTitle">Velkommen til WayChess Study!</string>
   <string name="welcomeToLichessStudyText">Dette er et delt analysebræt.&lt;br&gt;&lt;br&gt;Brug det til at analysere og kommentere partier,&lt;br&gt;diskutere positioner med venner,&lt;br&gt;og selvfølgelig til skakundervisning!&lt;br&gt;&lt;br&gt;Det er et effektivt værktøj, så lad os bruge lidt tid på at se, hvordan det virker.</string>
   <string name="sharedAndSaveTitle" comment="As in: shared with other members and saved to database">Delt og gemt</string>
   <string name="sharedAndSavedText">Andre medlemmer kan se dine træk i realtid!&lt;br&gt;Plus, alt er gemt for evigt.</string>
@@ -179,7 +179,7 @@
   <string name="annotatePositionTitle">Annoter en stilling</string>
   <string name="annotatePositionText">Klik på !? knappen, eller lav et højreklik på træklisten i højre side.&lt;br&gt;Annoteringsglyffer deles og gemmes.</string>
   <string name="conclusionTitle">Tak for din tid</string>
-  <string name="conclusionText">Du kan finde dine &lt;a href=\'/study/mine/hot\'&gt;tidligere studier&lt;/a&gt; fra din profilside.&lt;br&gt;Der er også et &lt;a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt;blogindlæg om studier&lt;/a&gt;.&lt;br&gt;Superbrugere vil måske at trykke på \"?\" for at se tastaturgenveje.&lt;br&gt;God fornøjelse!</string>
+  <string name="conclusionText">Du kan finde dine &lt;a href=\'/study/mine/hot\'&gt;tidligere studier&lt;/a&gt; fra din profilside.&lt;br&gt;Der er også et &lt;a href=\'https://waychess.ru/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt;blogindlæg om studier&lt;/a&gt;.&lt;br&gt;Superbrugere vil måske at trykke på \"?\" for at se tastaturgenveje.&lt;br&gt;God fornøjelse!</string>
   <string name="createChapterTitle">Lad os oprette et studiekapitel</string>
   <string name="createChapterText">Et studie kan have flere kapitler.&lt;br&gt;Hvert kapitel har et særskilt træktræ,&lt;br&gt;og kan oprettes på forskellige måder.</string>
   <string name="fromInitialPositionTitle">Fra indledende stilling</string>
@@ -187,7 +187,7 @@
   <string name="customPositionTitle">Brugerdefineret stilling</string>
   <string name="customPositionText">Opstil brættet på din måde.&lt;br&gt;Nyttigt til at udforske slutspil.</string>
   <string name="loadGameFromTheWebTitle">Indlæs et parti fra nettet</string>
-  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">Indsæt en parti-URL&lt;br&gt;(som lichess.org/7fHIU0XI)&lt;br&gt;for at indlæse partitræk i kapitlet.</string>
+  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">Indsæt en parti-URL&lt;br&gt;(som waychess.ru/7fHIU0XI)&lt;br&gt;for at indlæse partitræk i kapitlet.</string>
   <string name="fromFenStringTitle">Fra en FEN-streng</string>
   <string name="fromFenStringText">Indsæt en position i FEN-format&lt;br&gt;&lt;i&gt;4k3/4rb2/8/7p/8/5Q2/1PP5/1K6 w&lt;/i&gt;&lt;br&gt;for at starte kapitlet fra en stilling.</string>
   <string name="fromPgnGameTitle">Fra et PGN-parti</string>

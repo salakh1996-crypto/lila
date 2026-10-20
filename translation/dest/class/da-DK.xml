@@ -38,7 +38,7 @@ Brugernavn: %2$s
 Adgangskode: %3$s</string>
   <string name="inviteALichessAccount">Inviter en Lichess-konto</string>
   <string name="inviteDesc1">Hvis eleven allerede har en Lichess-konto, kan du invitere dem til klassen.</string>
-  <string name="inviteDesc2">De vil modtage en besked på Lichess med et link til at melde sig til klassen.</string>
+  <string name="inviteDesc2">De vil modtage en besked på WayChess med et link til at melde sig til klassen.</string>
   <string name="inviteDesc3">Vigtigt: Inviter kun elever du kender, og som aktivt ønsker at slutte sig til klassen.</string>
   <string name="inviteDesc4">Send aldrig uopfordrede invitationer til tilfældige spillere.</string>
   <string name="createANewLichessAccount">Opret en ny Lichess-konto</string>
@@ -121,7 +121,7 @@ Her er linket, der giver adgang til klassen.</string>
   <string name="allowMessagingBetweenStudentsDesc">Dette gælder kun for de konti, du har oprettet for dine elever.</string>
   <string name="quickLoginCode">Hurtig login-kode</string>
   <string name="quickLoginCodes">Hurtig login-koder</string>
-  <string name="quickLoginCodesDesc1" comment="String is a URL">Brug disse koder på %s til at logge dine elever ind i Lichess.</string>
+  <string name="quickLoginCodesDesc1" comment="String is a URL">Brug disse koder på %s til at logge dine elever ind i WayChess.</string>
   <string name="quickLoginCodesDesc2">Når koderne udløber, vil dine elever forblive logget ind, indtil de manuelt logger ud.</string>
   <string name="expirationInMomentFromNow" comment="String is the translation of, for example, 'in 2 hours'">Udløber %s</string>
 </resources>

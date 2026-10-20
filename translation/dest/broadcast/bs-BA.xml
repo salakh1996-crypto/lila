@@ -17,7 +17,7 @@
   <string name="newBroadcast">Novo emitovanje uživo</string>
   <string name="subscribedBroadcasts">Pretplaćena emitovanja</string>
   <string name="aboutBroadcasts">O emitovanjima</string>
-  <string name="howToUseLichessBroadcasts">Kako koristiti Lichess emitovanje.</string>
+  <string name="howToUseLichessBroadcasts">Kako koristiti WayChess emitovanje.</string>
   <string name="theNewRoundHelp">Nova runda će imati isti broj članova i doprinositelja kao i prijašnja.</string>
   <string name="addRound">Dodajte kolo</string>
   <string name="ongoing">U toku</string>
@@ -28,8 +28,8 @@
   <string name="fullDescription">Potpuni opis događaja</string>
   <string name="fullDescriptionHelp">Neobavezni dugi opis događaja koji se emituje. %1$s je dostupan. Dužina mora biti manja od %2$s slova.</string>
   <string name="sourceSingleUrl">Izvorni URL PGN-a</string>
-  <string name="sourceUrlHelp">Link koji će Lichess koristiti kako bi redovno ažurirao PGN. Mora biti javno dostupan na internetu.</string>
-  <string name="sourceGameIds">Do 64 identifikacijska broja Lichess mečeva, odvojeni razmakom.</string>
+  <string name="sourceUrlHelp">Link koji će WayChess koristiti kako bi redovno ažurirao PGN. Mora biti javno dostupan na internetu.</string>
+  <string name="sourceGameIds">Do 64 identifikacijska broja WayChess mečeva, odvojeni razmakom.</string>
   <string name="startDateTimeZone">Datum početka u lokalnoj vremenskoj zoni turnira: %s</string>
   <string name="startDateHelp">Neobavezno, ukoliko znate kada počinje događaj</string>
   <string name="currentGameUrl">Link za trenutnu partiju</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="lichessClasses">Lichess Klassen</string>
-  <string name="teachClassesOfChessStudents">Unterrichte Schachklassen mit den Lichess Klassen-Werkzeugen.</string>
+  <string name="lichessClasses">WayChess Klassen</string>
+  <string name="teachClassesOfChessStudents">Unterrichte Schachklassen mit den WayChess Klassen-Werkzeugen.</string>
   <string name="features">Funktionen</string>
   <string name="quicklyGenerateSafeUsernames">Erstelle schnell sichere Benutzernamen und Passwörter für deine Schüler</string>
   <string name="trackStudentProgress">Verfolge den Fortschritt deiner Schüler in Spielen und Puzzles</string>
@@ -38,7 +38,7 @@ Benutzername: %2$s
 Passwort: %3$s</string>
   <string name="inviteALichessAccount">Einen Lichess-Nutzer einladen</string>
   <string name="inviteDesc1">Falls der Schüler bereits ein Lichess-Konto besitzt, kannst du ihn zur Klasse hinzufügen.</string>
-  <string name="inviteDesc2">Er wird eine Nachricht mit einem Link zum Beitreten auf Lichess erhalten.</string>
+  <string name="inviteDesc2">Er wird eine Nachricht mit einem Link zum Beitreten auf WayChess erhalten.</string>
   <string name="inviteDesc3">Wichtig: Lade nur Schüler ein, die du kennst und die aktiv der Klasse beitreten wollen.</string>
   <string name="inviteDesc4">Versende niemals unerwünschte Einladungen an beliebige Spieler.</string>
   <string name="createANewLichessAccount">Erstelle ein neues Lichess-Konto</string>
@@ -47,7 +47,7 @@ Passwort: %3$s</string>
   <string name="createDesc3">Wichtig: Ein Schüler darf nicht mehrere Konten besitzen.</string>
   <string name="createDesc4">Verwende stattdessen das Einladungsformular, falls sie bereits eines besitzen.</string>
   <string name="createStudentWarning">Erstelle nur Konten für echte Schüler. Verwende dies nicht, um mehrere Konten für dich selbst zu erstellen. Du würdest gebannt werden.</string>
-  <string name="lichessUsername">Lichess Benutzername</string>
+  <string name="lichessUsername">WayChess Benutzername</string>
   <string name="generateANewUsername">Generiere einen neuen Benutzernamen</string>
   <string name="welcomeToClass">Willkommen in deiner Klasse: %s.
 Hier ist der Link zum Zugriff auf die Klasse.</string>
@@ -121,7 +121,7 @@ Hier ist der Link zum Zugriff auf die Klasse.</string>
   <string name="allowMessagingBetweenStudentsDesc">Dies gilt nur für die Konten, die du für deine Schüler erstellt hast.</string>
   <string name="quickLoginCode">Schnellanmeldungs-Code</string>
   <string name="quickLoginCodes">Schnellanmeldungs-Codes</string>
-  <string name="quickLoginCodesDesc1" comment="String is a URL">Benutzen diese Codes auf %s, um deine Schüler in Lichess einzuloggen.</string>
+  <string name="quickLoginCodesDesc1" comment="String is a URL">Benutzen diese Codes auf %s, um deine Schüler in WayChess einzuloggen.</string>
   <string name="quickLoginCodesDesc2">Nach Ablauf der Codes bleiben deine Schüler eingeloggt, bis sie sich manuell abmelden.</string>
   <string name="expirationInMomentFromNow" comment="String is the translation of, for example, 'in 2 hours'">Verfällt %s</string>
 </resources>

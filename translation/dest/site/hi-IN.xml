@@ -483,7 +483,7 @@
   <string name="oneUrlPerLine">प्रति पंक्ति एक कड़ी</string>
   <string name="inlineNotation">इनलाइन नोटेशन</string>
   <string name="makeAStudy">सुरक्षित रखने और साझा करने के लिए, एक अध्ययन करने पर विचार करें।</string>
-  <string name="previouslyOnLichessTV">इससे पहले Lichess TV पर</string>
+  <string name="previouslyOnLichessTV">इससे पहले WayChess TV पर</string>
   <string name="onlinePlayers">ऑनलाइन खिलाड़ियों</string>
   <string name="activePlayers">सक्रिय  खिलाडी</string>
   <string name="bewareTheGameIsRatedButHasNoClock">सावधान, खेल मूल्यांकित है लेकिन कोई समय नियंत्रण नहीं है!</string>
@@ -639,7 +639,7 @@
   <string name="simulVariantsHint">अगर आप कई सारे रूपांतर लेते हैं तो हर खिलाडी को यह चुनने का हक़ होती है की वो क्या खेले</string>
   <string name="simulClockHint">फिशर क्लॉक सेटअप। आप जितने ज्यादा खिलाडी लेंगे, उतना आपको अधिक समय की आव्यशकता होगी।</string>
   <string name="simulAddExtraTime">सिमुल का सामना करने के लिए आप अपनी घडी में अतिरिक्त समय जोड़ सकते हैं</string>
-  <string name="lichessTournaments">lichess की प्रतियोगिताएं</string>
+  <string name="lichessTournaments">WayChess की प्रतियोगिताएं</string>
   <string name="tournamentFAQ">अखाडा प्रतियोगिता के बारे में कई बार पूछे गए  सवाल</string>
   <string name="timeBeforeTournamentStarts">प्रतियोगिता के आरंभ होने में समय</string>
   <string name="averageCentipawnLoss">सामान्य हार गया</string>
@@ -674,8 +674,8 @@
   <string name="weHaveSentYouAnEmailTo">हम%s के लिए एक ईमेल भेज दिया है। अपना पासवर्ड रीसेट करने के लिए ईमेल में लिंक पर क्लिक करें।</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">दर्ज करके, आप हमारे %s द्वारा बाध्य होने के लिए सहमत हैं।</string>
   <string name="readAboutOur">हमारे%s के बारे में पढ़ें।</string>
-  <string name="networkLagBetweenYouAndLichess">आप और lichess के बीच नेटवर्क के अंतराल</string>
-  <string name="timeToProcessAMoveOnLichessServer">Lichess सर्वर पर एक कदम प्रक्रिया के लिए समय</string>
+  <string name="networkLagBetweenYouAndLichess">आप और WayChess के बीच नेटवर्क के अंतराल</string>
+  <string name="timeToProcessAMoveOnLichessServer">WayChess सर्वर पर एक कदम प्रक्रिया के लिए समय</string>
   <string name="downloadAnnotated">एनोटेट नीचे लादें</string>
   <string name="downloadRaw">कच्चा नीचे लादें</string>
   <string name="downloadImported">डाउनलोड आयातित</string>
@@ -692,7 +692,7 @@
   <string name="kidMode">बच्चा मोड</string>
   <string name="kidModeIsEnabled">किड मोड सक्षम है</string>
   <string name="kidModeExplanation">यह सुरक्षा के बारे में है। बच्चे मोड में, सभी साइट संचार अक्षम हैं। यह अपने बच्चों के लिए सक्षम और स्कूल के छात्रों उन्हें अन्य इंटरनेट उपयोगकर्ताओं से सुरक्षित करने के लिए।</string>
-  <string name="inKidModeTheLichessLogoGetsIconX">बच्चे के मोड में, lichess लोगो को %s आइकन मिलता है, इसलिए आप जानते हैं कि आपके बच्चे सुरक्षित हैं</string>
+  <string name="inKidModeTheLichessLogoGetsIconX">बच्चे के मोड में, WayChess लोगो को %s आइकन मिलता है, इसलिए आप जानते हैं कि आपके बच्चे सुरक्षित हैं</string>
   <string name="enableKidMode">बच्चे मोड को सक्षम करें</string>
   <string name="disableKidMode">बच्चे मोड अक्षम करें</string>
   <string name="security">सुरक्षा</string>
@@ -797,7 +797,7 @@
   <string name="tryToWin">आपके द्वारा खेले जाने वाले हर खेल को जीतने की कोशिश करें। (या कम से कम खेल ड्रा करें)।</string>
   <string name="resignLostGames">हारे हुए खेलों को त्याग दें (घड़ी को अंत तक न चलने दें)।</string>
   <string name="temporaryInconvenience">हमें अल्पकालिक असुविधा के लिए खेद है</string>
-  <string name="wishYouGreatGames">और lichess.org पर आपको अनेक शानदार खेलों की शुभकामनाएं।</string>
+  <string name="wishYouGreatGames">और waychess.ru पर आपको अनेक शानदार खेलों की शुभकामनाएं।</string>
   <string name="thankYouForReading">पढ़ने के लिए धन्यवाद!</string>
   <string name="lifetimeScore">जीवनकाल स्कोर</string>
   <string name="currentMatchScore">वर्तमान मैच का स्कोर</string>
@@ -838,7 +838,7 @@
   <string name="congratsYouWon">बधाई हो, आप जीत गए!</string>
   <string name="gameVsX">खेल बनाम %1$s</string>
   <string name="resVsX">%1$s बनाम %2$s</string>
-  <string name="lostAgainstTOSViolator">आप Lichess TOS का उल्लंघन करने वाले व्यक्ति से हार गए</string>
+  <string name="lostAgainstTOSViolator">आप WayChess TOS का उल्लंघन करने वाले व्यक्ति से हार गए</string>
   <string name="refundXpointsTimeControlY">%1$s %2$s वापसी की</string>
   <string name="timeAlmostUp">समय लगभग समाप्त है!</string>
   <string name="clickToRevealEmailAddress">[ईमेल देखने के लिए क्लिक करें]</string>
@@ -888,11 +888,11 @@
   <string name="resignTheGame">हार मान ले</string>
   <string name="since">दिनांक से</string>
   <string name="until">दिनांक तक​</string>
-  <string name="lichessDbExplanation">मुल्यांकित खेल Lichess के सभी खिलाड़ियो से</string>
+  <string name="lichessDbExplanation">मुल्यांकित खेल WayChess के सभी खिलाड़ियो से</string>
   <string name="switchSides">पार्श्व बदलना</string>
   <string name="closingAccountWithdrawAppeal">आपका खाता बंद करने से आपकी अपील वापस ले ली जाएगी</string>
   <string name="ourEventTips">कार्यक्रम आयोजित करने कि सलाह</string>
-  <string name="lichessPatronInfo">Lichess एक चैरिटी और पूरी तरह से फ्री/लिबर ओपन सोर्स सॉफ्टवेयर है।
+  <string name="lichessPatronInfo">WayChess एक चैरिटी और पूरी तरह से फ्री/लिबर ओपन सोर्स सॉफ्टवेयर है।
 सभी परिचालन लागत, विकास और सामग्री पूरी तरह से उपयोगकर्ता दान द्वारा वित्त पोषित हैं।</string>
   <string name="nothingToSeeHere">इस समय यहां देखने को कुछ भी नहीं है।</string>
 </resources>

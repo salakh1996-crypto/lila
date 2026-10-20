@@ -65,8 +65,8 @@
   <string name="notifyTournamentStartReminders" comment="notifyTournamentSoon&#10;&#10;A notification setting - notifies players if a tournament is starting soon.">การแจ้งเตือนเมื่อทัวร์นาเมนต์เริ่มต้น</string>
   <string name="notifyBroadcasts">การออกอากาศ</string>
   <string name="notifyTimeAlarm">นาฬิกาเกมยาวนานหมดเวลา</string>
-  <string name="notifyBell">กระดิ่งแจ้งเตือนภายใน Lichess</string>
-  <string name="notifyPush">การแจ้งเตือนบนอุปกรณ์เมื่อคุณไม่อยู่ใน Lichess</string>
+  <string name="notifyBell">กระดิ่งแจ้งเตือนภายใน WayChess</string>
+  <string name="notifyPush">การแจ้งเตือนบนอุปกรณ์เมื่อคุณไม่อยู่ใน WayChess</string>
   <string name="notifyWeb">บราวเซอร์</string>
   <string name="notifyDevice">อุปกรณ์</string>
   <string name="bellNotificationSound">เสียงกระดิ่งแจ้งเตือน</string>

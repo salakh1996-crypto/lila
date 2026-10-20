@@ -251,7 +251,7 @@
   <string name="error.weakPassword">Ĉi tiu pasvorto estas tre ofta, kaj oni povas simple diveni tion.</string>
   <string name="error.namePassword">Bonvolu ne uzi vian uzantnomon kiel vian pasvorton.</string>
   <string name="blankedPassword">Vi uzis la saman pasvorton ĉe alia retego, kaj tiu retejo estis breĉita. Por certigi la sekurecon de via Lichess-konto, ni devas, ke vi faru novan pasvorton. Dankon por via kunsento.</string>
-  <string name="youAreLeavingLichess">Vi foriras de retejo Lichess</string>
+  <string name="youAreLeavingLichess">Vi foriras de retejo WayChess</string>
   <string name="neverTypeYourPassword">Neniam tajpu vian Lichess-pasvorton en alia retejo!</string>
   <string name="proceedToX">Daŭrigi al %s</string>
   <string name="passwordSuggestion">Ne fari pasvorton, ke aliuloj sugestas. Oni uzos ĝin por ŝteli vian konton.</string>
@@ -264,7 +264,7 @@
   <string name="emailSent">Ni sendis retleteron al %s.</string>
   <string name="emailCanTakeSomeTime">Ĝi povas preni iom da tempo por alveni.</string>
   <string name="refreshInboxAfterFiveMinutes">Atendu 5 minutojn kaj reŝargu vian retpoŝtan enirkeston.</string>
-  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Se vi ne ricevis konfirman retpoŝton, rigardu je viaj dosierujoj \"Spamo\" aŭ \"Rubujo\". Vi devus agordi vian retpoŝton, por ke mesaĝoj de lichess.org estos ĉiam markita kaj sekuraj kaj \"ne spamo\", por ke vi ĉiam sciiĝos pri gravaj komunikoj.</string>
+  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Se vi ne ricevis konfirman retpoŝton, rigardu je viaj dosierujoj \"Spamo\" aŭ \"Rubujo\". Vi devus agordi vian retpoŝton, por ke mesaĝoj de waychess.ru estos ĉiam markita kaj sekuraj kaj \"ne spamo\", por ke vi ĉiam sciiĝos pri gravaj komunikoj.</string>
   <string name="sendEmailForAccountVerification">Se vi ne povas trovi konfirmon en via retpoŝto, sendu retpoŝtaĵon al %s kaj ni konfirmos vian konton por vi.</string>
   <string name="accountConfirmed">La uzanto %s estis konfirmita sukcese.</string>
   <string name="accountCanLogin">Vi povas ensaluti tuje kiel %s.</string>
@@ -359,7 +359,7 @@
     <item quantity="one">Doni %s sekundojn</item>
     <item quantity="other">Doni %s sekundojn</item>
   </plurals>
-  <string name="thisAccountViolatedTos">Ĉi tiu konto malobservis la Kondiĉojn de Servo de Lichess</string>
+  <string name="thisAccountViolatedTos">Ĉi tiu konto malobservis la Kondiĉojn de Servo de WayChess</string>
   <string name="openingExplorerAndTablebase">Esplorilo de malfermoj &amp; tablobazo</string>
   <string name="takeback">Repreno</string>
   <string name="proposeATakeback">Proponi reprenon</string>
@@ -560,11 +560,11 @@ Amikoj ludantaj: %2$s</string>
   <string name="autoSwitch">Aŭtomata ludŝanĝado</string>
   <string name="puzzles">Puzloj</string>
   <string name="onlineBots">Retaj robotoj</string>
-  <string name="aboutBotsOnLichess">Pri robotoj sur Lichess</string>
+  <string name="aboutBotsOnLichess">Pri robotoj sur WayChess</string>
   <string name="featuredBots">Rekomendataj robotoj</string>
   <string name="tryPlayingTheseInnovativeChessEngines">Provu ludi kun tiuj novecajn ŝakkomputiloj! Ili estas niaj favoraj.</string>
   <string name="communityBots">Robotoj de komunumo</string>
-  <string name="moreChessEnginesCreatedByTheLichessCommunity">Aliaj ŝakkomputiloj, kreitaj de komunumo de Lichess. Ili estas provizitaj de ties kreantoj, kaj povas ne ĉiam esti surrete.</string>
+  <string name="moreChessEnginesCreatedByTheLichessCommunity">Aliaj ŝakkomputiloj, kreitaj de komunumo de WayChess. Ili estas provizitaj de ties kreantoj, kaj povas ne ĉiam esti surrete.</string>
   <string name="name">Nomo</string>
   <string name="description">Priskribo</string>
   <string name="descPrivate">Privata priskribo</string>
@@ -701,7 +701,7 @@ Amikoj ludantaj: %2$s</string>
   <string name="aboutX">Pri %s</string>
   <string name="xIsAFreeYLibreOpenSourceChessServer">%1$s estas senpaga (%2$s), libera, senreklama, malfermitkoda ŝaka servilo.</string>
   <string name="really">vere</string>
-  <string name="lichessUpdates">Ĝisdatigoj de Lichess</string>
+  <string name="lichessUpdates">Ĝisdatigoj de WayChess</string>
   <string name="contribute">Kontribui</string>
   <string name="changelog">Ŝanĝoprotokolo</string>
   <string name="termsOfService">Uzkondiĉojn</string>
@@ -731,7 +731,7 @@ Amikoj ludantaj: %2$s</string>
   <string name="extraClockTimeForHost" comment="Appears on: https://lichess.org/simul/new&#10;&#10;Allows a simul host to select extra time for the simul.&#10;&#10;Please note this string used to state &quot;Host extra clock time&quot;, without the word &quot;initial&quot;">Aldona tempo por la gastiganto:</string>
   <string name="simulAddExtraTimePerPlayer">Aldoni komencan tempon al via horloĝo por ĉiu ludanto, kiu aliĝis al la samtempludo.</string>
   <string name="simulHostExtraTimePerPlayer">Plia tempo por la gastiganto po ludanto</string>
-  <string name="lichessTournaments">Turniroj de Lichess</string>
+  <string name="lichessTournaments">Turniroj de WayChess</string>
   <string name="tournamentFAQ">Oftaj demandoj pri la turnira areno</string>
   <string name="timeBeforeTournamentStarts">Tempo ĝis la turniro komenciĝas</string>
   <string name="averageCentipawnLoss">Averaĝa centonpeona perdo</string>
@@ -782,8 +782,8 @@ Amikoj ludantaj: %2$s</string>
   <string name="weHaveSentYouAnEmailTo">Ni sendis retmesaĝon al %s. Klaku la ligilon en la poŝto por rekomencigi vian pasvorton.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">De registranta , vi konsentas al esti ligita de nia %s.</string>
   <string name="readAboutOur">Legu pri nia %s.</string>
-  <string name="networkLagBetweenYouAndLichess">Reto lag inter vi kaj Lichess</string>
-  <string name="timeToProcessAMoveOnLichessServer">Tempo por prilabori moviĝon sur Lichess servilo</string>
+  <string name="networkLagBetweenYouAndLichess">Reto lag inter vi kaj WayChess</string>
+  <string name="timeToProcessAMoveOnLichessServer">Tempo por prilabori moviĝon sur WayChess servilo</string>
   <string name="downloadAnnotated">Elŝutu prinotitan</string>
   <string name="downloadRaw">Elŝutu krudaj</string>
   <string name="downloadImported">Elŝutu importitan</string>
@@ -922,7 +922,7 @@ Amikoj ludantaj: %2$s</string>
     <item quantity="one">kaj savi %s antaŭmovan vicon</item>
     <item quantity="other">kaj savi %s antaŭmovajn vicojn</item>
   </plurals>
-  <string name="showUnreadLichessMessage">Vi ricevis privatan mesaĝon de Lichess.</string>
+  <string name="showUnreadLichessMessage">Vi ricevis privatan mesaĝon de WayChess.</string>
   <string name="readTheMessage" comment="'It' refers to a private message. This text follows after a different string which advises players they have received a private message from Lichess. For users, this is appears as a regular private message from the Lichess account: https://lichess.org/@/Lichess">Legi mesaĝon</string>
   <string name="sorry">Bedaŭrinde :(</string>
   <string name="weHadToTimeYouOutForAWhile">Ni devis provizore suspendi vin.</string>
@@ -935,7 +935,7 @@ Amikoj ludantaj: %2$s</string>
   <string name="tryToWin">Provu gajni (aŭ almenaŭ egaligi) ĉiun ludon, kiun vi ludas.</string>
   <string name="resignLostGames">Rezignu perditajn ludojn (ne foruzu la tempon).</string>
   <string name="temporaryInconvenience">Ni pardonpetas pro la provizoraj malkomfortoj,</string>
-  <string name="wishYouGreatGames">kaj ni deziras al vi bonegajn ludojn ĉe lichess.org.</string>
+  <string name="wishYouGreatGames">kaj ni deziras al vi bonegajn ludojn ĉe waychess.ru.</string>
   <string name="thankYouForReading">Dankon pro via legado!</string>
   <string name="lifetimeScore">Ĝisnuna poentaro</string>
   <string name="currentMatchScore">Aktuala matĉa poentaro</string>
@@ -981,7 +981,7 @@ Amikoj ludantaj: %2$s</string>
   <string name="congratsYouWon">Gratulon, vi venkis!</string>
   <string name="gameVsX">Ludo kontraŭ %1$s</string>
   <string name="resVsX">%1$s kontraŭ %2$s</string>
-  <string name="lostAgainstTOSViolator">Vi malvenkis kontraŭ iu kiu malobeis la regulojn de Lichess</string>
+  <string name="lostAgainstTOSViolator">Vi malvenkis kontraŭ iu kiu malobeis la regulojn de WayChess</string>
   <string name="refundXpointsTimeControlY">Estis redonitaj %1$s %2$s poentoj.</string>
   <string name="timeAlmostUp">La tempo preskaŭ finiĝis!</string>
   <string name="clickToRevealEmailAddress">[Klaku por malkaŝi retpoŝtadreson]</string>
@@ -1036,13 +1036,13 @@ Lasi ĝin malplena por komenci ludojn de la norma komenca pozicio.</string>
   <string name="youCantStartNewGame">Vi ne povas krei novan ludon dum via vico.</string>
   <string name="since">Ekde</string>
   <string name="until">Ĝis</string>
-  <string name="lichessDbExplanation">Rangaj ludoj luditaj per Lichess</string>
+  <string name="lichessDbExplanation">Rangaj ludoj luditaj per WayChess</string>
   <string name="switchSides">Ŝanĝi flankojn</string>
   <string name="closingAccountWithdrawAppeal">Fermata de via konto estos eltiri vian apelacion</string>
   <string name="ourEventTips">Niaj konsiletoj por organizi eventojn</string>
   <string name="instructions">Instrukcio</string>
   <string name="showMeEverything">Ĉion montru al mi</string>
-  <string name="lichessPatronInfo">Lichess estas almoza kaj tute libera malfermitkoda programaro.
+  <string name="lichessPatronInfo">WayChess estas almoza kaj tute libera malfermitkoda programaro.
 Ĉiu funkciada elspezo, ellaborado, kaj enhavo estas financita sole de uzantajn donacojn.</string>
   <string name="nothingToSeeHere">Nenio videbla ĉi tie nuntempe.</string>
   <string name="stats">Statistikoj</string>

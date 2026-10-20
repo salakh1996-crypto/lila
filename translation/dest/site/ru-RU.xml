@@ -274,9 +274,9 @@
   <string name="forgotPassword">Забыли пароль?</string>
   <string name="error.weakPassword">Этот пароль очень распространён, и его слишком легко угадать.</string>
   <string name="error.namePassword">Пожалуйста, не используйте свой логин в качестве пароля.</string>
-  <string name="blankedPassword">Вы использовали такой же пароль на другом сайте, а тот сайт был скомпрометирован. Теперь для безопасности вашего аккаунта на Lichess необходимо установить новый пароль. Спасибо за ваше понимание.</string>
-  <string name="youAreLeavingLichess">Вы покидаете Lichess</string>
-  <string name="neverTypeYourPassword">Никогда не вводите свой пароль Lichess на другом сайте!</string>
+  <string name="blankedPassword">Вы использовали такой же пароль на другом сайте, а тот сайт был скомпрометирован. Теперь для безопасности вашего аккаунта на WayChess необходимо установить новый пароль. Спасибо за ваше понимание.</string>
+  <string name="youAreLeavingLichess">Вы покидаете WayChess</string>
+  <string name="neverTypeYourPassword">Никогда не вводите свой пароль WayChess на другом сайте!</string>
   <string name="proceedToX">Перейти на %s</string>
   <string name="passwordSuggestion">Не устанавливайте пароль, предложенный другими людьми. Они с его помощью украдут ваш аккаунт.</string>
   <string name="emailSuggestion">Не устанавливайте адрес электронной почты, предложенный другими людьми. Они с его помощью украдут ваш аккаунт.</string>
@@ -288,7 +288,7 @@
   <string name="emailSent">Мы отправили письмо на адрес %s.</string>
   <string name="emailCanTakeSomeTime">Получение письма может занять некоторое время.</string>
   <string name="refreshInboxAfterFiveMinutes">Подождите 5 минут и обновите ваш почтовый ящик.</string>
-  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Если вы не получили подтверждение по электронной почте, проверьте папку «Спам» или «Нежелательная почта». Настройте почту так, чтобы сообщения от lichess.org отмечались как безопасные и «не спам», так вы сможете всегда быть на связи.</string>
+  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Если вы не получили подтверждение по электронной почте, проверьте папку «Спам» или «Нежелательная почта». Настройте почту так, чтобы сообщения от waychess.ru отмечались как безопасные и «не спам», так вы сможете всегда быть на связи.</string>
   <string name="sendEmailForAccountVerification">Если вы не можете найти подтверждение в электронной почте, отправьте письмо на адрес %s и мы подтвердим ваш аккаунт для вас.</string>
   <string name="accountConfirmed">Пользователь %s успешно подтверждён.</string>
   <string name="accountCanLogin">Вы можете войти прямо сейчас как %s.</string>
@@ -612,7 +612,7 @@
   <string name="inlineNotation">Строчная нотация</string>
   <string name="makeAStudy">Чтобы сохранить и поделиться, рассмотрите возможность создания студии.</string>
   <string name="clearLocalData">Очистить локальные данные</string>
-  <string name="previouslyOnLichessTV">Ранее на Lichess TV</string>
+  <string name="previouslyOnLichessTV">Ранее на WayChess TV</string>
   <string name="onlinePlayers">Игроки в сети</string>
   <string name="activePlayers">Активные игроки</string>
   <string name="bewareTheGameIsRatedButHasNoClock">Внимание, это рейтинговая игра, хотя и без ограничения по времени!</string>
@@ -627,11 +627,11 @@
   <string name="autoSwitch">Автосмена</string>
   <string name="puzzles">Задачи</string>
   <string name="onlineBots">Онлайн боты</string>
-  <string name="aboutBotsOnLichess">О ботах на Lichess</string>
+  <string name="aboutBotsOnLichess">О ботах на WayChess</string>
   <string name="featuredBots">Рекомендуемые боты</string>
   <string name="tryPlayingTheseInnovativeChessEngines">Попробуйте сыграть с этими инновационными шахматными движками! Они наши фавориты.</string>
   <string name="communityBots">Боты сообщества</string>
-  <string name="moreChessEnginesCreatedByTheLichessCommunity">Другие шахматные движки, созданные сообществом Lichess. Они размещаются своими создателями и не всегда могут быть в сети.</string>
+  <string name="moreChessEnginesCreatedByTheLichessCommunity">Другие шахматные движки, созданные сообществом WayChess. Они размещаются своими создателями и не всегда могут быть в сети.</string>
   <string name="name">Имя</string>
   <string name="description">Описание</string>
   <string name="descPrivate">Описание для членов команды</string>
@@ -774,7 +774,7 @@
   <string name="aboutX">О %s</string>
   <string name="xIsAFreeYLibreOpenSourceChessServer">%1$s — бесплатный (%2$s) шахматный сервер с открытым исходным кодом без рекламы.</string>
   <string name="really">именно так</string>
-  <string name="lichessUpdates">Обновления Lichess</string>
+  <string name="lichessUpdates">Обновления WayChess</string>
   <string name="contribute">Внести вклад в развитие</string>
   <string name="changelog">Список изменений</string>
   <string name="termsOfService">Пользовательское соглашение</string>
@@ -804,7 +804,7 @@
   <string name="extraClockTimeForHost" comment="Appears on: https://lichess.org/simul/new&#10;&#10;Allows a simul host to select extra time for the simul.&#10;&#10;Please note this string used to state &quot;Host extra clock time&quot;, without the word &quot;initial&quot;">Дополнительное время сеансёра:</string>
   <string name="simulAddExtraTimePerPlayer">Добавьте начальное время на ваших часах для каждого игрока, вошедшего в ваш сеанс одновременной игры.</string>
   <string name="simulHostExtraTimePerPlayer">Добавка времени сеансёра для каждого игрока</string>
-  <string name="lichessTournaments">Турниры Lichess</string>
+  <string name="lichessTournaments">Турниры WayChess</string>
   <string name="tournamentFAQ">Вопросы и ответы про Арену</string>
   <string name="timeBeforeTournamentStarts">Время до начала турнира</string>
   <string name="averageCentipawnLoss">Потери сантипешек в среднем</string>
@@ -828,7 +828,7 @@
   <string name="playSelectedMove">сыграть выбранный ход</string>
   <string name="newTournament">Новый турнир</string>
   <string name="tournamentHomeTitle">Шахматный турнир по различным вариантам шахмат и контролем времени</string>
-  <string name="tournamentHomeDescription">Играйте в быстрые шахматы на турнире! Выбирайте любой из официальных турниров Lichess или создайте свой собственный. Пуля, блиц, классика, шахматы Фишера, король в центре, три шаха и другие варианты игры обеспечат вам бесконечное шахматное удовольствие!</string>
+  <string name="tournamentHomeDescription">Играйте в быстрые шахматы на турнире! Выбирайте любой из официальных турниров WayChess или создайте свой собственный. Пуля, блиц, классика, шахматы Фишера, король в центре, три шаха и другие варианты игры обеспечат вам бесконечное шахматное удовольствие!</string>
   <string name="tournamentNotFound">Турнир не найден</string>
   <string name="tournamentDoesNotExist">Такого турнира не существует.</string>
   <string name="tournamentMayHaveBeenCanceled">Может быть отменён в том случае, если все игроки покинули турнир до его старта.</string>
@@ -857,7 +857,7 @@
   <string name="weHaveSentYouAnEmailTo">Мы отправили письмо по адресу %s. Нажмите на ссылку в нём для сброса пароля.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">Регистрируясь, вы берёте на себя обязанность соблюдать наше %s</string>
   <string name="readAboutOur">Ознакомьтесь с нашей %s.</string>
-  <string name="networkLagBetweenYouAndLichess">Задержки передачи данных между вами и серверами lichess</string>
+  <string name="networkLagBetweenYouAndLichess">Задержки передачи данных между вами и серверами WayChess</string>
   <string name="timeToProcessAMoveOnLichessServer">Время обработки хода на сервере</string>
   <string name="downloadAnnotated">Скачать с аннотациями</string>
   <string name="downloadRaw">Скачать в исходном виде</string>
@@ -879,7 +879,7 @@
   <string name="kidMode">Детский режим</string>
   <string name="kidModeIsEnabled">Детский режим включён.</string>
   <string name="kidModeExplanation">Это для безопасности. В детском режиме отключены все коммуникации на сайте. Включите его для ваших детей и учеников, чтобы защитить их от других пользователей интернета.</string>
-  <string name="inKidModeTheLichessLogoGetsIconX">В детском режиме к логотипу lichess добавляется значок в виде %s, чтобы вы знали, что ваши дети находятся в безопасности.</string>
+  <string name="inKidModeTheLichessLogoGetsIconX">В детском режиме к логотипу WayChess добавляется значок в виде %s, чтобы вы знали, что ваши дети находятся в безопасности.</string>
   <string name="askYourChessTeacherAboutLiftingKidMode">Ваш аккаунт находится под управлением. Спросите своего учителя по шахматам об удалении детского режима.</string>
   <string name="enableKidMode">Включить детский режим</string>
   <string name="disableKidMode">Отключить детский режим</string>
@@ -1005,7 +1005,7 @@
     <item quantity="many">и сохранить %s последовательностей</item>
     <item quantity="other">и сохранить %s последовательностей</item>
   </plurals>
-  <string name="showUnreadLichessMessage">Вы получили личное сообщение от Lichess.</string>
+  <string name="showUnreadLichessMessage">Вы получили личное сообщение от WayChess.</string>
   <string name="readTheMessage" comment="'It' refers to a private message. This text follows after a different string which advises players they have received a private message from Lichess. For users, this is appears as a regular private message from the Lichess account: https://lichess.org/@/Lichess">Прочитать сообщение</string>
   <string name="sorry">Извините :(</string>
   <string name="weHadToTimeYouOutForAWhile">Мы вынуждены прервать вас на время.</string>
@@ -1018,7 +1018,7 @@
   <string name="tryToWin">Попытайтесь выиграть (или хотя бы свести вничью) каждую свою партию.</string>
   <string name="resignLostGames">Сдавайтесь в безнадёжной позиции (а не ждите, когда время закончится).</string>
   <string name="temporaryInconvenience">Приносим извинения за временные неудобства,</string>
-  <string name="wishYouGreatGames">и желаем вам отличной игры на lichess.org.</string>
+  <string name="wishYouGreatGames">и желаем вам отличной игры на waychess.ru.</string>
   <string name="thankYouForReading">Спасибо за внимание!</string>
   <string name="lifetimeScore">Счёт за всё время</string>
   <string name="currentMatchScore">Счёт в текущем матче</string>
@@ -1064,7 +1064,7 @@
   <string name="congratsYouWon">Поздравляем, вы выиграли!</string>
   <string name="gameVsX">Игра против %1$s</string>
   <string name="resVsX">%1$s против %2$s</string>
-  <string name="lostAgainstTOSViolator">Вы проиграли тому, кто нарушил пользовательское соглашение Lichess</string>
+  <string name="lostAgainstTOSViolator">Вы проиграли тому, кто нарушил пользовательское соглашение WayChess</string>
   <string name="refundXpointsTimeControlY">Возврат: %1$s %2$s рейтинговых очков.</string>
   <string name="timeAlmostUp">Время почти истекло!</string>
   <string name="clickToRevealEmailAddress">[Нажмите, чтобы раскрыть адрес электронной почты]</string>
@@ -1119,13 +1119,13 @@
   <string name="youCantStartNewGame">Вы не можете начать новую партию если сейчас ваш ход.</string>
   <string name="since">С</string>
   <string name="until">До</string>
-  <string name="lichessDbExplanation">Рейтинговые игры по всем игрокам Lichess</string>
+  <string name="lichessDbExplanation">Рейтинговые игры по всем игрокам WayChess</string>
   <string name="switchSides">Сменить сторону</string>
   <string name="closingAccountWithdrawAppeal">Закрытие вашего аккаунта отменит ваше обращение</string>
   <string name="ourEventTips">Наши советы по организации мероприятий</string>
   <string name="instructions">Руководство</string>
   <string name="showMeEverything">Показать всё</string>
-  <string name="lichessPatronInfo">Lichess - это благотворительное и полностью бесплатное программное обеспечение с открытым исходным кодом.
+  <string name="lichessPatronInfo">WayChess - это благотворительное и полностью бесплатное программное обеспечение с открытым исходным кодом.
 Все эксплуатационные расходы, разработка и контент финансируются исключительно за счет пожертвований пользователей.</string>
   <string name="nothingToSeeHere">Здесь ничего нет пока.</string>
   <string name="stats">Статистика</string>

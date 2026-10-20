@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="lichessClasses">کلاس ها</string>
-  <string name="teachClassesOfChessStudents">با استفاده از مجموعه ابزار های کلاس های lichess به دانش آموزان، شطرنج آموزش دهید.</string>
+  <string name="teachClassesOfChessStudents">با استفاده از مجموعه ابزار های کلاس های WayChess به دانش آموزان، شطرنج آموزش دهید.</string>
   <string name="features">امکانات</string>
   <string name="quicklyGenerateSafeUsernames">برای دانش آموزان خود سریعا نام کاربری و رمز عبور امن بسازید</string>
   <string name="trackStudentProgress">روند پیشرفت شطرنج‌آموزان را در بازی‌ها و معماها دنبال کنید</string>
   <string name="messageAllStudents">به تمام دانش آموزان درباره شرایط جدید کلاس پیام دهید</string>
   <string name="freeForAllForever">۱۰۰٪ رایگان برای همه و همیشه، بدونِ تَبلیغ یا ردیاب</string>
-  <string name="applyToBeLichessTeacher">برای آنکه معلمِ Lichess باشید درخواست بدهید</string>
+  <string name="applyToBeLichessTeacher">برای آنکه معلمِ WayChess باشید درخواست بدهید</string>
   <string name="noClassesYet">هنوز کلاسی موجود نیست.</string>
   <string name="teachersX">معلم‌ها: %s</string>
   <string name="newClass">کلاس جدید</string>
@@ -23,7 +23,7 @@
   <string name="classDescription">توصیف کلاس</string>
   <string name="visibleByBothStudentsAndTeachers">دسترس‌پذیر برای شطرنج‌آموزان و آموزگاران این کلاس</string>
   <string name="teachersOfTheClass">معلمهای کلاس</string>
-  <string name="addLichessUsernames">نام کاربری های lichess را وارد کنید تا آنها را به عنوان معلم دعوت کنید. هر خط یک نام کاربری.</string>
+  <string name="addLichessUsernames">نام کاربری های WayChess را وارد کنید تا آنها را به عنوان معلم دعوت کنید. هر خط یک نام کاربری.</string>
   <string name="resetPassword">بازنشانی گذرواژه</string>
   <string name="makeSureToCopy">مطمئن شوید که رمز عبور را copy می کنید یا آن را می نویسید. شما دیگر این رمز عبور را نخواهید دید!</string>
   <string name="passwordX">گذرواژه: %s</string>
@@ -37,17 +37,17 @@
 نام کاربری: %2$s
 گذرواژه: %3$s</string>
   <string name="inviteALichessAccount">حساب Lichessی را دعوت کنید</string>
-  <string name="inviteDesc1">اگر دانش آموز هم اکنون دارای یک حساب در lichess می باشد، شما می توانید او را به کلاس دعوت کنید.</string>
-  <string name="inviteDesc2">آنها یک پیام در lichess حاوی یک لینک برای ورود به کلاس دریافت خواهند کرد.</string>
+  <string name="inviteDesc1">اگر دانش آموز هم اکنون دارای یک حساب در WayChess می باشد، شما می توانید او را به کلاس دعوت کنید.</string>
+  <string name="inviteDesc2">آنها یک پیام در WayChess حاوی یک لینک برای ورود به کلاس دریافت خواهند کرد.</string>
   <string name="inviteDesc3">مهم: فقط دانش آموزانی که میشناسید و میخواهند وارد کلاس بشوند را دعوت کنید.</string>
   <string name="inviteDesc4">هرگز دعوت‌های ناخواسته را برای بازیکنان دلخواه ارسال نکنید.</string>
-  <string name="createANewLichessAccount">ساخت یک حساب جدید در lichess</string>
-  <string name="createDesc1">اگر دانش آموز هنوز حساب lichess ندارد، شما می توانید از اینجا برای او حساب درست کنید.</string>
+  <string name="createANewLichessAccount">ساخت یک حساب جدید در WayChess</string>
+  <string name="createDesc1">اگر دانش آموز هنوز حساب WayChess ندارد، شما می توانید از اینجا برای او حساب درست کنید.</string>
   <string name="createDesc2">نیازی به نشانیِ رایانامه نیست. یک گذرواژه آزانیده خواهد شد و شما باید آن را به دانشجو منتقل کنید تا بتوانند وارد شوند.</string>
   <string name="createDesc3">مهم: یک دانش‌جو نباید حسابهای کاربری متعدد داشته باشد.</string>
   <string name="createDesc4">اگر قبلاً یکی دارند، به جای آن از فرم دعوت استفاده کنید.</string>
   <string name="createStudentWarning">فقط برای شطرنج‌آموزان واقعی حساب بسازید. جهت ساخت حساب‌های چندگانه برای خودتان استفاده نکنید. حساب‌تان بسته می‌شود.</string>
-  <string name="lichessUsername">نام کاربریِ Lichess</string>
+  <string name="lichessUsername">نام کاربریِ WayChess</string>
   <string name="generateANewUsername">یک نام کاربری جدید تولید کنید</string>
   <string name="welcomeToClass">به کلاس %s خوش آمدید.
 این لینک برای ورود به کلاس است.</string>
@@ -106,8 +106,8 @@
   <string name="youAcceptedThisInvitation">دعوتنامه را پذیرفتید.</string>
   <string name="youDeclinedThisInvitation">دعوتنامه را رد کردید.</string>
   <string name="orSeparator" comment="Used as separator between invite sections. Shown as large '~ or ~'.">یا</string>
-  <string name="createMultipleAccounts">ایجاد همزمان چند حساب Lichess</string>
-  <string name="multipleAccsFormDescription" comment="%s is a link and will be replaced with the translation of useThisForm. Make sure both strings fit together.">همچنین می‌توانید با %s، حساب‌های Lichess چندگانه از فهرستِ نامِ شطرنج‌آموزان ایجاد کنید.</string>
+  <string name="createMultipleAccounts">ایجاد همزمان چند حساب WayChess</string>
+  <string name="multipleAccsFormDescription" comment="%s is a link and will be replaced with the translation of useThisForm. Make sure both strings fit together.">همچنین می‌توانید با %s، حساب‌های WayChess چندگانه از فهرستِ نامِ شطرنج‌آموزان ایجاد کنید.</string>
   <string name="useThisForm" comment="Link text in multipleAccsFromDescription">استفاده از این برگه</string>
   <string name="maxStudentsNote" comment="%1$s will be replaced with a large number (currently 100).\n%2$s is a link and will be replaced with the translation of createMoreClasses. Make sure both strings fit together.">توجه داشته باشید که یک کلاس می‌تواند تا %1$s دانش‌آموز داشته باشد. برای مدیریت دانش‌آموزان بیشتر، %2$s.</string>
   <string name="createMoreClasses" comment="Link text in maxStudentsNote">کلاس های بیشتری ایجاد کنید</string>
@@ -122,7 +122,7 @@
   <string name="allowMessagingBetweenStudentsDesc">این فقط مربوط به حساب‌هایی‌ست که برای شطرنج‌آموزان‌تان ایجاد کرده‌اید.</string>
   <string name="quickLoginCode">کدِ ورودِ فوری</string>
   <string name="quickLoginCodes">کدهای ورودِ فوری</string>
-  <string name="quickLoginCodesDesc1" comment="String is a URL">از این کدها در %s برای ورود شطرنج‌آموزان‌تان به Lichess ببَهرید.</string>
+  <string name="quickLoginCodesDesc1" comment="String is a URL">از این کدها در %s برای ورود شطرنج‌آموزان‌تان به WayChess ببَهرید.</string>
   <string name="quickLoginCodesDesc2">زمانی که کدها انقضا شوند، شطرنج‌آموزان‌تان در حالت ورود باقی خواهند ماند تا وقتی که دستی خارج شوند.</string>
   <string name="expirationInMomentFromNow" comment="String is the translation of, for example, 'in 2 hours'">انقضا %s</string>
 </resources>

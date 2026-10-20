@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="lichessCoaches">lichess ghojmoHwI\'</string>
-  <string name="lichessCoach">lichess ghojmoHwI\'</string>
+  <string name="lichessCoaches">WayChess ghojmoHwI\'</string>
+  <string name="lichessCoach">WayChess ghojmoHwI\'</string>
   <string name="location">Daq</string>
   <string name="languages">Hol</string>
   <string name="rating">patlh</string>

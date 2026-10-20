@@ -2,7 +2,7 @@
 <resources>
   <string name="logInAsUsername">შედით, როგორც %s</string>
   <string name="welcome">მოგესალმებით!</string>
-  <string name="welcomeToLichess">Lichess მოგესალმებათ!</string>
+  <string name="welcomeToLichess">WayChess მოგესალმებათ!</string>
   <string name="thisIsYourProfilePage">ეს თქვენი პირადი გვერდია.</string>
   <string name="enabledKidModeSuggestion">ამ ანგარიშით ბავშვი ხომ არ უნდა ათამაშოთ ხოლმე? თუ ასეა, სურვილის შემთხვევაში ჩართეთ %s.</string>
   <string name="learnChessRules">ისწავლე ჭადრაკის წესები.</string>

@@ -247,9 +247,9 @@
   <string name="forgotPassword">Заборавили лозинку?</string>
   <string name="error.weakPassword">Ова лозинка је изузетно честа и сувише лака да се погоди.</string>
   <string name="error.namePassword">Не користите своје корисничко име као шифру.</string>
-  <string name="blankedPassword">Користио си исту лозинку на другом сајту и тај сајт је био хакован. Да бисмо обезбедили сигурност твог Lichess налога, неопходно је да поставимо нову лозинку. Хвала на разумевању.</string>
-  <string name="youAreLeavingLichess">Напушташ Lichess</string>
-  <string name="neverTypeYourPassword">Никада немој користити своју Lichess лозинку на неком другом сајту!</string>
+  <string name="blankedPassword">Користио си исту лозинку на другом сајту и тај сајт је био хакован. Да бисмо обезбедили сигурност твог WayChess налога, неопходно је да поставимо нову лозинку. Хвала на разумевању.</string>
+  <string name="youAreLeavingLichess">Напушташ WayChess</string>
+  <string name="neverTypeYourPassword">Никада немој користити своју WayChess лозинку на неком другом сајту!</string>
   <string name="proceedToX">Настави до %s</string>
   <string name="passwordSuggestion">Немој користити лозинку коју ти је предложио неко други. Он ће је искористити да преузме твој налог.</string>
   <string name="emailSuggestion">Немој користити мејл адресу коју ти је предложио неко други. Он ће је искористити да преузме твој налог.</string>
@@ -362,7 +362,7 @@
     <item quantity="few">Дај %s секунде</item>
     <item quantity="other">Дај %s секунди</item>
   </plurals>
-  <string name="thisAccountViolatedTos">Овај налог је прекршио Lichess Услове коришћења Услуге</string>
+  <string name="thisAccountViolatedTos">Овај налог је прекршио WayChess Услове коришћења Услуге</string>
   <string name="openingExplorerAndTablebase">Претраживач отварања и база позиција у завршници</string>
   <string name="takeback">Враћање потеза</string>
   <string name="proposeATakeback">Предложи враћање потеза</string>
@@ -551,7 +551,7 @@
   <string name="oneUrlPerLine">Један УРЛ по линији.</string>
   <string name="inlineNotation">Линијска нотација</string>
   <string name="makeAStudy">Како би сачувао и делио, размисли о томе да направиш студију.</string>
-  <string name="previouslyOnLichessTV">Претходно на Lichess ТВ-у</string>
+  <string name="previouslyOnLichessTV">Претходно на WayChess ТВ-у</string>
   <string name="onlinePlayers">Играчи на мрежи</string>
   <string name="activePlayers">Активни играчи</string>
   <string name="bewareTheGameIsRatedButHasNoClock">Опрезно, партија је рангирана али нема шаховског сата!</string>
@@ -725,7 +725,7 @@
   <string name="simulAddExtraTime">Можеш ставити додатно почетно време на свој сат како би ти помогло да се снађеш у симултанци.</string>
   <string name="simulAddExtraTimePerPlayer">Додај почетно време на свом сату за сваког играча који учествује у симултанци.</string>
   <string name="simulHostExtraTimePerPlayer">Додатно време домаћину за сваког играча против којег игра</string>
-  <string name="lichessTournaments">Lichess турнири</string>
+  <string name="lichessTournaments">WayChess турнири</string>
   <string name="tournamentFAQ">Најчешће постављена питања о Арена турнирима</string>
   <string name="timeBeforeTournamentStarts">Време пре него што турнир започне</string>
   <string name="averageCentipawnLoss">Просечан центипијунски губитак</string>
@@ -920,7 +920,7 @@
   <string name="tryToWin">Пробај да победиш (или барем изједначиш) сваку партију коју одиграш.</string>
   <string name="resignLostGames">Предај изгубљене партије (немој пуштати време да истекне).</string>
   <string name="temporaryInconvenience">Извињавамо се на привременој нелагодности,</string>
-  <string name="wishYouGreatGames">и желимо ти одличне партије на lichess.org.</string>
+  <string name="wishYouGreatGames">и желимо ти одличне партије на waychess.ru.</string>
   <string name="thankYouForReading">Хвала на читању!</string>
   <string name="lifetimeScore">Животни скор</string>
   <string name="currentMatchScore">Скор тренутног меча</string>
@@ -1017,13 +1017,13 @@
   <string name="youCantStartNewGame">Не можеш започети нову партију док је твој потез.</string>
   <string name="since">Од</string>
   <string name="until">До</string>
-  <string name="lichessDbExplanation">Бодоване партије одигране на Lichess</string>
+  <string name="lichessDbExplanation">Бодоване партије одигране на WayChess</string>
   <string name="switchSides">Промени страну</string>
   <string name="closingAccountWithdrawAppeal">Затварање твог налога ће повући твоју жалбу</string>
   <string name="ourEventTips">Наши савети за организовање догађаја</string>
   <string name="instructions">Инструкције</string>
   <string name="showMeEverything">Прикажи све</string>
-  <string name="lichessPatronInfo">Lichess је добротворна организација и потпуно бесплатан/слободан софтвер отвореног изворног кода. Зависимо од корисничких донација како бисмо подржали наше оперативне трошкове, развој и садржај. Без наше великодушне заједнице, не бисмо могли да покрећемо сајт. Хвала вам што сте нам се придружили!  </string>
+  <string name="lichessPatronInfo">WayChess је добротворна организација и потпуно бесплатан/слободан софтвер отвореног изворног кода. Зависимо од корисничких донација како бисмо подржали наше оперативне трошкове, развој и садржај. Без наше великодушне заједнице, не бисмо могли да покрећемо сајт. Хвала вам што сте нам се придружили!  </string>
   <string name="nothingToSeeHere">Тренутно нема ништа за видети овде.</string>
   <string name="stats">Статистике</string>
   <string name="accessibility">Приступачност</string>

@@ -125,9 +125,9 @@ final class ClasPages(helpers: Helpers, clasUi: ClasUi, dashUi: DashboardUi):
       ),
       form3.checkboxGroup(
         form("hasTeam"),
-        frag("Make a Lichess team for this class"),
+        frag("Make a WayChess team for this class"),
         help = frag(
-          "Lichess teams can organize tournaments. Your class students will automatically join the team and its tournaments."
+          "WayChess teams can organize tournaments. Your class students will automatically join the team and its tournaments."
         ).some
       )(id := "clas-team")
     )

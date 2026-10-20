@@ -28,7 +28,7 @@ Allow: /game/export/gif/thumbnail/
 
   val manifest = Json.obj(
     "name" -> net.domain,
-    "short_name" -> "Lichess",
+    "short_name" -> "WayChess",
     "start_url" -> "/",
     "display" -> "standalone",
     "background_color" -> "#161512",
@@ -36,7 +36,7 @@ Allow: /game/export/gif/thumbnail/
     "description" -> "The (really) free, no-ads, open source chess server.",
     "icons" -> List(32, 64, 128, 192, 256, 512, 1024).map: size =>
       Json.obj(
-        "src" -> s"//${net.assetDomain}/assets/logo/lichess-favicon-$size.png",
+        "src" -> s"//${net.assetDomain}/assets/logo/waychess-favicon-$size.png",
         "sizes" -> s"${size}x$size",
         "type" -> "image/png"
       ),
@@ -138,8 +138,8 @@ Allow: /game/export/gif/thumbnail/
         "https://huggingface.co/Lichess",
         "https://www.kaggle.com/organizations/lichess"
       ),
-      "logo" -> s"https://${net.assetDomain}/assets/logo/lichess.svg",
-      "name" -> "Lichess",
+      "logo" -> s"https://${net.assetDomain}/assets/logo/waychess.svg",
+      "name" -> "WayChess",
       "legalName" -> "LICHESS.ORG",
       "description" -> "The (really) free, no-ads, open source chess server.", // should be kept in English unless /about receives more localisations
       "email" -> "contact@lichess.org",

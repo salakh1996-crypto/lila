@@ -14,7 +14,7 @@
     <item quantity="other">%s objava na blogu</item>
   </plurals>
   <string name="continueReadingPost">Nastavite čitati ovu objavu</string>
-  <string name="lichessBlogPostsFromXYear">Lichess blog objave u %s</string>
+  <string name="lichessBlogPostsFromXYear">WayChess blog objave u %s</string>
   <string name="previousBlogPosts">Prethodne objave na blogu</string>
   <string name="xBlog">Blog korisnika %s</string>
   <string name="newPost">Novi članak</string>

@@ -132,7 +132,7 @@ final class UblogUi(helpers: Helpers, atomUi: AtomUi, modMenu: Context ?=> Frag)
     Page(trans.ublog.communityBlogs.txt())
       .css("bits.ublog")
       .js(posts.hasNextPage.option(infiniteScrollEsmInit))
-      .copy(atomLink = (routes.Ublog.communityAtom(languageOrAll), "Lichess community blogs").some)
+      .copy(atomLink = (routes.Ublog.communityAtom(languageOrAll), "WayChess community blogs").some)
       .hrefLangs(lila.ui.LangPath(langHref(routes.Ublog.communityAll(filter.some)))):
         main(cls := "page-menu")(
           menu(Right("community")),
@@ -527,7 +527,7 @@ final class UblogUi(helpers: Helpers, atomUi: AtomUi, modMenu: Context ?=> Frag)
         elems = posts,
         htmlCall = routes.Ublog.communityLang(language),
         atomCall = routes.Ublog.communityAtom(language),
-        title = "Lichess community blogs",
+        title = "WayChess community blogs",
         updated = posts.headOption.flatMap(_.lived).map(_.at),
         language = _.language
       ): post =>

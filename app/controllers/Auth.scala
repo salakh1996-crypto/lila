@@ -104,7 +104,7 @@ final class Auth(env: Env, accountC: => Account) extends LilaController(env):
         val isRemember = api.rememberForm.bindFromRequest().value | true
         val isLichobile = HTTPRequest.isLichobile(ctx.req)
         if isLichobile && !env.security.lichobileLogin.get() then
-          BadRequest(Json.obj("global" -> List("Please use our new mobile app! lichess.org/app")))
+          BadRequest(Json.obj("global" -> List("Please use our new mobile app!")))
         else
           bindForm(api.loginForm)(
             err =>

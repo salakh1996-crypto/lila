@@ -19,7 +19,7 @@ final class layout(helpers: Helpers, assetHelper: lila.web.ui.AssetFullHelper)(
 
   val doctype = raw("<!DOCTYPE html>")
   def htmlTag(using lang: Lang) = html(st.lang := lang.code, dir := isRTL(lang).option("rtl"))
-  val topComment = raw("""<!-- Lichess is open source! See https://lichess.org/source -->""")
+  val topComment = raw("""<!-- WayChess is open source! See https://lichess.org/source -->""")
   val charset = raw("""<meta charset="utf-8">""")
   val viewport = raw:
     """<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover">"""
@@ -110,8 +110,8 @@ final class layout(helpers: Helpers, assetHelper: lila.web.ui.AssetFullHelper)(
 
   val favicons = raw:
     val path = s"$assetBaseUrl/assets/logo"
-    s"""<link rel="alternate icon" type="image/png" href="$path/lichess-favicon-64.png">""" +
-      s"""<link id="favicon" rel="icon" type="image/svg+xml" href="$path/lichess-favicon.svg">"""
+    s"""<link rel="alternate icon" type="image/png" href="$path/waychess-favicon-64.png">""" +
+      s"""<link id="favicon" rel="icon" type="image/svg+xml" href="$path/waychess-favicon.svg">"""
 
   def blindModeForm(using ctx: Context) = raw:
     val btnText =
@@ -127,7 +127,7 @@ final class layout(helpers: Helpers, assetHelper: lila.web.ui.AssetFullHelper)(
       }"><input type="hidden" name="redirect" value="${ctx.req.path}"><button id="nvui-button" type="submit">$btnText</button>$tutorialLink</form>"""
 
   val assetsMissingTroubleshooting = raw:
-    """<h2 id="assets-missing"><a href="/page/network-administrators">Your network blocks the Lichess assets!</a></h2>"""
+    """<h2 id="assets-missing"><a href="/page/network-administrators">Your network blocks the WayChess assets!</a></h2>"""
 
   def zenZone(using Translate) = spaceless:
     s"""
@@ -203,7 +203,7 @@ final class layout(helpers: Helpers, assetHelper: lila.web.ui.AssetFullHelper)(
       .filter(100 >=)
   } | 80
 
-  val dailyNewsAtom = (routes.Feed.atom, "Lichess Updates Feed")
+  val dailyNewsAtom = (routes.Feed.atom, "WayChess Updates Feed")
   def atomLinkTag(call: Call, title: String) =
     link(href := call, st.title := title, tpe := "application/atom+xml", rel := "alternate")
 
@@ -296,7 +296,7 @@ final class layout(helpers: Helpers, assetHelper: lila.web.ui.AssetFullHelper)(
         )
 
     private val siteNameFrag: Frag =
-      if siteName == "lichess.org" then frag("lichess", span(".org"))
+      if siteName == "WayChess" then frag("Way", span("Chess"))
       else frag(siteName)
 
     def apply(
@@ -313,7 +313,7 @@ final class layout(helpers: Helpers, assetHelper: lila.web.ui.AssetFullHelper)(
           a(cls := "site-title", href := langHref("/"), testId("site-title"))(
             if ctx.kid.yes then span(title := trans.site.kidMode.txt(), cls := "kiddo")(":)")
             else ctx.isBot.option(botImage),
-            div(cls := "site-icon", dataIcon := Icon.Logo),
+            div(cls := "site-icon")(span(cls := "waychess-mark")),
             div(cls := "site-name")(siteNameFrag)
           ),
           (!isAppealUser).option(

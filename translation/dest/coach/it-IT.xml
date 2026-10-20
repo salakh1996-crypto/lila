@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="lichessCoaches">Allenatori di lichess</string>
-  <string name="lichessCoach">Allenatore di lichess</string>
+  <string name="lichessCoaches">Allenatori di WayChess</string>
+  <string name="lichessCoach">Allenatore di WayChess</string>
   <string name="areYouCoach">Sei un grande allenatore di scacchi con un %s?</string>
   <string name="nmOrFideTitle" comment="nmOrFideTitle&#10;&#10;Part of sentence &quot;Are you a great chess coach with a NM or FIDE title?&quot;&#10;&#10;The text links to our title verification page: https://lichess.org/help/master">Titolo NM o FIDE</string>
   <string name="confirmTitle">Conferma il titolo qui e revisioneremo la tua richiesta.</string>
@@ -14,7 +14,7 @@
   <string name="accepting">Si accettano studenti</string>
   <string name="notAccepting">Al momento non si accettano studenti</string>
   <string name="xCoachesStudents">%s allena giocatori di scacchi</string>
-  <string name="viewXProfile">Vedi il profilo Lichess di %s</string>
+  <string name="viewXProfile">Vedi il profilo WayChess di %s</string>
   <string name="sendPM">Invia un messaggio privato</string>
   <string name="aboutMe">Chi sono</string>
   <string name="playingExperience">Esperienza di gioco</string>
@@ -26,5 +26,5 @@
   <string name="youtubeVideos">Video di YouTube</string>
   <string name="allCountries">Tutti i Paesi</string>
   <string name="lastLogin">Ultimo accesso</string>
-  <string name="lichessRating">Punteggio Lichess</string>
+  <string name="lichessRating">Punteggio WayChess</string>
 </resources>

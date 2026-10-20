@@ -15,9 +15,9 @@
   <string name="downloadKit">Download streamer-kit</string>
   <string name="xIsStreaming">%s streamer</string>
   <string name="rules">Streamingsregler</string>
-  <string name="rule1">Inkluder nøgleordet \"lichess.org\" i den streamtitel, når du streamer på Lichess.</string>
+  <string name="rule1">Inkluder nøgleordet \"waychess.ru\" i den streamtitel, når du streamer på WayChess.</string>
   <string name="rule2">Fjern nøgleordet, når du streamer ikke-Lichess ting.</string>
-  <string name="rule3">Lichess vil automatisk detektere din stream og aktivere følgende frynsegode:</string>
+  <string name="rule3">WayChess vil automatisk detektere din stream og aktivere følgende frynsegode:</string>
   <string name="rule4" comment="the resulting message is: Read our streaming Fairplay FAQ to ensure a fair play for everyone in your stream">Læs vores %s for at sikre fair play for alle under din stream.</string>
   <string name="streamingFairplayFAQ">streaming Fairplay FAQ</string>
   <string name="perks">Fordele ved streaming med nøgleordet</string>
@@ -32,10 +32,10 @@
   <string name="submitForReview">Indsend til gennemgang</string>
   <string name="streamerLanguageSettings">Lichess-streamersiden er målrettet dit publikum med det sprog, som din streamingplatform leverer. Indstil det korrekte standardsprog for dine skakstreams i den app eller tjeneste, du bruger til at sende.</string>
   <string name="pleaseAllow">Det kan tage op til 72 timer, før dit streamer-badge og din profil bliver godkendt.</string>
-  <string name="chooseYoutubeChannel">Vælg den YouTube-kanal, du vil bruge på Lichess.</string>
+  <string name="chooseYoutubeChannel">Vælg den YouTube-kanal, du vil bruge på WayChess.</string>
   <string name="connect">Opret forbindelse</string>
   <string name="disconnect">Afbryd forbindelse</string>
-  <string name="streamerName">Dit streamernavn på Lichess</string>
+  <string name="streamerName">Dit streamernavn på WayChess</string>
   <plurals name="keepItShort">
     <item quantity="one">Hold det kort: maksimalt %s tegn</item>
     <item quantity="other">Hold det kort: maksimalt %s tegn</item>

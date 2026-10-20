@@ -61,7 +61,7 @@
   <string name="downloadGame">ดาวน์โหลดเกม</string>
   <string name="studyUrl">URL กรณีศึกษา</string>
   <string name="currentChapterUrl">URL บทปัจจุบัน</string>
-  <string name="pasteToEmbedChapterInForumOrBlog" comment="youCanPasteThisInTheForumToEmbed&#10;&#10;The thing you are pasting is a link to a study. This will make it appear in the correct section as well.&#10;&#10;Please note this used to say &quot;in the forum to embed&quot;. It was then changed to include &quot;or a Lichess Blog&quot;. A further update was made to say &quot;or your Lichess blog&quot;, since you can only create blog posts as an individual.">คุณสามารถนำสิ่งนี้ไปวางในฟอรัมหรือบล็อก Lichess ของคุณเพื่อฝังบทนี้ได้</string>
+  <string name="pasteToEmbedChapterInForumOrBlog" comment="youCanPasteThisInTheForumToEmbed&#10;&#10;The thing you are pasting is a link to a study. This will make it appear in the correct section as well.&#10;&#10;Please note this used to say &quot;in the forum to embed&quot;. It was then changed to include &quot;or a Lichess Blog&quot;. A further update was made to say &quot;or your Lichess blog&quot;, since you can only create blog posts as an individual.">คุณสามารถนำสิ่งนี้ไปวางในฟอรัมหรือบล็อก WayChess ของคุณเพื่อฝังบทนี้ได้</string>
   <string name="startAtInitialPosition">เริ่มที่ตำแหน่งตั้งต้น</string>
   <string name="startAtX">เริ่มที่ %s</string>
   <string name="embedInYourWebsite">ฝังในเว็บไซต์ของคุณ</string>
@@ -161,7 +161,7 @@
   <string name="youCompletedThisLesson">ยินดีด้วย! คุณจบบทเรียนนี้แล้ว</string>
   <string name="perPage">%s ต่อหน้า</string>
   <string name="getTheTour">ต้องการให้ช่วยเหลือไหม ไปทัวร์กัน</string>
-  <string name="welcomeToLichessStudyTitle">ยินดีต้อนรับสู่กรณีศึกษาบน Lichess</string>
+  <string name="welcomeToLichessStudyTitle">ยินดีต้อนรับสู่กรณีศึกษาบน WayChess</string>
   <string name="welcomeToLichessStudyText">นี่คือกระดานวิเคราะห์แบบใช้ร่วมกัน&lt;br&gt;&lt;br&gt;ใช้ในการวิเคราะห์และใส่คำอธิบายประกอบเกม&lt;br&gt;พูดคุยเกี่ยวกับตำแหน่งต่างๆ กับเพื่อน&lt;br&gt;และแน่นอนสำหรับบทเรียนหมากรุก!&lt;br&gt;&lt;br&gt;นี่เป็นเครื่องมือที่มีประสิทธิภาพ ลองใช้เวลาสักครู่เพื่อดูว่ามันทำงานอย่างไร</string>
   <string name="sharedAndSaveTitle" comment="As in: shared with other members and saved to database">แชร์และบันทึกแล้ว</string>
   <string name="sharedAndSavedText">สมาชิกคนอื่นๆ สามารถดูตาเดินของคุณได้แบบตามเวลาจริง&lt;br&gt;นอกจากนี้ ทุกอย่างยังถูกบันทึกไว้ตลอดไปอีกด้วย</string>
@@ -176,7 +176,7 @@
   <string name="annotatePositionText">กดปุ่ม !? หรือคลิกขวาที่ตารางที่แสดงตาเดินที่อยู่ฝั่งขวา &lt;br&gt; อักษรคำอธิบายประกอบ
 จะถูกแชร์และบันทึก</string>
   <string name="conclusionTitle">ขอบคุณสำหรับเวลาของคุณ</string>
-  <string name="conclusionText">คุณสามารถเจอ&lt;a href=\'/study/mine/hot\'&gt;การศึกษาก่อนหน้า&lt;/a&gt;จากหน้าโปรไฟล์ &lt;br&gt;นอกจากนั้นยังมี &lt;a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt; บล็อกเกี่ยวกับกรณีศึกษา&lt;/a&gt; &lt;br&gt;ผู้ใช้งานขั้นสูงอาจต้องการกด \"?\" เพื่อดูแป้นพิมพ์ลัด&lt;br&gt;ขอให้สนุกน้า!</string>
+  <string name="conclusionText">คุณสามารถเจอ&lt;a href=\'/study/mine/hot\'&gt;การศึกษาก่อนหน้า&lt;/a&gt;จากหน้าโปรไฟล์ &lt;br&gt;นอกจากนั้นยังมี &lt;a href=\'https://waychess.ru/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt; บล็อกเกี่ยวกับกรณีศึกษา&lt;/a&gt; &lt;br&gt;ผู้ใช้งานขั้นสูงอาจต้องการกด \"?\" เพื่อดูแป้นพิมพ์ลัด&lt;br&gt;ขอให้สนุกน้า!</string>
   <string name="createChapterTitle">มาสร้างบทเรียนกันเถอะ</string>
   <string name="createChapterText">กรณีศึกษาหนึ่งสามารถมีได้หลายบท&lt;br&gt;แต่ละบทจะมีตาเดินหลายแขนง&lt;br&gt;และและสามารถสร้างขึ้นได้หลายวิธี</string>
   <string name="fromInitialPositionTitle">จากตำแหน่งเริ่มต้น</string>
@@ -184,13 +184,13 @@
   <string name="customPositionTitle">ตำแหน่งที่กำหนดเอง</string>
   <string name="customPositionText">ตั้งค่ากระดานตามที่คุณต้องการ&lt;br&gt;ให้เหมาะสำหรับการสำรวจช่วงท้ายเกม</string>
   <string name="loadGameFromTheWebTitle">โหลดเกมจากเว็บ</string>
-  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">วาง URL ของเกมบน Lichess&lt;br&gt;(เช่น lichess.org/7fHIU0XI)&lt;br&gt;เพื่อโหลดตาเดินของเกมในบทนั้น</string>
+  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">วาง URL ของเกมบน WayChess&lt;br&gt;(เช่น waychess.ru/7fHIU0XI)&lt;br&gt;เพื่อโหลดตาเดินของเกมในบทนั้น</string>
   <string name="fromFenStringTitle">จากสตริง FEN</string>
   <string name="fromFenStringText">วางตำแหน่งในรูปแบบของ FEN &lt;br&gt;&lt;i&gt;4k3/4rb2/8/7p/8/5Q2/1PP5/1K6 w&lt;/i&gt;&lt;br&gt;เพื่อเริ่มบทจากตำแหน่งนั้นๆ</string>
   <string name="fromPgnGameTitle">จากเกม PGN</string>
   <string name="fromPgnGameText">วางเกมในรูปแบบของ PGN&lt;br&gt;เพื่อโหลดตาเดิน คอมเมนต์และตาเดินอื่นๆ ในบท</string>
   <string name="variantsAreSupportedTitle">กรณีศึกษารองรับตัวแปรกติกา</string>
-  <string name="variantsAreSupportedText">ใช่ คุณสามารถศึกษาบ้านอลเวง&lt;br&gt; และตัวแปรกติกา lichess ทั้งหมดได้</string>
+  <string name="variantsAreSupportedText">ใช่ คุณสามารถศึกษาบ้านอลเวง&lt;br&gt; และตัวแปรกติกา WayChess ทั้งหมดได้</string>
   <string name="chapterConclusionText">บทต่างๆ จะถูกบันทึกไว้ตลอดไป &lt;br&gt;ขอให้สนุกกับการจัดระเบียบเนื้อหาหมากรุกของคุณ!</string>
   <string name="doubleDefeat">แพ้ทั้งสองฝ่าย</string>
   <string name="blackDefeatWhiteCanNotWin">ฝ่ายดำแพ้ แต่ฝ่ายขาวก็ชนะไม่ได้</string>

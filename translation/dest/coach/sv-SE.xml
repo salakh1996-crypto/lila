@@ -26,5 +26,5 @@
   <string name="youtubeVideos">YouTube-videor</string>
   <string name="allCountries">Alla länder</string>
   <string name="lastLogin">Senaste inloggning</string>
-  <string name="lichessRating">Lichess rating</string>
+  <string name="lichessRating">WayChess rating</string>
 </resources>

@@ -20,7 +20,7 @@ final class SitePages(helpers: Helpers):
     val external = frag(" ", iconTag(Icon.ExternalArrow))
     def activeCls(c: String) = cls := active.activeO(c)
     lila.ui.bits.pageMenuSubnav(
-      a(activeCls("about"), href := "/about")(trans.site.aboutX("lichess.org")),
+      a(activeCls("about"), href := "/about")(trans.site.aboutX("WayChess")),
       a(activeCls("news"), href := routes.Feed.index(1))(trans.site.lichessUpdates()),
       a(activeCls("faq"), href := routes.Main.faq)(trans.faq.faqAbbreviation()),
       a(activeCls("contact"), href := routes.Main.contact)(trans.contact.contact()),
@@ -62,7 +62,7 @@ final class SitePages(helpers: Helpers):
           st.section(cls := "box box-pad developers")(
             h1(cls := "box__top")("HTTP API"),
             p(
-              "Lichess exposes a RESTish HTTP/JSON API that you are welcome to use. Read the ",
+              "WayChess exposes a RESTish HTTP/JSON API that you are welcome to use. Read the ",
               a(href := "/api")("HTTP API documentation"),
               "."
             )
@@ -73,7 +73,7 @@ final class SitePages(helpers: Helpers):
               """style="width: 400px; aspect-ratio: 10/11;" allowtransparency="true" frameborder="0""""
             frag(
               a(href := "#embed-tv")(
-                h1(cls := "box__top", id := "embed-tv")("Embed Lichess TV in your site")
+                h1(cls := "box__top", id := "embed-tv")("Embed WayChess TV in your site")
               ),
               div(cls := "body")(
                 div(cls := "center")(raw(s"""<iframe src="/tv/frame?theme=brown&bg=dark" $args></iframe>""")),
@@ -82,7 +82,7 @@ final class SitePages(helpers: Helpers):
                 parameters(),
                 p(
                   "You can also show the channel for a specific variant or time control by adding the channel key to the URL, corresponding to the channels available at ",
-                  a(href := "/tv")("lichess.org/tv"),
+                  a(href := "/tv")("WayChess TV"),
                   ". If not included, the top rated game will be shown."
                 ),
                 copyMeInput(
@@ -189,7 +189,7 @@ final class SitePages(helpers: Helpers):
                 div(cls := "center")(raw(iframe)),
                 p(
                   "Embeds the ",
-                  a(href := routes.UserAnalysis.index)("fully-featured Lichess analysis board"),
+                  a(href := routes.UserAnalysis.index)("fully-featured WayChess analysis board"),
                   " with stockfish evaluation, opening explorer and tablebase."
                 ),
                 copyMeInput(iframe),
@@ -258,7 +258,7 @@ final class SitePages(helpers: Helpers):
 
   def lag(using Context) =
     import trans.lag as trl
-    SitePage(title = "Is Lichess lagging?", active = "lag")
+    SitePage(title = "Is WayChess lagging?", active = "lag")
       .css("bits.lag")
       .js(esmInit("chart.lag")):
         div(cls := "box box-pad lag")(

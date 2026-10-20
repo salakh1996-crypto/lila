@@ -488,7 +488,7 @@
   <string name="oneUrlPerLine">Տողում՝ մեկ URL։</string>
   <string name="inlineNotation">Տողային նոտագրություն</string>
   <string name="makeAStudy">Պահպանելու և կիսվելու համար դիտարկեք ստուդիա ստեղծելու հնարավորությունը։</string>
-  <string name="previouslyOnLichessTV">Նախորդները Lichess TV-ով</string>
+  <string name="previouslyOnLichessTV">Նախորդները WayChess TV-ով</string>
   <string name="onlinePlayers">Առցանց խաղացողներ</string>
   <string name="activePlayers">Ակտիվ խաղացողներ</string>
   <string name="bewareTheGameIsRatedButHasNoClock">Զգուշացում. խաղը վարկանիշային է, սակայն առանց ժամանակի</string>
@@ -649,7 +649,7 @@
   <string name="simulAddExtraTime">Պարտիաներում մտորելու համար դուք կարող եք ստանալ լրացուցիչ ժամանակ։</string>
   <string name="simulAddExtraTimePerPlayer">Ձեր ժամացույցի վրա ավելացրեք մեկնարկային ժամանակը յուրաքանչյուր խաղացողի համար, ով մուտք է գործել Ձեր միաժամանակյա խաղի նստաշրջան:</string>
   <string name="simulHostExtraTimePerPlayer">Յուրաքանչյուր խաղացողի համար նստաշրջանի ժամանակի լրացում</string>
-  <string name="lichessTournaments">Lichess մրցաշարեր</string>
+  <string name="lichessTournaments">WayChess մրցաշարեր</string>
   <string name="tournamentFAQ">Հարցեր «Արենա» մրցաշարերի վերաբերյալ</string>
   <string name="timeBeforeTournamentStarts">Ժամանակ մինչև մրցաշարի սկսվելը</string>
   <string name="averageCentipawnLoss">Միջինը հարյուրերորդական զինվորի կորուստ</string>
@@ -811,7 +811,7 @@
   <string name="tryToWin">Փորձեք հաղթել (կամ գոնե ոչ-ոքի խաղալ) յուրաքանչյուր խաղ։</string>
   <string name="resignLostGames">Հանձնվե՛ք պարտված խաղերում (մի\' թողեք ժամանակը սպառվի)։</string>
   <string name="temporaryInconvenience">Մենք հայցում ենք Ձեր ներողամտությունը անհարմարության համար,</string>
-  <string name="wishYouGreatGames">և մաղթում հաճելի հաղեր lichess.org-ում։</string>
+  <string name="wishYouGreatGames">և մաղթում հաճելի հաղեր waychess.ru-ում։</string>
   <string name="thankYouForReading">Շնորհակալություն կարդալու համար:</string>
   <string name="lifetimeScore">Հաշիվը ողջ ընթացքում</string>
   <string name="currentMatchScore">Հաշիվն ընթացիկ խաղում</string>

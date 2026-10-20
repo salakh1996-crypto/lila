@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="lichessStreamers">Lichess stroymarar</string>
-  <string name="lichessStreamer">Lichess stroymari</string>
+  <string name="lichessStreamers">WayChess stroymarar</string>
+  <string name="lichessStreamer">WayChess stroymari</string>
   <string name="live">LIVE!</string>
   <string name="offline">OFFLINE</string>
   <string name="currentlyStreaming">Stroymarar í løtuni: %s</string>
@@ -15,9 +15,9 @@
   <string name="downloadKit">Tak stroymaraútgerð niður</string>
   <string name="xIsStreaming">%s stroymar</string>
   <string name="rules">Stroymarareglur</string>
-  <string name="rule1">Hav lyklaorðið \"lichess.org\" við í stroymingarheiti tínum.</string>
-  <string name="rule2">Tak lyklaorðið burtur, tá ið tú stroymar tilfar, ið einki hevur við Lichess at gera.</string>
-  <string name="rule3">Lichess finnur sjálvvirkið tína stroyming og veitir tær hesar ágóðar:</string>
+  <string name="rule1">Hav lyklaorðið \"waychess.ru\" við í stroymingarheiti tínum.</string>
+  <string name="rule2">Tak lyklaorðið burtur, tá ið tú stroymar tilfar, ið einki hevur við WayChess at gera.</string>
+  <string name="rule3">WayChess finnur sjálvvirkið tína stroyming og veitir tær hesar ágóðar:</string>
   <string name="perks">Fyrimunir við at stroyma við lyklaorðinum</string>
   <string name="perk1">Fá eina logandi stroymaramynd á Lichess-vangamynd tína.</string>
   <string name="perk2">Verð flutt/ur upp á ovastu rók á stroymaralistanum.</string>
@@ -26,7 +26,7 @@
   <string name="approved">Stroymingin hjá tær er góðkend.</string>
   <string name="pendingReview">Fyriskiparar viðgera nú stroymingina hjá tær.</string>
   <string name="pleaseFillIn">Fyll vinaliga tínar stroymaraupplýsingar inn, og legg eina mynd inn.</string>
-  <string name="streamerName">Stroymaranavn títt á Lichess</string>
+  <string name="streamerName">Stroymaranavn títt á WayChess</string>
   <plurals name="keepItShort">
     <item quantity="one">Halt tað stutt: %s stavur í mesta lagi</item>
     <item quantity="other">Halt tað stutt: %s stavir í mesta lagi</item>

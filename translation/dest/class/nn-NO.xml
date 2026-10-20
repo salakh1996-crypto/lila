@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="lichessClasses">Lichess-klasser</string>
-  <string name="teachClassesOfChessStudents">Undervis sjakkelev-klasser med undervisningsverktya til Lichess.</string>
+  <string name="teachClassesOfChessStudents">Undervis sjakkelev-klasser med undervisningsverktya til WayChess.</string>
   <string name="features">Funksjonar</string>
   <string name="quicklyGenerateSafeUsernames">Generer raskt sikre brukarnamn og passord til elevane</string>
   <string name="trackStudentProgress">Følg utviklinga til elevane i parti og løysing av sjakkproblem</string>
@@ -38,7 +38,7 @@ Brukarnamn: %2$s
 Passord: %3$s</string>
   <string name="inviteALichessAccount">Invitér ein Lichess-konto</string>
   <string name="inviteDesc1">Elevar som allereie har en Lichess-konto kan inviterast til klassen.</string>
-  <string name="inviteDesc2">Dei vil få ei melding på Lichess med ei lenke dei kan bruke for å melde seg på klassen.</string>
+  <string name="inviteDesc2">Dei vil få ei melding på WayChess med ei lenke dei kan bruke for å melde seg på klassen.</string>
   <string name="inviteDesc3">Viktig: Invitér berre elevar du kjenner og som har eit aktivt ønske om å delta i klassen.</string>
   <string name="inviteDesc4">Send aldri uoppfordra invitasjonar til tilfeldige spelarar.</string>
   <string name="createANewLichessAccount">Opprett ein ny Lichess-konto</string>
@@ -121,7 +121,7 @@ Her er lenka som gir deg tilgjenge til klassen.</string>
   <string name="allowMessagingBetweenStudentsDesc">Dette gjeld berre for kontoane du har oppretta for elevane dine.</string>
   <string name="quickLoginCode">Kode for hurtig innlogging</string>
   <string name="quickLoginCodes">Kodar for hurtig innlogging</string>
-  <string name="quickLoginCodesDesc1" comment="String is a URL">Bruk desse kodane på %s for å logge elevane inn på Lichess.</string>
+  <string name="quickLoginCodesDesc1" comment="String is a URL">Bruk desse kodane på %s for å logge elevane inn på WayChess.</string>
   <string name="quickLoginCodesDesc2">Elevene dine er logga inn heilt til dei loggar ut manuelt, sjølv om kodane er utløpt.</string>
   <string name="expirationInMomentFromNow" comment="String is the translation of, for example, 'in 2 hours'">Utløper %s</string>
 </resources>

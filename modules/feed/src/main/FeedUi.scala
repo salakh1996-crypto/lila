@@ -29,7 +29,7 @@ final class FeedUi(helpers: Helpers, atomUi: AtomUi, feedMarkdown: FeedMarkdown)
     page("Updates"):
       div(cls := "daily-feed box box-pad")(
         boxTop(
-          h1("Lichess updates"),
+          h1("WayChess updates"),
           div(cls := "box__top__actions")(
             Granter
               .opt(_.Feed)
@@ -68,7 +68,7 @@ final class FeedUi(helpers: Helpers, atomUi: AtomUi, feedMarkdown: FeedMarkdown)
     )
 
   def create(form: Form[?])(using Context) =
-    page("Lichess updates: New", true):
+    page("WayChess updates: New", true):
       main(cls := "daily-feed page-small box box-pad")(
         boxTop(
           h1(
@@ -82,11 +82,11 @@ final class FeedUi(helpers: Helpers, atomUi: AtomUi, feedMarkdown: FeedMarkdown)
       )
 
   def edit(form: Form[?], update: Feed.Update)(using Context) =
-    page(s"Lichess update ${update.id}", true):
+    page(s"WayChess update ${update.id}", true):
       main(cls := "daily-feed page-small box box-pad")(
         boxTop(
           h1(
-            a(href := routes.Feed.index(1))("Lichess update"),
+            a(href := routes.Feed.index(1))("WayChess update"),
             " • ",
             semanticDate(update.at)
           )
@@ -104,7 +104,7 @@ final class FeedUi(helpers: Helpers, atomUi: AtomUi, feedMarkdown: FeedMarkdown)
       elems = ups,
       htmlCall = routes.Feed.index(1),
       atomCall = routes.Feed.atom,
-      title = "Lichess updates feed",
+      title = "WayChess updates feed",
       updated = ups.headOption.map(_.at),
       language = _ => lila.core.i18n.defaultLanguage
     ): up =>

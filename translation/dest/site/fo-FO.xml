@@ -194,8 +194,8 @@
   <string name="email">Teldupostur</string>
   <string name="passwordReset">Endurset loyniorð</string>
   <string name="forgotPassword">Gloymt loyniorð?</string>
-  <string name="youAreLeavingLichess">Tú fert nú úr Lichess</string>
-  <string name="neverTypeYourPassword">Skriva ongantíð títt Lichess loyniorð á aðra síðu!</string>
+  <string name="youAreLeavingLichess">Tú fert nú úr WayChess</string>
+  <string name="neverTypeYourPassword">Skriva ongantíð títt WayChess loyniorð á aðra síðu!</string>
   <string name="rank">Støða</string>
   <string name="rankX">Støða: %s</string>
   <plurals name="rankIsUpdatedEveryNbMinutes">
@@ -278,7 +278,7 @@
     <item quantity="one">Gev %s sekund</item>
     <item quantity="other">Gev %s sekund</item>
   </plurals>
-  <string name="thisAccountViolatedTos">Ánarin av hesari konto breyt Lichess tænastutreytirnar</string>
+  <string name="thisAccountViolatedTos">Ánarin av hesari konto breyt WayChess tænastutreytirnar</string>
   <string name="openingExplorerAndTablebase">Lat dátugrunn við byrjanar- og endatalvum upp</string>
   <string name="takeback">Tak aftur</string>
   <string name="proposeATakeback">Ber fram ynski um afturtøku</string>
@@ -574,7 +574,7 @@
   <string name="simulVariantsHint">Velur tú fleiri avbrigdi, sleppur hvør telvari at gera av, hvat avbrigdi telvað verður.</string>
   <string name="simulClockHint">Fischerklokku-uppseting. Fleiri telvarum, tú telvar móti, meiri tíð tørvar tær.</string>
   <string name="simulAddExtraTime">Tú hevur loyvi at leggja tíð aftrat tínari klokku til tess at hjálpa tær at megna at telva fjøltalvið.</string>
-  <string name="lichessTournaments">Lichess kappingar</string>
+  <string name="lichessTournaments">WayChess kappingar</string>
   <string name="tournamentFAQ">Arena-kapping FAQ</string>
   <string name="timeBeforeTournamentStarts">Tíð áðrenn kapping byrjar</string>
   <string name="averageCentipawnLoss">Miðal centifinnu-tap</string>
@@ -608,7 +608,7 @@
   <string name="weHaveSentYouAnEmailTo">Vit hava sent %s ein teldupost. Klikk á leinkið í teldupostinum at endurseta títt loyniorð.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">Við at skráseta teg, samtykkir tú í at vera bundin av okkara %s.</string>
   <string name="readAboutOur">Les um, hvør %s okkara er.</string>
-  <string name="networkLagBetweenYouAndLichess">Netseinkan millum teg og Lichess</string>
+  <string name="networkLagBetweenYouAndLichess">Netseinkan millum teg og WayChess</string>
   <string name="timeToProcessAMoveOnLichessServer">Tíð at viðgera ein leik í Lichess-ambætaranum</string>
   <string name="downloadAnnotated">Tak viðmerkingar niður</string>
   <string name="downloadRaw">Tak niður rátt</string>
@@ -726,7 +726,7 @@
   <string name="tryToWin">Royn at vinna ella fáa javnleik í hvørjum talvi, tú telvir.</string>
   <string name="resignLostGames">Er tap í hendi, legg so kongin (ikki lata klokkuna ganga út).</string>
   <string name="temporaryInconvenience">Vit biðja teg halda okkum til góðar fyri fyribils órógvanina</string>
-  <string name="wishYouGreatGames">og ynskja tær nógv góð talv á lichess.org.</string>
+  <string name="wishYouGreatGames">og ynskja tær nógv góð talv á waychess.ru.</string>
   <string name="thankYouForReading">Takk fyri, at tú las hetta!</string>
   <string name="lifetimeScore">Lívstíðarstigatal</string>
   <string name="currentMatchScore">Núverandi dystarstigatal</string>

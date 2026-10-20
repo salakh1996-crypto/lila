@@ -951,7 +951,7 @@ export default function (token: string): void {
                 //Invalid Adjustment. Move was legal but does not match last move received from Lichess
                 console.error('onmessage - Invalid Adjustment was made');
                 if (compareMoves(lastMove.move, moveObject)) {
-                  console.error('onmessage - Played move has not been received by Lichess.');
+                  console.error('onmessage - Played move has not been received by WayChess.');
                 } else {
                   console.error('onmessage - Expected:' + lastMove.move + ' by ' + lastMove.player);
                   console.error('onmessage - Detected:' + makeUci(moveObject) + ' by ' + localBoard.turn);

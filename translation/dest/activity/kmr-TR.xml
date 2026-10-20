@@ -3,8 +3,8 @@
   <string name="activity">Çalakîtî</string>
   <string name="hostedALiveStream">Weşana zindî li dar xist</string>
   <plurals name="supportedNbMonths">
-    <item quantity="one">Piştgirî daye lichess.org-ê bo %1$s mehî wek %2$sek</item>
-    <item quantity="other">Piştgirî daye lichess.org-ê bo %1$s mehan wek %2$sek</item>
+    <item quantity="one">Piştgirî daye waychess.ru-ê bo %1$s mehî wek %2$sek</item>
+    <item quantity="other">Piştgirî daye waychess.ru-ê bo %1$s mehan wek %2$sek</item>
   </plurals>
   <plurals name="practicedNbPositions">
     <item quantity="one">Pozîsyona %1$s li ser %2$s praktîk kir</item>

@@ -125,8 +125,8 @@ object RelayRoundForm:
     "push" -> "Broadcaster App",
     "url" -> "Single PGN URL",
     "urls" -> "Combine several PGN URLs",
-    "ids" -> "Lichess game IDs",
-    "users" -> "Lichess usernames"
+    "ids" -> "WayChess game IDs",
+    "users" -> "WayChess usernames"
   )
 
   type Move = Boolean // up: true, down: false

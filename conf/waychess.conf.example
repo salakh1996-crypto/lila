@@ -1,0 +1,52 @@
+# Production config template for WayChess.
+# Copy to /etc/waychess/application.conf, fill in the secrets and start lila with
+#   -Dconfig.file=/etc/waychess/application.conf
+# Every value marked CHANGE ME must be replaced before going live.
+
+include "base"
+include "version"
+
+http.port = 9663
+
+net {
+  domain = "waychess.ru"
+  prodDomain = "waychess.ru"
+  # websockets are served by lila-ws on the same domain (Caddy routes them by the Upgrade header)
+  socket.domains = ["waychess.ru"]
+  asset.domain = "waychess.ru"
+  asset.base_url = "https://waychess.ru"
+  base_url = "https://waychess.ru"
+  email = "contact@waychess.ru"
+  crawlable = true
+  ratelimit = true
+  site.name = "WayChess"
+}
+
+# CHANGE ME: random string, keep it secret, never change it once users exist
+user.password.bpass.secret = "CHANGE ME"
+# CHANGE ME: random 64+ character string
+play.http.secret.key = "CHANGE ME"
+
+mongodb.uri = "mongodb://127.0.0.1:27017/lichess?appName=lila"
+redis.uri = "redis://127.0.0.1"
+
+mailer.primary {
+  mock = false
+  tls = true
+  # CHANGE ME: SMTP of a Russian provider (Yandex 360, Mail.ru for business, Unisender...)
+  host = "smtp.yandex.ru"
+  port = 465
+  user = "noreply@waychess.ru"
+  password = "CHANGE ME"
+  sender = "WayChess <noreply@waychess.ru>"
+}
+security.email_confirm.enabled = true
+
+# Payments are not set up: Stripe and PayPal do not work for Russian accounts.
+# plan.stripe.keys.public = ""
+# plan.stripe.keys.secret = ""
+
+# Optional services, enable once they are deployed
+search.enabled = false
+kamon.enabled = false
+turnstile.enabled = false

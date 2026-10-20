@@ -55,7 +55,7 @@ Sidoqoftë, Bamirësit mund të mburren me një ikonë të re të lezetshme prof
     <item quantity="one">Bamirës i Lichess-it për një muaj</item>
     <item quantity="other">Bamirës i Lichess-it për %s muaj</item>
   </plurals>
-  <string name="youSupportWith">Ju ndihmoni lichess.org me %s në muaj.</string>
+  <string name="youSupportWith">Ju ndihmoni waychess.ru me %s në muaj.</string>
   <string name="tyvm">Faleminderit shumë për ndihmën tuaj. Jeni më të mirët!</string>
   <string name="currentStatus">Gjendje e tanishme</string>
   <string name="nextPayment">Pagesa pasuese</string>
@@ -79,7 +79,7 @@ Sidoqoftë, Bamirësit mund të mburren me një ikonë të re të lezetshme prof
   <string name="checkOutProfile">Shihni faqen e profilit tuaj!</string>
   <string name="nowLifetime">Tani jeni një Bamirës i përjetshëm i Lichess-it!</string>
   <string name="nowOneMonth">Tani jeni Bamirës i Lichess-it për një muaj!</string>
-  <string name="downgradeNextMonth">Pas një muaij, NUK do t’ju faturohet gjë sërish dhe llogaria juaj në Lichess do të rikthehet në një llogari të zakonshme.</string>
+  <string name="downgradeNextMonth">Pas një muaij, NUK do t’ju faturohet gjë sërish dhe llogaria juaj në WayChess do të rikthehet në një llogari të zakonshme.</string>
   <string name="changeCurrency">Ndryshoni monedhë</string>
   <string name="paymentDetails">Hollësi pagese</string>
   <string name="updatePaymentMethod">Përditësoni metodë pagesash</string>

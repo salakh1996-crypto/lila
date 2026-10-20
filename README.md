@@ -1,3 +1,13 @@
+# WayChess
+
+**WayChess** — шахматный сайт на основе открытого кода Lichess, который работает
+в России без VPN. Что изменено, что осталось сделать и как запустить сайт —
+в [WAYCHESS.md](WAYCHESS.md). Лицензия: GNU AGPL v3, как у оригинала.
+
+Ниже — оригинальное описание проекта Lichess (lila).
+
+---
+
 # [lichess.org](https://lichess.org)
 
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/lichess/localized.svg)](https://crowdin.com/project/lichess)

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="contact">Kontakt</string>
-  <string name="contactLichess">Lichess kontaktéieren</string>
+  <string name="contactLichess">WayChess kontaktéieren</string>
   <string name="whatCanWeHelpYouWith">Woubäi kënne mir dir hëllefen?</string>
   <string name="visitThisPage">Besich dës Säit fir de Probleem ze léisen</string>
   <string name="iCantLogIn">Ech kann mech net aloggen</string>
@@ -12,7 +12,7 @@
   <string name="lost2FA">Ech hunn Accès zu mengen Zwee-Faktor-Authentifizéierungscodes verluer</string>
   <string name="doPasswordReset">Passwuert zerécksétzen fir den zweeten Faktor ze läschen</string>
   <string name="accountSupport">Ech brauch Benotzerkonto-Ënnerstëtzung</string>
-  <string name="wantTitle">Ech wëll mäin Titel op Lichess ugewisen kréien</string>
+  <string name="wantTitle">Ech wëll mäin Titel op WayChess ugewisen kréien</string>
   <string name="wantCloseAccount">Ech wëll mäin Konto zoumaachen</string>
   <string name="closeYourAccount">Du kanns däi Konto op dëser Säit zoumaachen</string>
   <string name="doNotAskByEmail">Fro eis net per Email fir däi Konto zouzemaachen, mir wäerten et net maachen.</string>
@@ -57,9 +57,9 @@
   <string name="doNotDeny">Streit net of, datt du gefuddelt hues. Wann s de wëlls, datt du en neie Konto uleeën däerfs, gëff einfach zou, wat s du gemaach hues, a weis, datt s du verstan hues, datt et e Feeler war.</string>
   <string name="otherRestriction">Aner Aschränkung</string>
   <string name="collaboration">Zesummenaarbecht, Legalt, Kommerziellt</string>
-  <string name="monetizing">Lichess monetiséieren</string>
-  <string name="buyingLichess">Lichess kafen</string>
-  <string name="authorizationToUse">Authorisatioun fir Lichess ze benotzen</string>
+  <string name="monetizing">WayChess monetiséieren</string>
+  <string name="buyingLichess">WayChess kafen</string>
+  <string name="authorizationToUse">Authorisatioun fir WayChess ze benotzen</string>
   <string name="noneOfTheAbove">Näischt dovun</string>
   <string name="sendEmailAt">Schéck eis eng Email un %s.</string>
   <string name="ourDiscordServer">eisem Discord-Server</string>

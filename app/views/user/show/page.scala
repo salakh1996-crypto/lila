@@ -26,7 +26,7 @@ object page:
     Page(s"${u.username} : ${trans.activity.activity.txt()}")
       .graph(
         OpenGraph(
-          image = staticAssetUrl("logo/lichess-tile-wide.png").some,
+          image = staticAssetUrl("logo/waychess-tile-wide.png").some,
           title = u.titleUsernameWithBestRating,
           url = routeUrl(routes.User.show(u.username)),
           description = ui.describeUser(u)
@@ -88,7 +88,7 @@ object page:
       main(cls := "page-small box box-pad page")(
         h1(cls := "box__top")("No such player"),
         div(
-          p("This username doesn't match any Lichess player."),
+          p("This username doesn't match any WayChess player."),
           canCreate.not.option(p("It cannot be used to create a new account."))
         )
       )

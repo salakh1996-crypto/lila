@@ -6,7 +6,7 @@
   <string name="offline">ТОТАШМАГАН</string>
   <string name="currentlyStreaming">Хәзерге агымлар: %s</string>
   <string name="lastStream">Соңгы агым %s</string>
-  <string name="becomeStreamer">Lichess агымы бул</string>
+  <string name="becomeStreamer">WayChess агымы бул</string>
   <string name="doYouHaveStream">Сездә Twitch яки YouTube каналы бармы?</string>
   <string name="hereWeGo">Монда йөрибез!</string>
   <string name="allStreamers">Барлык агымчылар</string>

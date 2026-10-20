@@ -251,7 +251,7 @@
   <string name="error.weakPassword">Denne adgangskode er ekstremt almindelig og for let at gætte.</string>
   <string name="error.namePassword">Brug ikke dit brugernavn som din adgangskode.</string>
   <string name="blankedPassword">Du har brugt den samme adgangskode på et andet websted, og dette websted er blevet kompromitteret. For at sikre din Lichess-konto skal du angive en ny adgangskode. Tak for din forståelse.</string>
-  <string name="youAreLeavingLichess">Du forlader Lichess</string>
+  <string name="youAreLeavingLichess">Du forlader WayChess</string>
   <string name="neverTypeYourPassword">Indtast aldrig din Lichess-adgangskode på et andet websted!</string>
   <string name="proceedToX">Fortsæt til %s</string>
   <string name="passwordSuggestion">Angiv ikke en adgangskode, som er foreslået af en anden person. De vil bruge den til at stjæle din konto.</string>
@@ -264,7 +264,7 @@
   <string name="emailSent">Vi har sendt en e-mail til %s.</string>
   <string name="emailCanTakeSomeTime">Det kan tage lidt tid for den at ankomme.</string>
   <string name="refreshInboxAfterFiveMinutes">Vent 5 minutter og opdater din e-mails indbakke.</string>
-  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Modtager du ikke en bekræftelses-e-mail, skal du tjekke din spam- eller junk-mappe. Sørg for at markere beskeder fra lichess.org som sikre og \"ikke spam\", så du kan holde dig opdateret om vigtige meddelelser.</string>
+  <string name="checkSpamOrJunkFolder" comment="checkSpamFolder&#10;It = The confirmation email">Modtager du ikke en bekræftelses-e-mail, skal du tjekke din spam- eller junk-mappe. Sørg for at markere beskeder fra waychess.ru som sikre og \"ikke spam\", så du kan holde dig opdateret om vigtige meddelelser.</string>
   <string name="sendEmailForAccountVerification">Hvis du ikke kan finde din bekræftelsesmail, kan du sende en e-mail til %s, så bekræfter vi din konto for dig.</string>
   <string name="accountConfirmed">Brugeren %s er blevet bekræftet.</string>
   <string name="accountCanLogin">Du kan nu logge ind som %s.</string>
@@ -359,7 +359,7 @@
     <item quantity="one">Giv %s sekund</item>
     <item quantity="other">Giv %s sekunder</item>
   </plurals>
-  <string name="thisAccountViolatedTos">Denne konto overtrådte Lichess servicevilkår</string>
+  <string name="thisAccountViolatedTos">Denne konto overtrådte WayChess servicevilkår</string>
   <string name="openingExplorerAndTablebase">Åbner åbnings- og slutspilsbog</string>
   <string name="takeback">Omtræk</string>
   <string name="proposeATakeback">Anmod om omtræk</string>
@@ -548,7 +548,7 @@ Venner der spiller: %2$s</string>
   <string name="inlineNotation">Notation uden linjeskift</string>
   <string name="makeAStudy">Overvej at lave et studie for sikker opbevaring og deling.</string>
   <string name="clearLocalData">Ryd lokale data</string>
-  <string name="previouslyOnLichessTV">Tidligere på Lichess TV</string>
+  <string name="previouslyOnLichessTV">Tidligere på WayChess TV</string>
   <string name="onlinePlayers">Online spillere</string>
   <string name="activePlayers">Aktive spillere</string>
   <string name="bewareTheGameIsRatedButHasNoClock">Bemærk: Partiet er ratet, men er uden tidsbegrænsning!</string>
@@ -561,7 +561,7 @@ Venner der spiller: %2$s</string>
   <string name="autoSwitch">Autoskift</string>
   <string name="puzzles">Taktikopgaver</string>
   <string name="onlineBots">Online bots</string>
-  <string name="aboutBotsOnLichess">Om bots på Lichess</string>
+  <string name="aboutBotsOnLichess">Om bots på WayChess</string>
   <string name="featuredBots">Fremhævede bots</string>
   <string name="tryPlayingTheseInnovativeChessEngines">Prøv at spille mod disse innovative skakmotorer! De er vores favoritter.</string>
   <string name="communityBots">Bots fra fællesskabet</string>
@@ -783,7 +783,7 @@ Venner der spiller: %2$s</string>
   <string name="weHaveSentYouAnEmailTo">Vi har sendt en e-mail til %s. Klik på linket i e-mailen for at nulstille din adgangskode.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">Ved at registrere, accepterer du at være bundet af vores %s.</string>
   <string name="readAboutOur">Læs om vores %s.</string>
-  <string name="networkLagBetweenYouAndLichess">Netværksforsinkelse mellem dig og lichess</string>
+  <string name="networkLagBetweenYouAndLichess">Netværksforsinkelse mellem dig og WayChess</string>
   <string name="timeToProcessAMoveOnLichessServer">Tid til at behandle et træk på Lichess-server</string>
   <string name="downloadAnnotated">Download kommenteret</string>
   <string name="downloadRaw">Download rå</string>
@@ -923,7 +923,7 @@ Venner der spiller: %2$s</string>
     <item quantity="one">og gem %s serie af forhåndstræk</item>
     <item quantity="other">og gem %s serier af forhåndstræk</item>
   </plurals>
-  <string name="showUnreadLichessMessage">Du har modtaget en privat besked fra Lichess.</string>
+  <string name="showUnreadLichessMessage">Du har modtaget en privat besked fra WayChess.</string>
   <string name="readTheMessage" comment="'It' refers to a private message. This text follows after a different string which advises players they have received a private message from Lichess. For users, this is appears as a regular private message from the Lichess account: https://lichess.org/@/Lichess">Læs beskeden</string>
   <string name="sorry">Beklager :(</string>
   <string name="weHadToTimeYouOutForAWhile">Vi måtte give dig en timeout.</string>
@@ -936,7 +936,7 @@ Venner der spiller: %2$s</string>
   <string name="tryToWin">Forsøg at vinde (eller i det mindre opnå remis) alle partier du spiller.</string>
   <string name="resignLostGames">Kapituler ved tabende position (lad ikke tiden løbe ud).</string>
   <string name="temporaryInconvenience">Vi undskylder for den midlertidige ulejlighed,</string>
-  <string name="wishYouGreatGames">og ønsker dig gode kampe på lichess.org.</string>
+  <string name="wishYouGreatGames">og ønsker dig gode kampe på waychess.ru.</string>
   <string name="thankYouForReading">Tak for at læse!</string>
   <string name="lifetimeScore">Livstidsscore</string>
   <string name="currentMatchScore">Nuværende kampscore</string>
@@ -982,7 +982,7 @@ Venner der spiller: %2$s</string>
   <string name="congratsYouWon">Tillykke, du vandt!</string>
   <string name="gameVsX">Parti mod %1$s</string>
   <string name="resVsX">%1$s mod %2$s</string>
-  <string name="lostAgainstTOSViolator">Du tabte til en person, der overtrådte Lichess brugerbetingelserne</string>
+  <string name="lostAgainstTOSViolator">Du tabte til en person, der overtrådte WayChess brugerbetingelserne</string>
   <string name="refundXpointsTimeControlY">Refunderet: %1$s %2$s ratingpoint.</string>
   <string name="timeAlmostUp">Tiden er næsten udløbet!</string>
   <string name="clickToRevealEmailAddress">[Klik for at vise e-mailadresse]</string>
@@ -1043,7 +1043,7 @@ Lad stå tomt for at starte partier fra den normale udgangsstilling.</string>
   <string name="ourEventTips">Tips til organisering af begivenheder</string>
   <string name="instructions">Instruktioner</string>
   <string name="showMeEverything">Vis mig alt</string>
-  <string name="lichessPatronInfo">Lichess er en velgørenhedsorganisation og helt gratis/libre open source-software.
+  <string name="lichessPatronInfo">WayChess er en velgørenhedsorganisation og helt gratis/libre open source-software.
 Alle driftsomkostninger, udvikling og indhold finansieres udelukkende af brugerdonationer.</string>
   <string name="nothingToSeeHere">Intet at se her i øjeblikket.</string>
   <string name="stats">Statistik</string>

@@ -28,15 +28,9 @@ object PieceSet extends PieceSetObject:
   val all = List(
     PieceSet("cburnett", Featured.Yes),
     PieceSet("merida", Featured.Yes),
-    PieceSet("alpha", Featured.Yes),
     PieceSet("pirouetti"),
     PieceSet("chessnut"),
-    PieceSet("chess7"),
-    PieceSet("reillycraig"),
-    PieceSet("companion", Featured.Yes),
-    PieceSet("riohacha"),
     PieceSet("kosal", Featured.Yes),
-    PieceSet("leipzig"),
     PieceSet("fantasy"),
     PieceSet("spatial"),
     PieceSet("celtic"),
@@ -57,7 +51,6 @@ object PieceSet extends PieceSetObject:
     PieceSet("minimal-warmth"),
     PieceSet("governor"),
     PieceSet("dubrovny", Featured.Yes),
-    PieceSet("shahi-ivory-brown"),
     PieceSet("icpieces"),
     PieceSet("mpchess", Featured.Yes),
     PieceSet("kiwen-suwi"),
@@ -82,6 +75,5 @@ object PieceSet3d extends PieceSetObject:
     PieceSet("Glass"),
     PieceSet("Trimmed", Featured.Yes),
     PieceSet("Experimental", Featured.Yes),
-    PieceSet("Staunton", Featured.Yes),
     PieceSet("CubesAndPi", Featured.Yes)
   )

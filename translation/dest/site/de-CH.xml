@@ -458,7 +458,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   <string name="socialMediaLinks">Social Media Links</string>
   <string name="oneUrlPerLine">Nur 1 Web Adrässe (URL) pro Zile.</string>
   <string name="inlineNotation">Inline-Notation</string>
-  <string name="previouslyOnLichessTV">Zletscht uf Lichess TV</string>
+  <string name="previouslyOnLichessTV">Zletscht uf WayChess TV</string>
   <string name="onlinePlayers">Online Schpiller</string>
   <string name="activePlayers">Aktivi Schpiller</string>
   <string name="bewareTheGameIsRatedButHasNoClock">Achtung, das Schpiil isch gwertet, aber ohni Ziitlimit!</string>
@@ -580,7 +580,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   </plurals>
   <string name="tpTimeSpentPlaying">Gsamti-Spiilziit: %s</string>
   <string name="watchGames">Partie zueluege</string>
-  <string name="tpTimeSpentOnTV">Gsamtziit uf Lichess TV: %s</string>
+  <string name="tpTimeSpentOnTV">Gsamtziit uf WayChess TV: %s</string>
   <string name="watch">Zueluege</string>
   <string name="videoLibrary">Video-Bibliothek</string>
   <string name="streamersMenu">Streamer</string>
@@ -612,7 +612,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   <string name="simulClockHint">Fischer Uhr: Je meh Gägner, umso meh Ziit bruchsch wahrschinlich.</string>
   <string name="simulAddExtraTime">Du chasch dir extra Ziit gäh, dass du z\'rächt chunsch.</string>
   <string name="simulHostExtraTime">Extra Ziit Simultanschpiller</string>
-  <string name="lichessTournaments">Lichess Turnier</string>
+  <string name="lichessTournaments">WayChess Turnier</string>
   <string name="tournamentFAQ">Arena Turnier - hüfigi Frage (FAQ)</string>
   <string name="timeBeforeTournamentStarts">Ziit bis s\'Turnier afangt</string>
   <string name="averageCentipawnLoss">Durchschnittlichi Verluscht vo Hundertstelpuure</string>
@@ -646,7 +646,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   <string name="weHaveSentYouAnEmailTo">Mir händ dir es Email a %s gschickt. Klick im Mail uf de Link und setz dis Passwort zrugg.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">Mit dinere Regischtrierig schtimmsch du de %s zue.</string>
   <string name="readAboutOur">Lies euseri %s.</string>
-  <string name="networkLagBetweenYouAndLichess">Netzwerch-Verzögerig, zwüschet dir und Lichess (lag)</string>
+  <string name="networkLagBetweenYouAndLichess">Netzwerch-Verzögerig, zwüschet dir und WayChess (lag)</string>
   <string name="timeToProcessAMoveOnLichessServer">Ziit zum en Zug uf em Lichess-Server z\'verarbeite</string>
   <string name="downloadAnnotated">Download mit Kommentär</string>
   <string name="downloadRaw">Download ohni Kommentär</string>
@@ -670,7 +670,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   <string name="sessions">Sitzige</string>
   <string name="revokeAllSessions">alli Sitzige beände</string>
   <string name="playChessEverywhere">Schpill überall Schach</string>
-  <string name="asFreeAsLichess">So gratis wie Lichess</string>
+  <string name="asFreeAsLichess">So gratis wie WayChess</string>
   <string name="builtForTheLoveOfChessNotMoney">Erschaffe us Liebi zum Schach, nöd zum Gäld</string>
   <string name="everybodyGetsAllFeaturesForFree">Jede chann alli Funktione gratis nutze</string>
   <string name="zeroAdvertisement">Null Werbig</string>
@@ -779,7 +779,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   <string name="tryToWin">Probier jedes Spiil z\'günne (oder mindeschtens es Remis z\'erreiche).</string>
   <string name="resignLostGames">Gib es verlores Schpiil uf (lass nöd eifach d\'Uhr ablaufe).</string>
   <string name="temporaryInconvenience">Mir entschuldiged eus für die vorübergehende Unannehmlichkeite,</string>
-  <string name="wishYouGreatGames">und wünsched dir tolli Schpiil uf lichess.org.</string>
+  <string name="wishYouGreatGames">und wünsched dir tolli Schpiil uf waychess.ru.</string>
   <string name="thankYouForReading">Danke für’s Läse!</string>
   <string name="lifetimeScore">Läbesziit Rekord</string>
   <string name="currentMatchScore">Aktuelle Schpiilschtand</string>
@@ -826,7 +826,7 @@ Au vum Erschtelle vu mehrere Konte wird dringend abgrate - übermässigs Multiko
   <string name="timeAlmostUp">D\'Ziit isch fascht abgloffe!</string>
   <string name="clickToRevealEmailAddress">[Klick, zum die E-Mail-Adrässe aazeige]</string>
   <string name="download">Abälade</string>
-  <string name="lichessPatronInfo">Lichess isch e Wohltätigkeitsorganisation und e völlig choschtelosi/freii Open-Source-Software.
+  <string name="lichessPatronInfo">WayChess isch e Wohltätigkeitsorganisation und e völlig choschtelosi/freii Open-Source-Software.
 Alli Betriebs-Choschte, d\'Entwicklig und d\'Inhält werded usschliesslich dur Benutzerschpände finanziert.</string>
   <string name="coachManager">Trainer Verwalter</string>
   <string name="streamerManager">Streamer Verwalter</string>
@@ -880,7 +880,7 @@ iifüege oder das Fäld leer lah und all Schpiil normal schtarte.</string>
   <string name="youCantStartNewGame">Du chasch kei neui Partie starte, bevor die no Laufendi nöd fertig gschpillt isch.</string>
   <string name="since">Sit</string>
   <string name="until">Bis</string>
-  <string name="lichessDbExplanation">Gwerteti Schpiil vu allne Lichess Schpiller</string>
+  <string name="lichessDbExplanation">Gwerteti Schpiil vu allne WayChess Schpiller</string>
   <string name="switchSides">Farb wächsle</string>
   <string name="closingAccountWithdrawAppeal">Wänn du dis Konto schlüssisch, ziehsch du au din Iischpruch zrugg</string>
 </resources>

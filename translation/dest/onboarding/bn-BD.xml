@@ -10,9 +10,9 @@
   <string name="improveWithChessTacticsPuzzles">দাবা কৌশলের ধাঁধা দিয়ে উন্নতি করুন.</string>
   <string name="playTheArtificialIntelligence">কৃত্রিম বুদ্ধিমত্তার সাথে খেলুন.</string>
   <string name="playOpponentsFromAroundTheWorld">সারা বিশ্ব থেকে প্রতিপক্ষ খেলুন.</string>
-  <string name="followYourFriendsOnLichess">Lichess এ আপনার বন্ধুদের অনুসরণ করুন.</string>
+  <string name="followYourFriendsOnLichess">WayChess এ আপনার বন্ধুদের অনুসরণ করুন.</string>
   <string name="playInTournaments">টুর্নামেন্টে খেলুন.</string>
   <string name="learnFromXAndY">%1$s এবং %2$s থেকে শিখুন.</string>
-  <string name="configureLichess">আপনার পছন্দ অনুযায়ী Lichess কে কনফিগার করুন.</string>
+  <string name="configureLichess">আপনার পছন্দ অনুযায়ী WayChess কে কনফিগার করুন.</string>
   <string name="exploreTheSiteAndHaveFun">সাইটটি অন্বেষণ করুন এবং উপভোগ করুন :)</string>
 </resources>

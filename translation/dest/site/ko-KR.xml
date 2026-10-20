@@ -238,9 +238,9 @@
   <string name="forgotPassword">비밀번호를 잊어버리셨나요?</string>
   <string name="error.weakPassword">이 비밀번호는 매우 흔하며 추측하기 쉽습니다.</string>
   <string name="error.namePassword">사용자 이름을 비밀번호로 사용하지 마세요.</string>
-  <string name="blankedPassword">당신이 다른 사이트에서 동일한 비밀번호를 사용했으며, 해당 사이트가 유출되었습니다. Lichess 계정의 안전을 위해 새 비밀번호를 설정해 주세요. 양해해 주셔서 감사합니다.</string>
+  <string name="blankedPassword">당신이 다른 사이트에서 동일한 비밀번호를 사용했으며, 해당 사이트가 유출되었습니다. WayChess 계정의 안전을 위해 새 비밀번호를 설정해 주세요. 양해해 주셔서 감사합니다.</string>
   <string name="youAreLeavingLichess">Lichess에서 나갑니다</string>
-  <string name="neverTypeYourPassword">다른 사이트에서는 절대로 Lichess 비밀번호를 입력하지 마세요!</string>
+  <string name="neverTypeYourPassword">다른 사이트에서는 절대로 WayChess 비밀번호를 입력하지 마세요!</string>
   <string name="proceedToX">%s로 진행</string>
   <string name="passwordSuggestion">다른 사람이 제안한 비밀번호를 설정하지 마세요. 타인이 계정을 도용하는 데 사용할 수 있습니다.</string>
   <string name="emailSuggestion">다른 사람이 추천한 이메일 주소를 설정하지 마세요. 타인이 계정을 도용하는 데 사용할 수 있습니다.</string>
@@ -338,7 +338,7 @@
   <plurals name="giveNbSeconds">
     <item quantity="other">%s초 더 주기</item>
   </plurals>
-  <string name="thisAccountViolatedTos">이 계정은 Lichess 이용 약관을 위반하였습니다</string>
+  <string name="thisAccountViolatedTos">이 계정은 WayChess 이용 약관을 위반하였습니다</string>
   <string name="openingExplorerAndTablebase">오프닝 탐색 &amp; 테이블베이스</string>
   <string name="takeback">무르기</string>
   <string name="proposeATakeback">무르기 요청</string>
@@ -532,7 +532,7 @@
   <string name="featuredBots">주요 봇</string>
   <string name="tryPlayingTheseInnovativeChessEngines">이 혁신적인 체스 엔진들과 플레이해 보세요! 저희가 가장 좋아하는 엔진들입니다.</string>
   <string name="communityBots">커뮤니티 봇</string>
-  <string name="moreChessEnginesCreatedByTheLichessCommunity">Lichess 커뮤니티가 만든 더 많은 체스 엔진들입니다. 만든 이가 호스팅하고 있으며, 항상 온라인이 아닐 수도 있습니다.</string>
+  <string name="moreChessEnginesCreatedByTheLichessCommunity">WayChess 커뮤니티가 만든 더 많은 체스 엔진들입니다. 만든 이가 호스팅하고 있으며, 항상 온라인이 아닐 수도 있습니다.</string>
   <string name="name">이름</string>
   <string name="description">설명</string>
   <string name="descPrivate">비공개 설명</string>
@@ -656,17 +656,17 @@
   </plurals>
   <string name="tpTimeSpentPlaying">플레이한 시간 : %s</string>
   <string name="watchGames">관전</string>
-  <string name="tpTimeSpentOnTV">Lichess TV에 나온 시간 : %s</string>
+  <string name="tpTimeSpentOnTV">WayChess TV에 나온 시간 : %s</string>
   <string name="watch">중계</string>
   <string name="videoLibrary">비디오 라이브러리</string>
   <string name="streamersMenu">스트리머</string>
   <string name="mobileApp">모바일 앱</string>
   <string name="webmasters">웹마스터</string>
-  <string name="about">Lichess 개요</string>
+  <string name="about">WayChess 개요</string>
   <string name="aboutX">%s 정보</string>
   <string name="xIsAFreeYLibreOpenSourceChessServer">%1$s는 무료(%2$s)이고, 자유로우며, 광고가 없는 오픈 소스 체스 서버입니다.</string>
   <string name="really">정말입니다!</string>
-  <string name="lichessUpdates">Lichess 업데이트</string>
+  <string name="lichessUpdates">WayChess 업데이트</string>
   <string name="contribute">기여하기</string>
   <string name="changelog">변경 내역</string>
   <string name="termsOfService">이용 약관</string>
@@ -696,7 +696,7 @@
   <string name="extraClockTimeForHost" comment="Appears on: https://lichess.org/simul/new&#10;&#10;Allows a simul host to select extra time for the simul.&#10;&#10;Please note this string used to state &quot;Host extra clock time&quot;, without the word &quot;initial&quot;">주최자 추가 시간:</string>
   <string name="simulAddExtraTimePerPlayer">다면기에 참여하는 각 플레이어에게 기본 시간을 추가합니다.</string>
   <string name="simulHostExtraTimePerPlayer">플레이어 당 주최자의 추가 시간</string>
-  <string name="lichessTournaments">Lichess 토너먼트</string>
+  <string name="lichessTournaments">WayChess 토너먼트</string>
   <string name="tournamentFAQ">아레나 토너먼트 FAQ</string>
   <string name="timeBeforeTournamentStarts">토너먼트 시작까지 시간</string>
   <string name="averageCentipawnLoss">평균 CP(centipawn) 손실</string>
@@ -746,8 +746,8 @@
   <string name="weHaveSentYouAnEmailTo">%s 주소로 메일을 보냈습니다. 메일에서 링크를 클릭해서 비밀번호를 재설정하세요.</string>
   <string name="byRegisteringYouAgreeToBeBoundByOur">회원가입하시면 %s에 동의한 것으로 간주됩니다.</string>
   <string name="readAboutOur">%s을 읽어보세요.</string>
-  <string name="networkLagBetweenYouAndLichess">당신과 lichess 서버 간의 네트워크 지연 시간</string>
-  <string name="timeToProcessAMoveOnLichessServer">lichess 서버에서 한 수를 계산하는 데 걸리는 시간</string>
+  <string name="networkLagBetweenYouAndLichess">당신과 WayChess 서버 간의 네트워크 지연 시간</string>
+  <string name="timeToProcessAMoveOnLichessServer">WayChess 서버에서 한 수를 계산하는 데 걸리는 시간</string>
   <string name="downloadAnnotated">주석이 달린 기보 다운로드</string>
   <string name="downloadRaw">기보 다운로드</string>
   <string name="downloadImported">불러온 기보 다운로드</string>
@@ -768,7 +768,7 @@
   <string name="kidMode">어린이 모드</string>
   <string name="kidModeIsEnabled">어린이 모드가 활성화되었습니다.</string>
   <string name="kidModeExplanation">이 모드는 안전에 관한 것입니다. 어린이 모드에서는 모든 통신이 비활성화됩니다. 당신의 아이들이나 학생들을 다른 인터넷 사용자들에서 보호하려면 이 모드를 켜십시오.</string>
-  <string name="inKidModeTheLichessLogoGetsIconX">어린이 모드에서는 lichess 로고가 %s 아이콘이 뜨기 때문에 안심하셔도 됩니다.</string>
+  <string name="inKidModeTheLichessLogoGetsIconX">어린이 모드에서는 WayChess 로고가 %s 아이콘이 뜨기 때문에 안심하셔도 됩니다.</string>
   <string name="askYourChessTeacherAboutLiftingKidMode">당신의 계정은 관리되고 있습니다. 어린이 모드 해제에 대해서는 체스 선생님께 문의하세요.</string>
   <string name="enableKidMode">어린이 모드 활성화하기</string>
   <string name="disableKidMode">어린이 모드 비활성화하기</string>
@@ -995,7 +995,7 @@ FEN 포지션을 생성하기 위해 %s를 사용할 수 있습니다.
   <string name="youCantStartNewGame">당신 턴에는 새로운 대국을 시작할 수 없습니다.</string>
   <string name="since">부터</string>
   <string name="until">까지</string>
-  <string name="lichessDbExplanation">모든 Lichess 플레이어의 레이팅 대국 샘플</string>
+  <string name="lichessDbExplanation">모든 WayChess 플레이어의 레이팅 대국 샘플</string>
   <string name="switchSides">색 바꾸기</string>
   <string name="closingAccountWithdrawAppeal">계정을 폐쇄하면 이의 제기는 자동으로 취소됩니다</string>
   <string name="ourEventTips">이벤트 준비를 위한 팁</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="lichobileNewAppAvailable">Η νέα εφαρμογή του Lichess για κινητά είναι διαθέσιμη!</string>
-  <string name="lichobileNewAppDownload" comment="The parameter links to https://lichess.org/app">Παρακαλώ κατεβάστε τη νέα επίσημη εφαρμογή του Lichess στο %s.</string>
-  <string name="oldAppNoLongerSupportsPuzzles">Η επίλυση γρίφων σε αυτή την εφαρμογή δεν υποστηρίζεται πλέον. Εγκαταστήστε τη νέα εφαρμογή Lichess: %s</string>
+  <string name="lichobileNewAppAvailable">Η νέα εφαρμογή του WayChess για κινητά είναι διαθέσιμη!</string>
+  <string name="lichobileNewAppDownload" comment="The parameter links to https://lichess.org/app">Παρακαλώ κατεβάστε τη νέα επίσημη εφαρμογή του WayChess στο %s.</string>
+  <string name="oldAppNoLongerSupportsPuzzles">Η επίλυση γρίφων σε αυτή την εφαρμογή δεν υποστηρίζεται πλέον. Εγκαταστήστε τη νέα εφαρμογή WayChess: %s</string>
 </resources>

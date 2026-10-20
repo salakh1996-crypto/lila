@@ -70,7 +70,7 @@
   <string name="downloadGame">Скачать партию</string>
   <string name="studyUrl">Ссылка на студию</string>
   <string name="currentChapterUrl">Ссылка на эту главу</string>
-  <string name="pasteToEmbedChapterInForumOrBlog" comment="youCanPasteThisInTheForumToEmbed&#10;&#10;The thing you are pasting is a link to a study. This will make it appear in the correct section as well.&#10;&#10;Please note this used to say &quot;in the forum to embed&quot;. It was then changed to include &quot;or a Lichess Blog&quot;. A further update was made to say &quot;or your Lichess blog&quot;, since you can only create blog posts as an individual.">Вы можете вставить это на форум или в свой блог на Lichess, чтобы встроить главу.</string>
+  <string name="pasteToEmbedChapterInForumOrBlog" comment="youCanPasteThisInTheForumToEmbed&#10;&#10;The thing you are pasting is a link to a study. This will make it appear in the correct section as well.&#10;&#10;Please note this used to say &quot;in the forum to embed&quot;. It was then changed to include &quot;or a Lichess Blog&quot;. A further update was made to say &quot;or your Lichess blog&quot;, since you can only create blog posts as an individual.">Вы можете вставить это на форум или в свой блог на WayChess, чтобы встроить главу.</string>
   <string name="startAtInitialPosition">Открыть в начальной позиции</string>
   <string name="startAtX">Начать с %s</string>
   <string name="embedInYourWebsite">Вставить в свой сайт или блог</string>
@@ -173,7 +173,7 @@
   <string name="youCompletedThisLesson">Поздравляем! Вы прошли этот урок.</string>
   <string name="perPage">%s на страницу</string>
   <string name="getTheTour">Нужна помощь? Пройдите обучение!</string>
-  <string name="welcomeToLichessStudyTitle">Добро пожаловать в Студии Lichess!</string>
+  <string name="welcomeToLichessStudyTitle">Добро пожаловать в Студии WayChess!</string>
   <string name="welcomeToLichessStudyText">Это общая аналитическая доска.&lt;br&gt;&lt;br&gt; Используйте её для анализа и аннотирования партий,&lt;br&gt;обсуждения позиций с друзьями,&lt;br&gt; и, конечно же, для уроков шахмат!&lt;br&gt;&lt;br&gt; Это мощный инструмент, давайте уделим немного времени, чтобы посмотреть, как он работает.</string>
   <string name="sharedAndSaveTitle" comment="As in: shared with other members and saved to database">Общие и сохранённые</string>
   <string name="sharedAndSavedText">Другие пользователи могут смотреть за вашими ходами в режиме реального времени!&lt;br&gt;Кроме того, всё сохраняется навсегда.</string>
@@ -187,7 +187,7 @@
   <string name="annotatePositionTitle">Добавьте метки к позиции</string>
   <string name="annotatePositionText">Нажмите на кнопку !?, или нажмите правой кнопкой мыши в списке ходов справа.&lt;br&gt;Значки аннотации открыты для участников и сохранены.</string>
   <string name="conclusionTitle">Благодарим за уделённое время</string>
-  <string name="conclusionText">Вы можете найти ваши&lt;a href=\'/study/mine/hot\'&gt; предыдущие студии&lt;/a&gt; на странице вашего профиля.&lt;br&gt;Есть также&lt;a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt; блог про студии&lt;/a&gt;&lt;br&gt;Опытные пользователи могут попробовать нажать «?» чтобы увидеть горячие клавиши.&lt;br&gt;Наслаждайтесь!</string>
+  <string name="conclusionText">Вы можете найти ваши&lt;a href=\'/study/mine/hot\'&gt; предыдущие студии&lt;/a&gt; на странице вашего профиля.&lt;br&gt;Есть также&lt;a href=\'https://waychess.ru/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'&gt; блог про студии&lt;/a&gt;&lt;br&gt;Опытные пользователи могут попробовать нажать «?» чтобы увидеть горячие клавиши.&lt;br&gt;Наслаждайтесь!</string>
   <string name="createChapterTitle">Давайте создадим главу студии</string>
   <string name="createChapterText">В студии может быть несколько глав.&lt;br&gt;В каждой главе есть своё дерево ходов,&lt;br&gt;и она может быть создана разными способами.</string>
   <string name="fromInitialPositionTitle">Из начальной позиции</string>
@@ -195,13 +195,13 @@
   <string name="customPositionTitle">Пользовательская расстановка</string>
   <string name="customPositionText">Расставьте фигуры по своему усмотрению. &lt;br&gt;Подходит для исследования эндшпилей.</string>
   <string name="loadGameFromTheWebTitle">Загрузить партию из интернета</string>
-  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">Вставьте URL-адрес партии&lt;br&gt;(например, lichess.org/7fHIU0XI),&lt;br&gt;чтобы загрузить ходы партии в главу.</string>
+  <string name="loadGameFromTheWebText" comment="The special text tags must be retained in exact order, for example &amp;lt;br&amp;gt; must stay exactly as-is. You do not need to add spaces or new lines before or after them.&#10;&#10;Note that &quot;br&quot; in particular means &quot;line break&quot;. In other words, it will start a new line in the final text.">Вставьте URL-адрес партии&lt;br&gt;(например, waychess.ru/7fHIU0XI),&lt;br&gt;чтобы загрузить ходы партии в главу.</string>
   <string name="fromFenStringTitle">Из нотации FEN</string>
   <string name="fromFenStringText">Вставьте позицию в формате FEN&lt;br&gt;&lt;i&gt;4k3/4rb2/8/7p/8/5Q2/1PP5/1K6 w&lt;/i&gt;&lt;br&gt;для старта главы с этой позиции.</string>
   <string name="fromPgnGameTitle">Из нотации PGN</string>
   <string name="fromPgnGameText">Вставьте партию в нотации PGN.&lt;br&gt;чтобы загрузить ходы, комментарии и варианты в главу.</string>
   <string name="variantsAreSupportedTitle">Студии поддерживают варианты шахмат</string>
-  <string name="variantsAreSupportedText">Да, вы можете исследовать Безумные шахматы&lt;br&gt;и другие варианты шахмат Lichess!</string>
+  <string name="variantsAreSupportedText">Да, вы можете исследовать Безумные шахматы&lt;br&gt;и другие варианты шахмат WayChess!</string>
   <string name="chapterConclusionText">Главы сохраняются навсегда.&lt;br&gt;Получайте удовольствие от разбора вашей шахматной истории!</string>
   <string name="doubleDefeat">Обоюдное поражение</string>
   <string name="blackDefeatWhiteCanNotWin">Чёрные сдались, но белые не могут выиграть</string>

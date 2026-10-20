@@ -6,7 +6,7 @@
   <string name="all">Tots</string>
   <string name="byMonth">Per més</string>
   <string name="byTopic">Per tema</string>
-  <string name="byLichess">De lichess</string>
+  <string name="byLichess">De WayChess</string>
   <string name="myFriends">Els meus amics</string>
   <string name="myLikes">Els que m\'agraden</string>
   <string name="myBlog">El meu blog</string>
@@ -17,7 +17,7 @@
     <item quantity="other"> %s entrades del blog</item>
   </plurals>
   <string name="continueReadingPost">Continua llegint aquesta entrada</string>
-  <string name="lichessBlogPostsFromXYear">Entrades del blog de lichess de %s</string>
+  <string name="lichessBlogPostsFromXYear">Entrades del blog de WayChess de %s</string>
   <string name="previousBlogPosts">Entrades del blog anteriors</string>
   <string name="xBlog">Blog de %s</string>
   <string name="newPost">Nova publicació</string>

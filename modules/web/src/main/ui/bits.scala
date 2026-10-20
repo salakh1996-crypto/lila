@@ -43,7 +43,7 @@ border-top-right-radius: 3px;
 z-index: 99;
 """
   ):
-    "This is an empty Lichess preview website, go to lichess.org instead"
+    "This is an empty WayChess preview website"
 
   val connectLinks: Frag = div(cls := "connect-links")(
     a(
