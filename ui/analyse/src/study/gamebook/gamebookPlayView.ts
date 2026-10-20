@@ -23,7 +23,7 @@ export function render(ctrl: GamebookPlayCtrl): VNode {
     hl('div.floor', [
       renderFeedback(ctrl, state),
       hl('img.mascot', {
-        attrs: { width: 120, height: 120, src: site.asset.url('images/mascot/octopus.svg') },
+        attrs: { width: 120, height: 120, src: site.asset.url('logo/waychess.svg') },
       }),
     ]),
   ]);

@@ -27,8 +27,7 @@ final class SimulHome(helpers: Helpers, ui: SimulUi):
         main(cls := "page-menu simul-list")(
           st.aside(cls := "page-menu__menu simul-list__help")(
             p(trans.site.aboutSimul()),
-            img(src := assetUrl("images/fischer-simul.jpg"), alt := "Simul IRL with Bobby Fischer")(
-              em("[1964] ", trans.site.aboutSimulImage()),
+            div(
               p(trans.site.aboutSimulRealLife()),
               p(trans.site.aboutSimulRules()),
               p(trans.site.aboutSimulSettings())

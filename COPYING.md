@@ -21,8 +21,10 @@ See the LICENSE file for a copy of the _GNU Affero General Public License_.
 ## WayChess
 
 WayChess is a fork of lila. The WayChess logo (public/logo, public/favicon.ico,
-public/apple-touch-icon.png) is part of WayChess and licensed AGPLv3+.
-Non-free Lichess assets (logos, some piece sets and sound sets) have been removed.
+public/apple-touch-icon.png, public/images/waychess.event.png) is part of WayChess
+and licensed AGPLv3+.
+Non-free Lichess assets (logos, mascot, some piece sets, sound sets and images)
+have been removed.
 
 ## Exceptions (free)
 
